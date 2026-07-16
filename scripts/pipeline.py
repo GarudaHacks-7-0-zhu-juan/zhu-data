@@ -237,6 +237,20 @@ def geom_area_km2(geom):
             total -= ring_area_km2(hole)
     return total
 
+def ring_centroid(ring):
+    a = cx = cy = 0.0
+    for i in range(len(ring) - 1):
+        x1, y1 = ring[i]
+        x2, y2 = ring[i + 1]
+        cross = x1 * y2 - x2 * y1
+        a += cross
+        cx += (x1 + x2) * cross
+        cy += (y1 + y2) * cross
+    a /= 2
+    if a == 0:
+        return 0.0, 0.0, 0.0
+    return cx / (6 * a), cy / (6 * a), a
+
 def point_in_ring(lng, lat, ring):
     inside = False
     for i in range(len(ring) - 1):
@@ -268,17 +282,30 @@ def load_crime():
 def load_population():
     out = {}
     rings_by_kec = {}
+    polys_by_kec = {}
     gj = json.load(open(os.path.join(DATA, "population.geojson"), encoding="utf-8"))
     for feat in gj["features"]:
         p = feat["properties"]
         k = norm(p["nama_kec"])
-        d = out.setdefault(k, {"kota": p["nama_kab"], "population": 0, "area_km2": 0.0})
+        d = out.setdefault(k, {"kota": p["nama_kab"], "population": 0, "area_km2": 0.0,
+                               "cw": 0.0, "cx": 0.0, "cy": 0.0})
         d["population"] += p["jumlah_penduduk"]
         d["area_km2"] += geom_area_km2(feat["geometry"])
         g = feat["geometry"]
         polys = [g["coordinates"]] if g["type"] == "Polygon" else g["coordinates"]
+        for rings in polys:
+            for j, ring in enumerate(rings):
+                x, y, a = ring_centroid(ring)
+                w = abs(a) if j == 0 else -abs(a)
+                d["cw"] += w
+                d["cx"] += x * w
+                d["cy"] += y * w
         rings_by_kec.setdefault(k, []).extend(rings[0] for rings in polys)
-    return out, rings_by_kec
+        polys_by_kec.setdefault(k, []).extend(polys)
+    for d in out.values():
+        d["centroid_lng"] = d["cx"] / d["cw"] if d["cw"] else 0.0
+        d["centroid_lat"] = d["cy"] / d["cw"] if d["cw"] else 0.0
+    return out, rings_by_kec, polys_by_kec
 
 def load_lights(rings_by_kec):
     out = {}
@@ -305,9 +332,10 @@ def load_lights(rings_by_kec):
 
 def build():
     crime = load_crime()
-    pop, rings_by_kec = load_population()
+    pop, rings_by_kec, polys_by_kec = load_population()
     lights = load_lights(rings_by_kec)
     rows = []
+    keys = []
     for k, c in sorted(crime.items(), key=lambda kv: -kv[1]["street_crime"]):
         if k not in pop:
             print(f"ERROR: kecamatan {c['kecamatan']} missing from population data", file=sys.stderr)
@@ -315,9 +343,12 @@ def build():
         p = pop[k]
         l = lights.get(k, {"lamp_count": 0, "lamp_watt": 0})
         area = p["area_km2"]
+        keys.append(k)
         rows.append({
             "kecamatan": c["kecamatan"],
             "kota": p["kota"],
+            "centroid_lat": round(p["centroid_lat"], 5),
+            "centroid_lng": round(p["centroid_lng"], 5),
             "crime_total": c["crime_total"],
             "street_crime": c["street_crime"],
             "street_crime_evening": c["street_crime_evening"],
@@ -337,7 +368,16 @@ def build():
         w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
         w.writeheader()
         w.writerows(rows)
+    features = []
+    for k, row in zip(keys, rows):
+        features.append({"type": "Feature",
+                         "properties": row,
+                         "geometry": {"type": "MultiPolygon", "coordinates": polys_by_kec[k]}})
+    geo_path = os.path.join(DATA, "kecamatan_boundaries.geojson")
+    with open(geo_path, "w", encoding="utf-8") as f:
+        json.dump({"type": "FeatureCollection", "features": features}, f, ensure_ascii=False)
     print(f"DONE: {len(rows)} kecamatan -> {out_path}")
+    print(f"      boundaries -> {geo_path}")
     print(f"  population {sum(r['population'] for r in rows):,}"
           f" | lamps {sum(r['lamp_count'] for r in rows):,}"
           f" | crime_total {sum(r['crime_total'] for r in rows):,}"
