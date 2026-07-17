@@ -35,6 +35,14 @@ CRIME_STANDALONE = {
 LIGHTS_KEC_FIX = {"PEGADUNGAN": "KALI DERES"}
 LIGHTS_KEC_DROP = {"", "JAKBAR", "JAKARTA BARAT"}
 
+RISK_POLICY_VERSION = "jakarta-kecamatan-v1"
+RISK_COMPONENTS = {
+    "street_crime": 0.5,
+    "street_crime_per_100k": 0.3,
+    "street_crime_evening": 0.2,
+}
+RISK_LEVELS = ("NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL")
+
 norm = lambda s: re.sub(r"[^A-Z]", "", str(s).upper())
 
 def run_query(payload_path):
@@ -80,7 +88,7 @@ def clean(rows):
 def write_csv(out_path, header, rows):
     fd, tmp = tempfile.mkstemp(dir=DATA, suffix=".csv")
     with os.fdopen(fd, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(header)
         w.writerows(rows)
     os.replace(tmp, out_path)
@@ -330,6 +338,59 @@ def load_lights(rings_by_kec):
             add(k, r)
     return out
 
+def percentile_ranks(rows, field):
+    """Return average percentile ranks so tied source values score identically."""
+    ordered = sorted((float(row[field]), index) for index, row in enumerate(rows))
+    denominator = len(ordered) - 1
+    ranks = [0.0] * len(rows)
+    start = 0
+    while start < len(ordered):
+        end = start
+        while end + 1 < len(ordered) and ordered[end + 1][0] == ordered[start][0]:
+            end += 1
+        percentile = (start + end) / (2 * denominator) if denominator else 0.0
+        for _, index in ordered[start:end + 1]:
+            ranks[index] = percentile
+        start = end + 1
+    return ranks
+
+def risk_level(score):
+    if score < 0.2:
+        return "NONE"
+    if score < 0.4:
+        return "LOW"
+    if score < 0.7:
+        return "MEDIUM"
+    if score < 0.9:
+        return "HIGH"
+    return "CRITICAL"
+
+def score_rows(rows):
+    ranks = {field: percentile_ranks(rows, field) for field in RISK_COMPONENTS}
+    for index, row in enumerate(rows):
+        score = sum(ranks[field][index] * weight
+                    for field, weight in RISK_COMPONENTS.items())
+        row["risk_score"] = round(score, 4)
+        row["risk_level"] = risk_level(score)
+        row["risk_policy_version"] = RISK_POLICY_VERSION
+
+def validate_rows(rows):
+    if len(rows) != 44:
+        raise ValueError(f"expected 44 kecamatan, got {len(rows)}")
+    if len({row["kecamatan"] for row in rows}) != len(rows):
+        raise ValueError("duplicate kecamatan names")
+    for row in rows:
+        for field in RISK_COMPONENTS:
+            if not isinstance(row.get(field), (int, float)):
+                raise ValueError(f"{row['kecamatan']}: invalid {field}")
+        score = row.get("risk_score")
+        if not isinstance(score, (int, float)) or not 0 <= score <= 1:
+            raise ValueError(f"{row['kecamatan']}: invalid risk_score")
+        if row.get("risk_level") not in RISK_LEVELS:
+            raise ValueError(f"{row['kecamatan']}: invalid risk_level")
+        if row.get("risk_policy_version") != RISK_POLICY_VERSION:
+            raise ValueError(f"{row['kecamatan']}: invalid risk_policy_version")
+
 def build():
     crime = load_crime()
     pop, rings_by_kec, polys_by_kec = load_population()
@@ -360,12 +421,15 @@ def build():
             "lamps_per_km2": round(l["lamp_count"] / area, 1) if area else 0,
             "street_crime_per_100k": round(c["street_crime"] / p["population"] * 100000, 1) if p["population"] else 0,
         })
-    if len(rows) != 44:
-        print(f"ERROR: expected 44 kecamatan, got {len(rows)}", file=sys.stderr)
+    score_rows(rows)
+    try:
+        validate_rows(rows)
+    except ValueError as e:
+        print(f"ERROR: {e}", file=sys.stderr)
         sys.exit(1)
     out_path = os.path.join(DATA, "master_dataset.csv")
     with open(out_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(rows[0].keys()), lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
     features = []

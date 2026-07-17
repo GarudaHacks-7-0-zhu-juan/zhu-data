@@ -29,9 +29,41 @@ shade districts on a map (choropleth). Use the CSV for everything else.
 | `lamp_count` | Public street lights (PJU) in the district |
 | `lamps_per_km2` | Street-light density |
 | `street_crime_per_100k` | Street crime per 100k residents |
+| `risk_score` | Relative district safety score from 0 (lowest observed risk) to 1 (highest observed risk) |
+| `risk_level` | Policy classification: `NONE`, `LOW`, `MEDIUM`, `HIGH`, or `CRITICAL` |
+| `risk_policy_version` | Version of the score formula and thresholds used to produce the row |
 
 Example, Kemayoran: 370 street crimes (the city's highest), 28% of them in the evening
 window, 34,289 people/km2, 740 lamps/km2, centroid at (-6.1627, 106.8558).
+
+## Risk score policy
+
+`risk_score` is an explainable relative ranking for the 44 kecamatan, produced by
+`jakarta-kecamatan-v1`. It is not an individual crime probability and does not establish
+that every street in a district has the same risk.
+
+The pipeline calculates an average percentile rank for each component. Tied values receive
+the same rank. The weighted score is:
+
+```
+0.50 * percentile(street_crime)
++ 0.30 * percentile(street_crime_per_100k)
++ 0.20 * percentile(street_crime_evening)
+```
+
+| Score range | `risk_level` |
+|---|---|
+| `< 0.20` | `NONE` |
+| `0.20` to `< 0.40` | `LOW` |
+| `0.40` to `< 0.70` | `MEDIUM` |
+| `0.70` to `< 0.90` | `HIGH` |
+| `>= 0.90` | `CRITICAL` |
+
+Use `kecamatan_boundaries.geojson` to color a district-level choropleth by `risk_score` or
+`risk_level`. The same score applies throughout each kecamatan because public crime data is
+not available at point level. Street-light values remain in the outputs for map context but
+are intentionally excluded from this policy: the source does not establish lamp operating
+status or complete coverage.
 
 ## Where the data comes from
 
@@ -90,6 +122,9 @@ existing files; the previous version is kept and the failure is printed.
 - **Kecamatan is the finest granularity that exists publicly.** No agency publishes
   point-level (lat/lng) crime for Jakarta; within-district variation must come from
   other signals (for example the lighting layer).
+- **Risk levels are relative to this dataset.** They can change after a crime-data refresh
+  because percentile ranks compare each kecamatan with the other 43 districts. Compare
+  `risk_policy_version` before comparing generated outputs across policy revisions.
 
 ## Attribution
 
