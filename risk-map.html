@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jakarta District Risk Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+        background: #eef2f3;
+        color: #142126;
+      }
+
+      * { box-sizing: border-box; }
+
+      body { margin: 0; }
+
+      main {
+        display: grid;
+        grid-template-columns: minmax(290px, 360px) 1fr;
+        min-height: 100vh;
+      }
+
+      aside {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 32px;
+        background: #102a2e;
+        color: #edf6f4;
+      }
+
+      h1, h2, p { margin: 0; }
+      h1 { font-size: clamp(1.7rem, 3vw, 2.4rem); letter-spacing: -0.06em; line-height: 0.95; }
+      h2 { font-size: 0.78rem; letter-spacing: 0.12em; text-transform: uppercase; color: #9ec5bd; }
+      .eyebrow { color: #d4e557; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+      .intro { color: #b9ceca; font-size: 0.92rem; line-height: 1.5; }
+      .snapshot { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+      .snapshot div { padding: 11px 8px; border: 1px solid #315459; border-radius: 8px; background: #17383c; }
+      .snapshot strong { display: block; color: white; font-size: 1rem; letter-spacing: -0.04em; }
+      .snapshot span { display: block; margin-top: 3px; color: #a7c2bd; font-size: 0.64rem; line-height: 1.25; }
+
+      #details {
+        min-height: 172px;
+        padding: 18px;
+        border: 1px solid #315459;
+        border-radius: 12px;
+        background: #17383c;
+      }
+
+      .district { font-size: 1.28rem; font-weight: 700; letter-spacing: -0.035em; }
+      .city { margin-top: 4px; color: #a7c2bd; font-size: 0.78rem; }
+      .score-row { display: flex; align-items: flex-end; gap: 8px; margin: 18px 0 14px; }
+      .score { font-size: 2.3rem; font-weight: 750; letter-spacing: -0.08em; line-height: 0.8; }
+      .level { padding: 4px 7px; border-radius: 999px; color: #102a2e; font-size: 0.65rem; font-weight: 800; letter-spacing: 0.08em; }
+      .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; color: #cae1dc; font-size: 0.78rem; }
+      .metrics strong { display: block; color: white; font-size: 0.95rem; }
+      .coverage-note { margin-top: 13px; color: #a7c2bd; font-size: 0.72rem; line-height: 1.4; }
+
+      .legend { display: grid; gap: 9px; }
+      .legend-row { display: flex; align-items: center; gap: 9px; color: #c5d9d5; font-size: 0.8rem; }
+      .swatch { width: 13px; height: 13px; border-radius: 3px; }
+      .counts { margin-left: auto; color: #8eb0aa; }
+      .note { margin-top: auto; color: #88a8a2; font-size: 0.72rem; line-height: 1.5; }
+
+      #map { min-height: 100vh; }
+      .leaflet-control-attribution { font-size: 10px; }
+      .leaflet-tooltip { border: 0; border-radius: 5px; box-shadow: 0 2px 12px #102a2e44; font-weight: 700; }
+
+      @media (max-width: 760px) {
+        main { display: block; }
+        aside { gap: 18px; min-height: auto; padding: 24px; }
+        #map { min-height: 65vh; }
+        .note { margin-top: 0; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <aside>
+        <div>
+          <p class="eyebrow">Jakarta Safety Layer</p>
+          <h1>District risk,<br>at a glance.</h1>
+        </div>
+        <p class="intro" id="intro">All 44 kecamatan are shaded by their relative risk score. Hover or select an area to inspect the latest reported metrics.</p>
+        <section class="snapshot" id="snapshot" aria-label="Latest citywide crime snapshot"></section>
+        <section id="details" aria-live="polite">
+          <p class="district">Select a district</p>
+          <p class="city">Latest reported crime data</p>
+          <div class="score-row"><span class="score">--</span></div>
+        </section>
+        <section>
+          <h2 id="legend-title">Risk level</h2>
+          <div class="legend" id="legend"></div>
+        </section>
+        <p class="note">Scores rank severity-weighted public-safety signals across districts. Coverage is uncertainty metadata, not evidence that a district is safer.</p>
+      </aside>
+      <div id="map" aria-label="Map of Jakarta district risk levels"></div>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+      const levels = [
+        ['NONE', '#5ccf91'],
+        ['LOW', '#c5dc5e'],
+        ['MEDIUM', '#f4ae4d'],
+        ['HIGH', '#ec7048'],
+        ['CRITICAL', '#cf3d4d'],
+      ];
+      const levelColors = Object.fromEntries(levels);
+      const riskStops = [
+        [0.0, '#5ccf91'],
+        [0.2, '#c5dc5e'],
+        [0.4, '#f4ae4d'],
+        [0.7, '#ec7048'],
+        [0.9, '#cf3d4d'],
+        [1.0, '#8f1d35'],
+      ];
+      const map = L.map('map', { zoomControl: false }).setView([-6.2, 106.82], 10);
+
+      L.control.zoom({ position: 'bottomright' }).addTo(map);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+        maxZoom: 19,
+      }).addTo(map);
+
+      function number(value) {
+        return new Intl.NumberFormat('en-US').format(value);
+      }
+
+      function percent(value) {
+        return new Intl.NumberFormat('en-US', { style: 'percent', maximumFractionDigits: 0 }).format(value);
+      }
+
+      function riskColor(score) {
+        const upperIndex = riskStops.findIndex(([stop]) => score <= stop);
+        const upper = riskStops[upperIndex === -1 ? riskStops.length - 1 : upperIndex];
+        const lower = riskStops[Math.max(0, (upperIndex === -1 ? riskStops.length - 1 : upperIndex) - 1)];
+        const progress = upper[0] === lower[0] ? 0 : (score - lower[0]) / (upper[0] - lower[0]);
+        const start = lower[1].slice(1).match(/.{2}/g).map((value) => parseInt(value, 16));
+        const end = upper[1].slice(1).match(/.{2}/g).map((value) => parseInt(value, 16));
+        return `#${start.map((value, index) => Math.round(value + (end[index] - value) * progress).toString(16).padStart(2, '0')).join('')}`;
+      }
+
+      function showDetails(properties) {
+        document.getElementById('details').innerHTML = `
+          <p class="district">${properties.kecamatan}</p>
+          <p class="city">${properties.kota} · ${properties.crime_year} year-to-date</p>
+          <div class="score-row">
+            <span class="score">${properties.risk_score.toFixed(4)}</span>
+            <span class="level" style="background:${levelColors[properties.risk_level]}">${properties.risk_level}</span>
+          </div>
+          <div class="metrics">
+            <span><strong>${number(properties.public_safety_points)}</strong>public-safety points</span>
+            <span><strong>${number(properties.public_safety_points_per_100k)}</strong>points per 100k</span>
+            <span><strong>${number(properties.public_safety_evening_points)}</strong>evening points</span>
+            <span><strong>${number(properties.severity_3_count + properties.severity_4_count)}</strong>high or critical incidents</span>
+          </div>
+          <p class="coverage-note">Classification coverage: ${percent(properties.crime_classification_coverage)} overall · ${percent(properties.evening_classification_coverage)} evening</p>`;
+      }
+
+      fetch('data/kecamatan_boundaries.geojson')
+        .then((response) => {
+          if (!response.ok) throw new Error(`GeoJSON request failed: ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          const districtsData = data.features.map(({ properties }) => properties);
+          const years = [...new Set(districtsData.map(({ crime_year }) => crime_year))];
+          if (years.length !== 1) throw new Error('GeoJSON contains multiple current crime years');
+          const year = years[0];
+          const totals = districtsData.reduce((result, properties) => ({
+            crime: result.crime + properties.crime_total,
+            points: result.points + properties.public_safety_points,
+            classified: result.classified + properties.crime_total * properties.crime_classification_coverage,
+          }), { crime: 0, points: 0, classified: 0 });
+          document.getElementById('intro').textContent = `All 44 kecamatan are shaded by severity-weighted public-safety risk using ${year} year-to-date reported crime data.`;
+          document.getElementById('legend-title').textContent = `Risk score · ${year} YTD`;
+          document.getElementById('snapshot').innerHTML = `
+            <div><strong>${number(totals.crime)}</strong><span>reported crimes</span></div>
+            <div><strong>${number(totals.points)}</strong><span>public-safety points</span></div>
+            <div><strong>${percent(totals.classified / totals.crime)}</strong><span>classification coverage</span></div>`;
+          const counts = Object.fromEntries(levels.map(([level]) => [level, 0]));
+          data.features.forEach(({ properties }) => { counts[properties.risk_level] += 1; });
+          document.getElementById('legend').innerHTML = levels.map(([level, color]) => `
+            <div class="legend-row"><span class="swatch" style="background:${color}"></span>${level}<span class="counts">${counts[level]}</span></div>`).join('');
+
+          const districts = L.geoJSON(data, {
+            style: ({ properties }) => ({
+              color: '#17383c',
+              weight: 1.2,
+              fillColor: riskColor(properties.risk_score),
+              fillOpacity: 0.78,
+            }),
+            onEachFeature(feature, layer) {
+              layer.bindTooltip(`${feature.properties.kecamatan}<br>${feature.properties.risk_level} · ${feature.properties.risk_score.toFixed(4)}<br>${feature.properties.public_safety_points} public-safety points · ${feature.properties.crime_year} YTD`);
+              layer.on({
+                mouseover() { layer.setStyle({ weight: 3, color: '#ffffff', fillOpacity: 0.92 }); },
+                mouseout() { districts.resetStyle(layer); },
+                click() { showDetails(feature.properties); },
+              });
+            },
+          }).addTo(map);
+          map.fitBounds(districts.getBounds(), { padding: [24, 24] });
+        })
+        .catch((error) => {
+          document.getElementById('details').innerHTML = `<p class="district">Map unavailable</p><p class="city">${error.message}</p>`;
+        });
+    </script>
+  </body>
+</html>

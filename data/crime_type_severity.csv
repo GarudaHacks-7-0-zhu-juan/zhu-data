@@ -1,0 +1,108 @@
+jenis_kejahatan,public_safety_severity,severity_level,public_safety_category
+Aborsi,1,LOW,private_or_nonpublic_harm
+Cabul,4,CRITICAL,sexual_violence
+Cukai,1,LOW,regulatory_financial
+Curanmor R-2,2,MODERATE,property_crime
+Hak Atas Kekayaan Intelektual ( HAKI ),1,LOW,regulatory_financial
+Illegal Fishing,1,LOW,regulatory_financial
+Judi,1,LOW,regulatory_financial
+Karantina,1,LOW,regulatory_financial
+Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,3,HIGH,public_endangerment
+Kawin halangan/kawin tanpa ijin,1,LOW,private_or_nonpublic_harm
+Kejahatan Lingkungan Hidup,1,LOW,regulatory_financial
+Kejahatan Pasar Modal,1,LOW,regulatory_financial
+Kejahatan Tentang Desain Industri,1,LOW,regulatory_financial
+Kejahatan Tentang Jaminan Fidusia,1,LOW,regulatory_financial
+Kejahatan Tentang Konservasi Sumber Daya Alam Hayati Dan Ekosistem,1,LOW,regulatory_financial
+Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1,LOW,regulatory_financial
+Kejahatan Tentang Penghapusan Diskriminasi Ras Dan Etnis,2,MODERATE,public_disorder
+"Kejahatan Tentang Pengusutan, Penuntutan Dan Peradilan Tindak Pidana Ekonomi",1,LOW,regulatory_financial
+Kejahatan Tentang Perdagangan,1,LOW,regulatory_financial
+Kejahatan Tentang Perdagangan Berjangka,1,LOW,regulatory_financial
+Kejahatan Tentang Perindustrian,1,LOW,regulatory_financial
+Kejahatan Tentang Pers,1,LOW,regulatory_financial
+Kejahatan Tentang Pertambangan Mineral Dan Batubara (illegal Mining),1,LOW,regulatory_financial
+Kejahatan Tentang Peternakan Dan Kesehatan Hewan,1,LOW,regulatory_financial
+Kejahatan Tentang Pornografi,1,LOW,private_or_nonpublic_harm
+Kejahatan Tentang Tenaga Kerja,1,LOW,regulatory_financial
+Kejahatan Terhadap Jiwa Orang / Pembunuhan,4,CRITICAL,lethal_violence
+Kejahatan Terhadap Penguasa Umum,2,MODERATE,public_disorder
+Kejahatan Terkait Administrasi Kependudukan,1,LOW,regulatory_financial
+Kejahatan Terkait Merek,1,LOW,regulatory_financial
+Kejahatan Terkait Metrologi Legal,1,LOW,regulatory_financial
+Kejahatan Terkait Pangan,1,LOW,regulatory_financial
+Kejahatan Terkait Perlindungan Data Pribadi,1,LOW,regulatory_financial
+Kejahatan Terkait Rahasia Dagang,1,LOW,regulatory_financial
+Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3,HIGH,weapons_threat
+Kejahatan tentang perlindungan pekerja migran indonesia,1,LOW,regulatory_financial
+Kejahatan terkait Pemilihan Umum,2,MODERATE,public_disorder
+Kejahatan terkait Tenaga Kesehatan,1,LOW,regulatory_financial
+Kekerasan Dalam Rumah Tangga,1,LOW,private_or_nonpublic_harm
+Kekerasan Seksual (KDRT),1,LOW,private_or_nonpublic_harm
+"Konflik Suku, Agama, Ras, dan Antar Golongan (SARA)",3,HIGH,public_disorder
+Korupsi ( Tipikor ),1,LOW,regulatory_financial
+Manipulasi data autentik secara elektronik (ITE),1,LOW,regulatory_financial
+Melawan Kekuasaan Umum,2,MODERATE,public_disorder
+Melawan Petugas yang Sedang Bertugas,3,HIGH,physical_violence
+Melawan Putusan Pengadilan,1,LOW,regulatory_financial
+Memasuki Pekarangan Tanpa Ijin,2,MODERATE,property_crime
+Membahayakan Keamanan Umum Bagi  Orang / Barang,3,HIGH,public_endangerment
+Membahayakan keamanan umum,3,HIGH,public_endangerment
+Menempatkan anaknya untuk ditemukan atau meninggalkannya dengan maksud untuk melepaskan diri dari padanya,1,LOW,private_or_nonpublic_harm
+Mengakibatkan Orang Luka,3,HIGH,physical_violence
+Mengakibatkan Orang Mati,4,CRITICAL,lethal_violence
+Menghambat Penyidikan,1,LOW,regulatory_financial
+Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2,MODERATE,controlled_substances
+Mucikari ( Pelacuran ),2,MODERATE,exploitation
+Narkotika ( Narkoba ),2,MODERATE,controlled_substances
+Pemalsuan Mata Uang Dan Uang Kertas,1,LOW,regulatory_financial
+Pemalsuan Surat Otentik,1,LOW,regulatory_financial
+Pembunuhan,4,CRITICAL,lethal_violence
+Pemerasan,3,HIGH,threat_coercion
+Pemerasan Dan Pengancaman,3,HIGH,threat_coercion
+Penadahan,1,LOW,property_crime
+Pencemaran Nama Baik,1,LOW,private_or_nonpublic_harm
+Penculikan,4,CRITICAL,abduction_exploitation
+Pencurian Biasa,2,MODERATE,property_crime
+Pencurian Dengan Kekerasan ( Curas ),4,CRITICAL,violent_property_crime
+Pencurian Dengan Pemberatan ( Curat ),2,MODERATE,property_crime
+Pencurian Ringan,1,LOW,property_crime
+Pencurian dalam lingkungan keluarga,1,LOW,private_or_nonpublic_harm
+Pengaduan Palsu,1,LOW,regulatory_financial
+Pengancaman,3,HIGH,threat_coercion
+Penganiayaan,3,HIGH,physical_violence
+Penganiayaan Berat ( Anirat ),4,CRITICAL,physical_violence
+Pengeroyokan,3,HIGH,physical_violence
+Pengerusakan,2,MODERATE,property_crime
+Penggelapan,1,LOW,regulatory_financial
+Penghinaan,1,LOW,private_or_nonpublic_harm
+Penipuan / Perbuatan Curang,1,LOW,regulatory_financial
+Penistaan Agama,2,MODERATE,public_disorder
+Penyalahgunaan Wewenang,1,LOW,regulatory_financial
+Penyebaran Berita Bohong ( Hoax ),1,LOW,regulatory_financial
+Penyekapan,4,CRITICAL,abduction_exploitation
+Penyelundupan Senjata api (senpi),3,HIGH,weapons_threat
+Penyerobotan Tanah,2,MODERATE,property_crime
+Perampasan ( Premanisme ),3,HIGH,violent_property_crime
+Perbankan,1,LOW,regulatory_financial
+Perbuatan Yang Tidak Menyenangkan,1,LOW,private_or_nonpublic_harm
+Percobaan Pencurian,2,MODERATE,property_crime
+Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),4,CRITICAL,abduction_exploitation
+Perkelahian Pelajar / Mahasiswa,3,HIGH,physical_violence
+Perkelahian Tanding,3,HIGH,physical_violence
+Perkosaan,4,CRITICAL,sexual_violence
+Perlindungan Konsumen,1,LOW,regulatory_financial
+Persetubuhan Terhadap Anak / Cabul Terhadap Anak,4,CRITICAL,sexual_violence
+Perzinahan,1,LOW,private_or_nonpublic_harm
+Psikotropika ( Narkoba ),2,MODERATE,controlled_substances
+Sengaja Menimbulkan Kebakaran/banjir (pembakaran),4,CRITICAL,public_endangerment
+Sumpah Palsu Dan Keterangan Palsu,1,LOW,regulatory_financial
+Telekomunikasi,1,LOW,regulatory_financial
+Terhadap ketertiban umum,2,MODERATE,public_disorder
+Terorisme,4,CRITICAL,public_endangerment
+Tindak Asusila,2,MODERATE,sexual_misconduct
+Tindak Pidana Dalam Perlindungan Anak,2,MODERATE,vulnerable_person_harm
+Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1,LOW,regulatory_financial
+Tindak Pidana Transfer Dana,1,LOW,regulatory_financial
+UNCLASSIFIED,0,UNKNOWN,unknown
+Unjuk Rasa Anarkis,3,HIGH,public_disorder
