@@ -109,7 +109,15 @@
         ['HIGH', '#ec7048'],
         ['CRITICAL', '#cf3d4d'],
       ];
-      const colors = Object.fromEntries(levels);
+      const levelColors = Object.fromEntries(levels);
+      const riskStops = [
+        [0.0, '#5ccf91'],
+        [0.2, '#c5dc5e'],
+        [0.4, '#f4ae4d'],
+        [0.7, '#ec7048'],
+        [0.9, '#cf3d4d'],
+        [1.0, '#8f1d35'],
+      ];
       const map = L.map('map', { zoomControl: false }).setView([-6.2, 106.82], 10);
 
       L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -126,13 +134,23 @@
         return new Intl.NumberFormat('en-US', { style: 'percent', maximumFractionDigits: 0 }).format(value);
       }
 
+      function riskColor(score) {
+        const upperIndex = riskStops.findIndex(([stop]) => score <= stop);
+        const upper = riskStops[upperIndex === -1 ? riskStops.length - 1 : upperIndex];
+        const lower = riskStops[Math.max(0, (upperIndex === -1 ? riskStops.length - 1 : upperIndex) - 1)];
+        const progress = upper[0] === lower[0] ? 0 : (score - lower[0]) / (upper[0] - lower[0]);
+        const start = lower[1].slice(1).match(/.{2}/g).map((value) => parseInt(value, 16));
+        const end = upper[1].slice(1).match(/.{2}/g).map((value) => parseInt(value, 16));
+        return `#${start.map((value, index) => Math.round(value + (end[index] - value) * progress).toString(16).padStart(2, '0')).join('')}`;
+      }
+
       function showDetails(properties) {
         document.getElementById('details').innerHTML = `
           <p class="district">${properties.kecamatan}</p>
           <p class="city">${properties.kota} · ${properties.crime_year} year-to-date</p>
           <div class="score-row">
             <span class="score">${properties.risk_score.toFixed(4)}</span>
-            <span class="level" style="background:${colors[properties.risk_level]}">${properties.risk_level}</span>
+            <span class="level" style="background:${levelColors[properties.risk_level]}">${properties.risk_level}</span>
           </div>
           <div class="metrics">
             <span><strong>${number(properties.public_safety_points)}</strong>public-safety points</span>
@@ -159,7 +177,7 @@
             classified: result.classified + properties.crime_total * properties.crime_classification_coverage,
           }), { crime: 0, points: 0, classified: 0 });
           document.getElementById('intro').textContent = `All 44 kecamatan are shaded by severity-weighted public-safety risk using ${year} year-to-date reported crime data.`;
-          document.getElementById('legend-title').textContent = `Risk level · ${year} YTD`;
+          document.getElementById('legend-title').textContent = `Risk score · ${year} YTD`;
           document.getElementById('snapshot').innerHTML = `
             <div><strong>${number(totals.crime)}</strong><span>reported crimes</span></div>
             <div><strong>${number(totals.points)}</strong><span>public-safety points</span></div>
@@ -173,7 +191,7 @@
             style: ({ properties }) => ({
               color: '#17383c',
               weight: 1.2,
-              fillColor: colors[properties.risk_level],
+              fillColor: riskColor(properties.risk_score),
               fillOpacity: 0.78,
             }),
             onEachFeature(feature, layer) {
