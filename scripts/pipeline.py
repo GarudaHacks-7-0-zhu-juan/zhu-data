@@ -39,6 +39,13 @@ RISK_COMPONENTS = {
     "street_crime_evening": 0.2,
 }
 RISK_LEVELS = ("NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL")
+PUBLIC_SAFETY_LEVELS = {
+    0: "UNKNOWN",
+    1: "LOW",
+    2: "MODERATE",
+    3: "HIGH",
+    4: "CRITICAL",
+}
 
 norm = lambda s: re.sub(r"[^A-Z]", "", str(s).upper())
 
@@ -210,6 +217,27 @@ def load_district_names():
         raise ValueError(f"expected 44 known DKI kecamatan, got {len(names)}")
     return names
 
+def load_crime_type_severity():
+    path = os.path.join(DATA, "crime_type_severity.csv")
+    mapping = {}
+    with open(path, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            crime_type = row["jenis_kejahatan"]
+            if crime_type in mapping:
+                raise ValueError(f"duplicate crime severity mapping: {crime_type}")
+            severity = int(row["public_safety_severity"])
+            expected_level = PUBLIC_SAFETY_LEVELS.get(severity)
+            if expected_level is None or row["severity_level"] != expected_level:
+                raise ValueError(f"invalid crime severity mapping: {crime_type}")
+            if not row["public_safety_category"]:
+                raise ValueError(f"blank public-safety category: {crime_type}")
+            mapping[crime_type] = {
+                "severity": severity,
+                "level": expected_level,
+                "category": row["public_safety_category"],
+            }
+    return mapping
+
 def query_latest_supporting_data(latest_year, street_types):
     year_filter = pbi_in("l", "Year", [latest_year])
     type_filter = pbi_in("j", "jenis_kejahatan", sorted(street_types))
@@ -227,6 +255,7 @@ def query_latest_supporting_data(latest_year, street_types):
 def refresh_crime_hierarchy():
     known_districts = load_district_names()
     street_types = load_street_crime_types()
+    severity_by_type = load_crime_type_severity()
     base = crime_base_filters()
     measure = pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure")
 
@@ -314,6 +343,10 @@ def refresh_crime_hierarchy():
             aggregated[(year, known_districts[key], crime_type)] += total
 
     latest_year = max(years)
+    discovered_types = {crime_type for _, _, crime_type in aggregated}
+    unmapped_types = sorted(discovered_types - severity_by_type.keys())
+    if unmapped_types:
+        raise ValueError(f"unmapped public-safety crime types: {', '.join(unmapped_types)}")
     latest = defaultdict(int)
     latest_types = defaultdict(int)
     for (year, kecamatan, crime_type), total in aggregated.items():
@@ -346,24 +379,34 @@ def refresh_crime_hierarchy():
         summary.append([name, total, street, evening.get(key, 0), latest_year])
     summary.sort(key=lambda row: -row[2])
 
-    aggregate_rows = [[year, kecamatan, crime_type, total]
-                      for (year, kecamatan, crime_type), total in sorted(aggregated.items())]
+    aggregate_rows = []
+    for (year, kecamatan, crime_type), total in sorted(aggregated.items()):
+        severity = severity_by_type[crime_type]
+        aggregate_rows.append([year, kecamatan, crime_type, total, severity["severity"],
+                               severity["level"], severity["category"]])
     raw_rows.sort(key=lambda row: (row[0], row[2], row[3], row[4], row[5]))
     unmatched.sort(key=lambda row: (row[0], row[2], row[3], row[4], row[5]))
-    type_rows = sorted(latest_types.items(), key=lambda item: (-item[1], item[0]))
+    type_rows = []
+    for crime_type, total in sorted(latest_types.items(), key=lambda item: (-item[1], item[0])):
+        severity = severity_by_type[crime_type]
+        type_rows.append([crime_type, total, severity["severity"], severity["level"],
+                          severity["category"]])
     clean_time_rows = sorted(((str(row[0]), int(row[1])) for row in time_rows if row[0]),
                              key=lambda item: -item[1])
 
     raw_header = ["year", "polda", "polres", "polsek", "kecamatan", "jenis_kejahatan", "crime_total"]
     write_csv(os.path.join(DATA, "crime_polsek_kecamatan_types.csv"), raw_header, raw_rows)
     write_csv(os.path.join(DATA, "crime_kecamatan_types.csv"),
-              ["year", "kecamatan", "jenis_kejahatan", "crime_total"], aggregate_rows)
+              ["year", "kecamatan", "jenis_kejahatan", "crime_total",
+               "public_safety_severity", "severity_level", "public_safety_category"],
+              aggregate_rows)
     write_csv(os.path.join(DATA, "crime_unmatched_locations.csv"), raw_header + ["reason"], unmatched)
     write_csv(os.path.join(DATA, "crime_kecamatan.csv"),
               ["kecamatan", "crime_total", "street_crime", "street_crime_evening", "crime_year"],
               summary)
     write_csv(os.path.join(DATA, "crime_types.csv"),
-              ["jenis_kejahatan", "crime_total"], type_rows)
+              ["jenis_kejahatan", "crime_total", "public_safety_severity",
+               "severity_level", "public_safety_category"], type_rows)
     write_csv(os.path.join(DATA, "crime_time_of_day.csv"),
               ["waktu_kejadian", "crime_total"], clean_time_rows)
     return {

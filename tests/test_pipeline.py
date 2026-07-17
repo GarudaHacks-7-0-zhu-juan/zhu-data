@@ -132,6 +132,24 @@ class GeneratedArtifactsTest(unittest.TestCase):
         )
         self.assertTrue(any(row["jenis_kejahatan"] == "UNCLASSIFIED" for row in aggregated))
 
+    def test_public_safety_severity_covers_every_historical_type(self):
+        with open(os.path.join(ROOT, "data", "crime_kecamatan_types.csv"), encoding="utf-8") as f:
+            crime_rows = list(csv.DictReader(f))
+        mapping = pipeline.load_crime_type_severity()
+
+        self.assertFalse({row["jenis_kejahatan"] for row in crime_rows} - set(mapping))
+        for row in crime_rows:
+            severity = mapping[row["jenis_kejahatan"]]
+            self.assertEqual(int(row["public_safety_severity"]), severity["severity"])
+            self.assertEqual(row["severity_level"], severity["level"])
+            self.assertEqual(row["public_safety_category"], severity["category"])
+
+        self.assertEqual(mapping["UNCLASSIFIED"]["severity"], 0)
+        self.assertEqual(mapping["Penipuan / Perbuatan Curang"]["severity"], 1)
+        self.assertEqual(mapping["Pencurian Biasa"]["severity"], 2)
+        self.assertEqual(mapping["Penganiayaan"]["severity"], 3)
+        self.assertEqual(mapping["Pembunuhan"]["severity"], 4)
+
 
 if __name__ == "__main__":
     unittest.main()

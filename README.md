@@ -22,6 +22,10 @@ records for 2024-2026.
 Polda, Polres, and Polsek provenance for every positive count. Rows that cannot be mapped
 cleanly are listed in **`data/crime_unmatched_locations.csv`**.
 
+**`data/crime_type_severity.csv`**: the reviewed mapping from every known crime type to its
+immediate public-safety severity and category. The mapping is joined into
+`crime_kecamatan_types.csv` and `crime_types.csv` during a crime refresh.
+
 | Column | Meaning |
 |---|---|
 | `kecamatan` | District name (uppercase, as published by Polri) |
@@ -74,6 +78,28 @@ not available at point level. Street-light values remain in the outputs for map 
 are intentionally excluded from this policy: the source does not establish lamp operating
 status or complete coverage.
 
+## Crime-type public-safety severity
+
+The crime-type severity answers: "How strongly does this type indicate immediate physical
+danger in a public location?" It does not estimate legal penalties, moral seriousness, or
+the total harm experienced by a victim. For example, fraud is harmful but is a weak signal
+that a person is in immediate physical danger at their current coordinates. Domestic or
+other explicitly private-context offenses are also assigned low public-location relevance;
+this does not mean their victim harm is low.
+
+| Score | Level | Interpretation |
+|---|---|---|
+| `0` | `UNKNOWN` | Source type is unclassified and cannot be assessed |
+| `1` | `LOW` | Financial, regulatory, administrative, or explicitly private-context offense |
+| `2` | `MODERATE` | Nonviolent property crime, public disorder, or indirect safety threat |
+| `3` | `HIGH` | Assault, coercive threat, weapons threat, or active violent disorder |
+| `4` | `CRITICAL` | Lethal violence, sexual violence, abduction, terrorism, deliberate mass endangerment, or violent robbery |
+
+The mapping is explicit rather than keyword-based. A refresh fails before replacing output
+files if Pusiknas returns a new crime type that is absent from `crime_type_severity.csv`.
+These severity fields are available for analysis but do not yet change the
+`jakarta-kecamatan-v1` risk-score formula.
+
 ## Where the data comes from
 
 | Layer | File | Source | Method | Vintage |
@@ -120,7 +146,9 @@ What `refresh crime` does:
 5. Writes the provenance-preserving leaf file and the kecamatan/type aggregation. Blank or
    unknown locations are quarantined. Records with a valid kecamatan but no crime-type
    relationship are retained as `UNCLASSIFIED` so district totals stay complete.
-6. Rebuilds `crime_kecamatan.csv`, `crime_types.csv`, and `crime_time_of_day.csv` from the
+6. Validates every discovered crime type against `crime_type_severity.csv` and enriches the
+   kecamatan/type output with severity, level, and public-safety category.
+7. Rebuilds `crime_kecamatan.csv`, `crime_types.csv`, and `crime_time_of_day.csv` from the
    latest discovered year. The risk map therefore uses the latest year only while historical
    rows remain available in `crime_kecamatan_types.csv`.
 
