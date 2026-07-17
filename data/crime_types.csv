@@ -1,6 +1,6 @@
 jenis_kejahatan,crime_total,public_safety_severity,severity_level,public_safety_category
-UNCLASSIFIED,7249,0,UNKNOWN,unknown
-Pencurian Biasa,1896,2,MODERATE,property_crime
+UNCLASSIFIED,7252,0,UNKNOWN,unknown
+Pencurian Biasa,1897,2,MODERATE,property_crime
 Penipuan / Perbuatan Curang,1782,1,LOW,regulatory_financial
 Manipulasi data autentik secara elektronik (ITE),1462,1,LOW,regulatory_financial
 Penggelapan,1238,1,LOW,regulatory_financial

@@ -26,9 +26,9 @@ class RiskScoringTest(unittest.TestCase):
 
     def test_scoring_is_deterministic(self):
         rows = [
-            {"kecamatan": "A", "street_crime": 10, "street_crime_per_100k": 30, "street_crime_evening": 5},
-            {"kecamatan": "B", "street_crime": 20, "street_crime_per_100k": 20, "street_crime_evening": 10},
-            {"kecamatan": "C", "street_crime": 30, "street_crime_per_100k": 10, "street_crime_evening": 15},
+            {"kecamatan": "A", "public_safety_points": 10, "public_safety_points_per_100k": 30, "public_safety_evening_points": 5},
+            {"kecamatan": "B", "public_safety_points": 20, "public_safety_points_per_100k": 20, "public_safety_evening_points": 10},
+            {"kecamatan": "C", "public_safety_points": 30, "public_safety_points_per_100k": 10, "public_safety_evening_points": 15},
         ]
         expected = copy.deepcopy(rows)
 
@@ -36,7 +36,12 @@ class RiskScoringTest(unittest.TestCase):
         pipeline.score_rows(expected)
 
         self.assertEqual(rows, expected)
-        self.assertEqual(rows[0]["risk_policy_version"], "jakarta-kecamatan-v1")
+        self.assertEqual(rows[0]["risk_policy_version"], "jakarta-kecamatan-v2")
+
+    def test_public_safety_weights_exclude_unknown_and_low_severity(self):
+        self.assertEqual(pipeline.PUBLIC_SAFETY_WEIGHTS, {0: 0, 1: 0, 2: 1, 3: 3, 4: 6})
+        self.assertEqual(sum(count * pipeline.PUBLIC_SAFETY_WEIGHTS[severity]
+                             for severity, count in {0: 20, 1: 10, 2: 5, 3: 2, 4: 1}.items()), 17)
 
 
 class PowerBiTest(unittest.TestCase):
@@ -96,6 +101,10 @@ class GeneratedArtifactsTest(unittest.TestCase):
             self.assertEqual(props["risk_policy_version"], csv_row["risk_policy_version"])
             self.assertGreaterEqual(props["risk_score"], 0)
             self.assertLessEqual(props["risk_score"], 1)
+            self.assertGreaterEqual(props["crime_classification_coverage"], 0)
+            self.assertLessEqual(props["crime_classification_coverage"], 1)
+            self.assertGreaterEqual(props["evening_classification_coverage"], 0)
+            self.assertLessEqual(props["evening_classification_coverage"], 1)
 
     def test_hierarchy_outputs_reconcile_and_cover_all_districts(self):
         def read_csv(name):

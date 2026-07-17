@@ -3369,7 +3369,7 @@ year,kecamatan,jenis_kejahatan,crime_total,public_safety_severity,severity_level
 2026,JAGAKARSA,Perzinahan,1,1,LOW,private_or_nonpublic_harm
 2026,JAGAKARSA,Terorisme,1,4,CRITICAL,public_endangerment
 2026,JAGAKARSA,Tindak Pidana Transfer Dana,1,1,LOW,regulatory_financial
-2026,JAGAKARSA,UNCLASSIFIED,203,0,UNKNOWN,unknown
+2026,JAGAKARSA,UNCLASSIFIED,204,0,UNKNOWN,unknown
 2026,JATINEGARA,Cabul,2,4,CRITICAL,sexual_violence
 2026,JATINEGARA,Curanmor R-2,7,2,MODERATE,property_crime
 2026,JATINEGARA,Kejahatan Terkait Perlindungan Data Pribadi,2,1,LOW,regulatory_financial
@@ -3606,7 +3606,7 @@ year,kecamatan,jenis_kejahatan,crime_total,public_safety_severity,severity_level
 2026,KELAPA GADING,Perzinahan,1,1,LOW,private_or_nonpublic_harm
 2026,KELAPA GADING,Telekomunikasi,1,1,LOW,regulatory_financial
 2026,KELAPA GADING,Tindak Pidana Transfer Dana,1,1,LOW,regulatory_financial
-2026,KELAPA GADING,UNCLASSIFIED,157,0,UNKNOWN,unknown
+2026,KELAPA GADING,UNCLASSIFIED,158,0,UNKNOWN,unknown
 2026,KEMAYORAN,Cabul,1,4,CRITICAL,sexual_violence
 2026,KEMAYORAN,Curanmor R-2,48,2,MODERATE,property_crime
 2026,KEMAYORAN,Kejahatan Tentang Pornografi,1,1,LOW,private_or_nonpublic_harm
@@ -3849,7 +3849,7 @@ year,kecamatan,jenis_kejahatan,crime_total,public_safety_severity,severity_level
 2026,MENTENG,Pemalsuan Surat Otentik,1,1,LOW,regulatory_financial
 2026,MENTENG,Pemerasan,3,3,HIGH,threat_coercion
 2026,MENTENG,Pencemaran Nama Baik,10,1,LOW,private_or_nonpublic_harm
-2026,MENTENG,Pencurian Biasa,87,2,MODERATE,property_crime
+2026,MENTENG,Pencurian Biasa,88,2,MODERATE,property_crime
 2026,MENTENG,Pencurian Dengan Kekerasan ( Curas ),2,4,CRITICAL,violent_property_crime
 2026,MENTENG,Pencurian Dengan Pemberatan ( Curat ),14,2,MODERATE,property_crime
 2026,MENTENG,Pencurian Ringan,4,1,LOW,property_crime
@@ -4066,7 +4066,7 @@ year,kecamatan,jenis_kejahatan,crime_total,public_safety_severity,severity_level
 2026,PENJARINGAN,Sumpah Palsu Dan Keterangan Palsu,2,1,LOW,regulatory_financial
 2026,PENJARINGAN,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1,1,LOW,regulatory_financial
 2026,PENJARINGAN,Tindak Pidana Transfer Dana,1,1,LOW,regulatory_financial
-2026,PENJARINGAN,UNCLASSIFIED,155,0,UNKNOWN,unknown
+2026,PENJARINGAN,UNCLASSIFIED,156,0,UNKNOWN,unknown
 2026,PESANGGRAHAN,Cabul,3,4,CRITICAL,sexual_violence
 2026,PESANGGRAHAN,Judi,1,1,LOW,regulatory_financial
 2026,PESANGGRAHAN,Kejahatan Terkait Perlindungan Data Pribadi,8,1,LOW,regulatory_financial

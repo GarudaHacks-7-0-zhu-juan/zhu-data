@@ -35,6 +35,12 @@ immediate public-safety severity and category. The mapping is joined into
 | `street_crime` | Only the 25 physical-risk crime types (theft, robbery, assault, sexual violence, and similar). This is the number a safety heatmap should use |
 | `street_crime_evening` | Street crimes in the 18:00-21:59 window (the citywide peak) |
 | `crime_year` | Latest discovered year selected for the current risk layer |
+| `public_safety_points` | Severity-weighted public-safety incidents; only moderate, high, and critical types contribute |
+| `public_safety_points_per_100k` | Severity-weighted incidents per 100k residents |
+| `public_safety_evening_points` | Severity-weighted incidents in the 18:00-21:59 window |
+| `crime_classification_coverage` | Share of the district's reported crimes with a classified crime type |
+| `evening_classification_coverage` | Share of evening reports with a classified crime type |
+| `severity_2_count`, `severity_3_count`, `severity_4_count` | Counts of moderate, high, and critical public-safety incident types |
 | `evening_share` | `street_crime_evening / street_crime`, how nocturnal the district's crime is |
 | `population` | Residents (sum of the district's kelurahan) |
 | `area_km2` | Computed from boundary polygons (the source's stored area fields are unreliable) |
@@ -52,17 +58,22 @@ window, 34,289 people/km2, 740 lamps/km2, centroid at (-6.1627, 106.8558).
 ## Risk score policy
 
 `risk_score` is an explainable relative ranking for the 44 kecamatan, produced by
-`jakarta-kecamatan-v1`. It is not an individual crime probability and does not establish
+`jakarta-kecamatan-v2`. It is not an individual crime probability and does not establish
 that every street in a district has the same risk.
 
 The pipeline calculates an average percentile rank for each component. Tied values receive
 the same rank. The weighted score is:
 
 ```
-0.50 * percentile(street_crime)
-+ 0.30 * percentile(street_crime_per_100k)
-+ 0.20 * percentile(street_crime_evening)
+0.50 * percentile(public_safety_points)
++ 0.30 * percentile(public_safety_points_per_100k)
++ 0.20 * percentile(public_safety_evening_points)
 ```
+
+`public_safety_points` applies the immediate-public-danger weights below to classified
+crime counts: `UNKNOWN=0`, `LOW=0`, `MODERATE=1`, `HIGH=3`, and `CRITICAL=6`.
+`UNKNOWN` incidents are excluded rather than assigned an assumed severity. Classification
+coverage is reported alongside the score but is not a score component.
 
 | Score range | `risk_level` |
 |---|---|
@@ -97,8 +108,7 @@ this does not mean their victim harm is low.
 
 The mapping is explicit rather than keyword-based. A refresh fails before replacing output
 files if Pusiknas returns a new crime type that is absent from `crime_type_severity.csv`.
-These severity fields are available for analysis but do not yet change the
-`jakarta-kecamatan-v1` risk-score formula.
+Severity weights now determine the `jakarta-kecamatan-v2` risk score.
 
 ## Where the data comes from
 
@@ -148,7 +158,9 @@ What `refresh crime` does:
    relationship are retained as `UNCLASSIFIED` so district totals stay complete.
 6. Validates every discovered crime type against `crime_type_severity.csv` and enriches the
    kecamatan/type output with severity, level, and public-safety category.
-7. Rebuilds `crime_kecamatan.csv`, `crime_types.csv`, and `crime_time_of_day.csv` from the
+7. Queries typed 18:00-21:59 incidents, calculates severity-weighted evening points, and
+   reports current and evening classification coverage by kecamatan.
+8. Rebuilds `crime_kecamatan.csv`, `crime_types.csv`, and `crime_time_of_day.csv` from the
    latest discovered year. The risk map therefore uses the latest year only while historical
    rows remain available in `crime_kecamatan_types.csv`.
 
@@ -172,6 +184,10 @@ existing files; the previous version is kept and the failure is printed.
   blank kecamatan and 16,538 crimes with a valid kecamatan but no matching crime-type
   dimension value. See `crime_unmatched_locations.csv`; the latter are included in district
   totals as `UNCLASSIFIED` but cannot contribute to the selected street-crime taxonomy.
+- **Classification coverage is incomplete and uneven.** `UNKNOWN` records receive zero
+  severity points, so use `crime_classification_coverage` and
+  `evening_classification_coverage` when interpreting a district score. Low coverage is
+  uncertainty, not evidence that a district is safer.
 - **Police-report data undercounts reality** (not every crime is reported). Treat values
   as a lower bound and a relative signal.
 - **`street_crime_per_100k` divides by resident population.** Business and nightlife

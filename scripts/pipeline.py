@@ -32,11 +32,11 @@ POPULATION_FIELDS = ["no_kel", "kode_desa_spatial", "nama_kab", "nama_kec", "nam
 LIGHTS_KEC_FIX = {"PEGADUNGAN": "KALI DERES"}
 LIGHTS_KEC_DROP = {"", "JAKBAR", "JAKARTA BARAT"}
 
-RISK_POLICY_VERSION = "jakarta-kecamatan-v1"
+RISK_POLICY_VERSION = "jakarta-kecamatan-v2"
 RISK_COMPONENTS = {
-    "street_crime": 0.5,
-    "street_crime_per_100k": 0.3,
-    "street_crime_evening": 0.2,
+    "public_safety_points": 0.5,
+    "public_safety_points_per_100k": 0.3,
+    "public_safety_evening_points": 0.2,
 }
 RISK_LEVELS = ("NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL")
 PUBLIC_SAFETY_LEVELS = {
@@ -46,6 +46,7 @@ PUBLIC_SAFETY_LEVELS = {
     3: "HIGH",
     4: "CRITICAL",
 }
+PUBLIC_SAFETY_WEIGHTS = {0: 0, 1: 0, 2: 1, 3: 3, 4: 6}
 
 norm = lambda s: re.sub(r"[^A-Z]", "", str(s).upper())
 
@@ -238,19 +239,24 @@ def load_crime_type_severity():
             }
     return mapping
 
-def query_latest_supporting_data(latest_year, street_types):
+def query_latest_supporting_data(latest_year):
     year_filter = pbi_in("l", "Year", [latest_year])
-    type_filter = pbi_in("j", "jenis_kejahatan", sorted(street_types))
     evening_rows = query_powerbi([
         pbi_select("v1", "VIEW_DATA_LP", "Nama_Kecamatan"),
         pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure"),
-    ], crime_base_filters() + [year_filter, type_filter,
+    ], crime_base_filters() + [year_filter,
+                              pbi_in("w", "Waktu_Kejadian_Update", ["18:00-21:59"])])
+    typed_evening_rows = query_powerbi([
+        pbi_select("v1", "VIEW_DATA_LP", "Nama_Kecamatan"),
+        pbi_select("j", "Jenis Kejahatan", "jenis_kejahatan"),
+        pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure"),
+    ], crime_base_filters() + [year_filter,
                               pbi_in("w", "Waktu_Kejadian_Update", ["18:00-21:59"])])
     time_rows = query_powerbi([
         pbi_select("w", "Waktu Kejahatan", "Waktu_Kejadian_Update"),
         pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure"),
     ], crime_base_filters() + [year_filter])
-    return evening_rows, time_rows
+    return evening_rows, typed_evening_rows, time_rows
 
 def refresh_crime_hierarchy():
     known_districts = load_district_names()
@@ -356,7 +362,7 @@ def refresh_crime_hierarchy():
     if not latest:
         raise ValueError(f"no matched kecamatan data for latest year {latest_year}")
 
-    evening_rows, time_rows = query_latest_supporting_data(latest_year, street_types)
+    evening_rows, typed_evening_rows, time_rows = query_latest_supporting_data(latest_year)
     evening = defaultdict(int)
     unmatched_evening = 0
     for kecamatan, total in evening_rows:
@@ -368,7 +374,30 @@ def refresh_crime_hierarchy():
     if unmatched_evening:
         print(f"    warning: {unmatched_evening:,} evening crimes have no matched kecamatan", flush=True)
 
+    typed_evening_types = {crime_type for _, crime_type, _ in typed_evening_rows}
+    unmapped_evening_types = sorted(typed_evening_types - severity_by_type.keys())
+    if unmapped_evening_types:
+        raise ValueError(f"unmapped evening crime types: {', '.join(unmapped_evening_types)}")
     street_type_keys = {crime_type.casefold().strip() for crime_type in street_types}
+    evening_classified = defaultdict(int)
+    evening_points = defaultdict(int)
+    street_evening = defaultdict(int)
+    unmatched_typed_evening = 0
+    for kecamatan, crime_type, total in typed_evening_rows:
+        key = norm(kecamatan)
+        if key not in known_districts:
+            unmatched_typed_evening += int(total)
+            continue
+        severity = severity_by_type[crime_type]["severity"]
+        if severity:
+            evening_classified[key] += int(total)
+        evening_points[key] += int(total) * PUBLIC_SAFETY_WEIGHTS[severity]
+        if crime_type.casefold().strip() in street_type_keys:
+            street_evening[key] += int(total)
+    if unmatched_typed_evening:
+        print(f"    warning: {unmatched_typed_evening:,} typed evening crimes have no matched kecamatan",
+              flush=True)
+
     summary = []
     for key, name in known_districts.items():
         district_types = {crime_type: total for (district, crime_type), total in latest.items()
@@ -376,8 +405,24 @@ def refresh_crime_hierarchy():
         total = sum(district_types.values())
         street = sum(value for crime_type, value in district_types.items()
                      if crime_type.casefold().strip() in street_type_keys)
-        summary.append([name, total, street, evening.get(key, 0), latest_year])
-    summary.sort(key=lambda row: -row[2])
+        severity_counts = {
+            severity: sum(value for crime_type, value in district_types.items()
+                          if severity_by_type[crime_type]["severity"] == severity)
+            for severity in range(5)
+        }
+        classified = sum(severity_counts[severity] for severity in range(1, 5))
+        points = sum(severity_counts[severity] * PUBLIC_SAFETY_WEIGHTS[severity]
+                     for severity in range(5))
+        total_evening = evening.get(key, 0)
+        summary.append([
+            name, total, street, street_evening[key], latest_year,
+            points,
+            round(classified / total, 4) if total else 0,
+            evening_points[key],
+            round(evening_classified[key] / total_evening, 4) if total_evening else 0,
+            severity_counts[2], severity_counts[3], severity_counts[4],
+        ])
+    summary.sort(key=lambda row: -row[5])
 
     aggregate_rows = []
     for (year, kecamatan, crime_type), total in sorted(aggregated.items()):
@@ -402,7 +447,10 @@ def refresh_crime_hierarchy():
               aggregate_rows)
     write_csv(os.path.join(DATA, "crime_unmatched_locations.csv"), raw_header + ["reason"], unmatched)
     write_csv(os.path.join(DATA, "crime_kecamatan.csv"),
-              ["kecamatan", "crime_total", "street_crime", "street_crime_evening", "crime_year"],
+              ["kecamatan", "crime_total", "street_crime", "street_crime_evening", "crime_year",
+               "public_safety_points", "crime_classification_coverage",
+               "public_safety_evening_points", "evening_classification_coverage",
+               "severity_2_count", "severity_3_count", "severity_4_count"],
               summary)
     write_csv(os.path.join(DATA, "crime_types.csv"),
               ["jenis_kejahatan", "crime_total", "public_safety_severity",
@@ -571,6 +619,13 @@ def load_crime():
                 "street_crime": int(r["street_crime"]),
                 "street_crime_evening": int(r["street_crime_evening"]),
                 "crime_year": int(r["crime_year"]),
+                "public_safety_points": int(r["public_safety_points"]),
+                "crime_classification_coverage": float(r["crime_classification_coverage"]),
+                "public_safety_evening_points": int(r["public_safety_evening_points"]),
+                "evening_classification_coverage": float(r["evening_classification_coverage"]),
+                "severity_2_count": int(r["severity_2_count"]),
+                "severity_3_count": int(r["severity_3_count"]),
+                "severity_4_count": int(r["severity_4_count"]),
             }
     return out
 
@@ -684,7 +739,7 @@ def build():
     lights = load_lights(rings_by_kec)
     rows = []
     keys = []
-    for k, c in sorted(crime.items(), key=lambda kv: -kv[1]["street_crime"]):
+    for k, c in sorted(crime.items(), key=lambda kv: -kv[1]["public_safety_points"]):
         if k not in pop:
             print(f"ERROR: kecamatan {c['kecamatan']} missing from population data", file=sys.stderr)
             sys.exit(1)
@@ -701,6 +756,15 @@ def build():
             "street_crime": c["street_crime"],
             "street_crime_evening": c["street_crime_evening"],
             "crime_year": c["crime_year"],
+            "public_safety_points": c["public_safety_points"],
+            "public_safety_points_per_100k": round(
+                c["public_safety_points"] / p["population"] * 100000, 1) if p["population"] else 0,
+            "public_safety_evening_points": c["public_safety_evening_points"],
+            "crime_classification_coverage": c["crime_classification_coverage"],
+            "evening_classification_coverage": c["evening_classification_coverage"],
+            "severity_2_count": c["severity_2_count"],
+            "severity_3_count": c["severity_3_count"],
+            "severity_4_count": c["severity_4_count"],
             "evening_share": round(c["street_crime_evening"] / c["street_crime"], 4) if c["street_crime"] else 0,
             "population": p["population"],
             "area_km2": round(area, 2),
