@@ -124,7 +124,20 @@ existing files; the previous version is kept and the failure is printed.
   other signals (for example the lighting layer).
 - **Risk levels are relative to this dataset.** They can change after a crime-data refresh
   because percentile ranks compare each kecamatan with the other 43 districts. Compare
-  `risk_policy_version` before comparing generated outputs across policy revisions.
+`risk_policy_version` before comparing generated outputs across policy revisions.
+
+## Visualize the risk map
+
+`risk-map.html` is a standalone Leaflet map that loads all 44 scored kecamatan from
+`data/kecamatan_boundaries.geojson`. From the repository root, run:
+
+```
+python3 -m http.server
+```
+
+Then visit [http://localhost:8000/risk-map.html](http://localhost:8000/risk-map.html).
+The page colors polygons by `risk_level` and displays `risk_score` plus its contributing
+metrics when a district is selected.
 
 ## Attribution
 
