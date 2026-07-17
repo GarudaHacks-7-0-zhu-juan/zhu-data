@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import csv, json, math, os, re, sys, tempfile, time, urllib.parse, urllib.request
+from collections import defaultdict
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "..", "data")
@@ -9,6 +10,12 @@ QUERIES = os.path.join(HERE, "queries")
 PUSIKNAS_ENDPOINT = ("https://wabi-south-east-asia-b-primary-api.analysis.windows.net"
                      "/public/reports/querydata?synchronous=true")
 PUSIKNAS_KEY = "dfe13d87-1d2b-421c-be7b-bf6edd2e1f9d"
+PUSIKNAS_MODEL_ID = 5179165
+PUSIKNAS_DATASET_ID = "edcee19b-e8fc-4f8a-bdc1-6a3410863eed"
+PUSIKNAS_REPORT_ID = "ec40848e-ee84-4f0e-9d4b-5a1016130676"
+PUSIKNAS_POLDA = "POLDA METRO JAYA"
+PUSIKNAS_PROVINCE = "DKI JAKARTA"
+PUSIKNAS_DATE_ENTITY = "LocalDateTable_12add86b-6ca9-411c-b150-5826b6bdf752"
 
 LIGHTS_URL = ("https://jakartasatu.jakarta.go.id/server/rest/services/"
               "BINAMARGA/Data_PJU_DBM_View/FeatureServer/0/query")
@@ -21,16 +28,6 @@ POPULATION_FIELDS = ["no_kel", "kode_desa_spatial", "nama_kab", "nama_kec", "nam
                      "jumlah_penduduk", "jumlah_kk", "pria", "wanita",
                      "u0", "u5", "u10", "u15", "u20", "u25", "u30", "u35", "u40",
                      "u45", "u50", "u55", "u60", "u65", "u70", "u75"]
-
-CRIME_KECAMATAN_PARTS = {
-    "crime_total":          ("pusiknas_query_kecamatan_dki.json", 40),
-    "street_crime":         ("pusiknas_query_streetcrime_kecamatan.json", 40),
-    "street_crime_evening": ("pusiknas_query_streetcrime_kec_evening.json", 35),
-}
-CRIME_STANDALONE = {
-    "crime_types":       ("pusiknas_query_jenis_jakarta.json", ["jenis_kejahatan", "crime_total"], 80),
-    "crime_time_of_day": ("pusiknas_query_waktu_jakarta.json", ["waktu_kejadian", "crime_total"], 6),
-}
 
 LIGHTS_KEC_FIX = {"PEGADUNGAN": "KALI DERES"}
 LIGHTS_KEC_DROP = {"", "JAKBAR", "JAKARTA BARAT"}
@@ -45,45 +42,61 @@ RISK_LEVELS = ("NONE", "LOW", "MEDIUM", "HIGH", "CRITICAL")
 
 norm = lambda s: re.sub(r"[^A-Z]", "", str(s).upper())
 
-def run_query(payload_path):
-    body = open(payload_path, "rb").read()
+def run_payload(payload, retries=4):
+    body = json.dumps(payload).encode("utf-8")
     req = urllib.request.Request(PUSIKNAS_ENDPOINT, data=body, method="POST", headers={
         "Content-Type": "application/json",
         "X-PowerBI-ResourceKey": PUSIKNAS_KEY,
         "Origin": "https://app.powerbi.com",
-        "User-Agent": "Mozilla/5.0 (data refresh)",
+        "User-Agent": "Mozilla/5.0 (zhu-data refresh)",
     })
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.load(r)
+    for attempt in range(retries):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as r:
+                response = json.load(r)
+            if not response.get("results") or "result" not in response["results"][0]:
+                raise RuntimeError(f"unexpected Power BI response: {str(response)[:300]}")
+            return response
+        except Exception:
+            if attempt == retries - 1:
+                raise
+            time.sleep(2 * (attempt + 1))
 
 def parse_rows(resp):
-    dm = resp["results"][0]["result"]["data"]["dsr"]["DS"][0]["PH"][0]["DM0"]
-    ncols = 0
-    for item in dm:
-        if "R" not in item and "Ø" not in item and item.get("C"):
-            ncols = max(ncols, len(item["C"]))
-    rows, prev = [], []
+    ds = resp["results"][0]["result"]["data"]["dsr"]["DS"][0]
+    if ds.get("IC") is False:
+        raise ValueError("Power BI result was truncated; reduce query scope")
+    dm = ds.get("PH", [{}])[0].get("DM0", [])
+    if not dm:
+        return []
+    schema = next((item["S"] for item in dm if item.get("S")), None)
+    if not schema:
+        raise ValueError("Power BI result has no column schema")
+    dictionaries = ds.get("ValueDicts", {})
+    rows, prev = [], [None] * len(schema)
     for item in dm:
         c = list(item.get("C", []))
         rep = item.get("R", 0)
         nul = item.get("Ø", 0)
         row, ci = [], 0
-        for col in range(ncols):
+        for col, descriptor in enumerate(schema):
             bit = 1 << col
             if nul & bit:
-                row.append(None)
+                value = None
             elif rep & bit:
-                row.append(prev[col] if col < len(prev) else None)
+                value = prev[col]
             else:
-                row.append(c[ci] if ci < len(c) else None)
+                value = c[ci] if ci < len(c) else None
                 ci += 1
+                dictionary = dictionaries.get(descriptor.get("DN"))
+                if dictionary is not None and isinstance(value, int):
+                    if value >= len(dictionary):
+                        raise ValueError("Power BI dictionary index is out of range")
+                    value = dictionary[value]
+            row.append(value)
         rows.append(row)
         prev = row
     return rows
-
-def clean(rows):
-    return [r for r in rows
-            if r and r[0] and str(r[0]).strip() and isinstance(r[1], (int, float))]
 
 def write_csv(out_path, header, rows):
     fd, tmp = tempfile.mkstemp(dir=DATA, suffix=".csv")
@@ -93,58 +106,288 @@ def write_csv(out_path, header, rows):
         w.writerows(rows)
     os.replace(tmp, out_path)
 
-def refresh_crime_kecamatan():
-    out_path = os.path.join(DATA, "crime_kecamatan.csv")
-    try:
-        parts = {}
-        for col, (payload, min_rows) in CRIME_KECAMATAN_PARTS.items():
-            rows = clean(parse_rows(run_query(os.path.join(QUERIES, payload))))
-            if len(rows) < min_rows:
-                raise ValueError(f"{col}: only {len(rows)} rows (expected >= {min_rows})")
-            parts[col] = {norm(r[0]): (str(r[0]).strip(), r[1]) for r in rows}
-        combined = []
-        for key, (name, total) in sorted(parts["crime_total"].items(),
-                                         key=lambda kv: -kv[1][1]):
-            if total <= 0:
-                continue
-            combined.append([name, total,
-                             parts["street_crime"].get(key, ("", 0))[1],
-                             parts["street_crime_evening"].get(key, ("", 0))[1]])
-        if sum(r[1] for r in combined) <= 0:
-            raise ValueError("zero total — refusing to overwrite")
-        write_csv(out_path, ["kecamatan", "crime_total", "street_crime",
-                             "street_crime_evening"], combined)
-        return {"ok": True, "rows": len(combined), "total": sum(r[1] for r in combined)}
-    except Exception as e:
-        kept = "kept previous file" if os.path.exists(out_path) else "NO file exists"
-        return {"ok": False, "error": f"{type(e).__name__}: {e}", "fallback": kept}
+def pbi_select(source, entity, field, kind="Column", name=None):
+    return {
+        kind: {"Expression": {"SourceRef": {"Source": source}}, "Property": field},
+        "Name": name or f"{entity}.{field}",
+        "NativeReferenceName": field,
+    }
 
-def refresh_crime_standalone(name):
-    payload, cols, min_rows = CRIME_STANDALONE[name]
-    out_path = os.path.join(DATA, f"{name}.csv")
-    try:
-        rows = clean(parse_rows(run_query(os.path.join(QUERIES, payload))))
-        if len(rows) < min_rows:
-            raise ValueError(f"only {len(rows)} rows (expected >= {min_rows}) — refusing to overwrite")
-        if sum(r[1] for r in rows) <= 0:
-            raise ValueError("zero total — refusing to overwrite")
-        write_csv(out_path, cols, [r[:len(cols)] for r in rows])
-        return {"ok": True, "rows": len(rows), "total": sum(r[1] for r in rows)}
-    except Exception as e:
-        kept = "kept previous file" if os.path.exists(out_path) else "NO file exists"
-        return {"ok": False, "error": f"{type(e).__name__}: {e}", "fallback": kept}
+def pbi_literal(value):
+    if value is None:
+        return "null"
+    if isinstance(value, int):
+        return f"{value}L"
+    return "'" + str(value).replace("'", "''") + "'"
+
+def pbi_in(source, field, values):
+    return {"Condition": {"In": {
+        "Expressions": [{"Column": {
+            "Expression": {"SourceRef": {"Source": source}}, "Property": field}}],
+        "Values": [[{"Literal": {"Value": pbi_literal(value)}}] for value in values],
+    }}}
+
+def pbi_positive_measure():
+    return {"Condition": {"Comparison": {
+        "ComparisonKind": 1,
+        "Left": {"Measure": {
+            "Expression": {"SourceRef": {"Source": "v1"}}, "Property": "Jumlah_CT"}},
+        "Right": {"Literal": {"Value": "0L"}},
+    }}}
+
+def powerbi_payload(select, where, window=30000):
+    query = {
+        "Version": 2,
+        "From": [
+            {"Name": "v1", "Entity": "VIEW_DATA_LP", "Type": 0},
+            {"Name": "v", "Entity": "VIEW_MASTER_POLRES_POLSEK", "Type": 0},
+            {"Name": "j", "Entity": "Jenis Kejahatan", "Type": 0},
+            {"Name": "l", "Entity": PUSIKNAS_DATE_ENTITY, "Type": 0},
+            {"Name": "w", "Entity": "Waktu Kejahatan", "Type": 0},
+        ],
+        "Select": select,
+        "Where": where,
+    }
+    command = {
+        "SemanticQueryDataShapeCommand": {
+            "Query": query,
+            "Binding": {
+                "Primary": {"Groupings": [{"Projections": list(range(len(select)))}]},
+                "DataReduction": {"DataVolume": 6, "Primary": {"Window": {"Count": window}}},
+                "Version": 1,
+            },
+        }
+    }
+    return {
+        "version": "1.0.0",
+        "queries": [{
+            "Query": {"Commands": [command]},
+            "QueryId": "",
+            "ApplicationContext": {
+                "DatasetId": PUSIKNAS_DATASET_ID,
+                "Sources": [{"ReportId": PUSIKNAS_REPORT_ID}],
+            },
+        }],
+        "cancelQueries": [],
+        "modelId": PUSIKNAS_MODEL_ID,
+    }
+
+def query_powerbi(select, where, window=30000):
+    return parse_rows(run_payload(powerbi_payload(select, where, window)))
+
+def crime_base_filters():
+    return [
+        pbi_in("v", "NamaPolda", [PUSIKNAS_POLDA]),
+        pbi_in("v1", "Nama_Propinsi", [PUSIKNAS_PROVINCE]),
+        pbi_positive_measure(),
+    ]
+
+def load_street_crime_types():
+    path = os.path.join(QUERIES, "pusiknas_query_streetcrime_kecamatan.json")
+    with open(path, encoding="utf-8") as f:
+        payload = json.load(f)
+    where = payload["queries"][0]["Query"]["Commands"][0]["SemanticQueryDataShapeCommand"]["Query"]["Where"]
+    for clause in where:
+        condition = clause.get("Condition", {}).get("In", {})
+        expressions = condition.get("Expressions", [])
+        if expressions and expressions[0].get("Column", {}).get("Property") == "jenis_kejahatan":
+            values = condition["Values"]
+            return {value[0]["Literal"]["Value"].strip("'") for value in values}
+    raise ValueError("street-crime type filter is missing")
+
+def load_district_names():
+    names = {}
+    master_path = os.path.join(DATA, "master_dataset.csv")
+    if os.path.exists(master_path):
+        with open(master_path, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                names[norm(row["kecamatan"])] = row["kecamatan"]
+    with open(os.path.join(DATA, "population.geojson"), encoding="utf-8") as f:
+        for feature in json.load(f)["features"]:
+            name = str(feature["properties"]["nama_kec"]).strip().upper()
+            names.setdefault(norm(name), name)
+    if len(names) != 44:
+        raise ValueError(f"expected 44 known DKI kecamatan, got {len(names)}")
+    return names
+
+def query_latest_supporting_data(latest_year, street_types):
+    year_filter = pbi_in("l", "Year", [latest_year])
+    type_filter = pbi_in("j", "jenis_kejahatan", sorted(street_types))
+    evening_rows = query_powerbi([
+        pbi_select("v1", "VIEW_DATA_LP", "Nama_Kecamatan"),
+        pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure"),
+    ], crime_base_filters() + [year_filter, type_filter,
+                              pbi_in("w", "Waktu_Kejadian_Update", ["18:00-21:59"])])
+    time_rows = query_powerbi([
+        pbi_select("w", "Waktu Kejahatan", "Waktu_Kejadian_Update"),
+        pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure"),
+    ], crime_base_filters() + [year_filter])
+    return evening_rows, time_rows
+
+def refresh_crime_hierarchy():
+    known_districts = load_district_names()
+    street_types = load_street_crime_types()
+    base = crime_base_filters()
+    measure = pbi_select("v1", "VIEW_DATA_LP", "Jumlah_CT", "Measure")
+
+    year_rows = query_powerbi([
+        pbi_select("l", PUSIKNAS_DATE_ENTITY, "Year"), measure,
+    ], base)
+    years = sorted({int(row[0]) for row in year_rows if isinstance(row[0], (int, float))})
+    if not years:
+        raise ValueError("Power BI returned no crime years")
+    scoped_base = base + [pbi_in("l", "Year", years)]
+
+    polres_rows = query_powerbi([
+        pbi_select("v", "VIEW_MASTER_POLRES_POLSEK", "NamaPolres"), measure,
+    ], scoped_base)
+    polres_totals = {row[0]: int(row[1]) for row in polres_rows if row[1] > 0}
+    if not polres_totals:
+        raise ValueError("Power BI returned no Polres")
+
+    raw_rows = []
+    hierarchy_total = 0
+    for polres, polres_total in polres_totals.items():
+        polres_filter = pbi_in("v", "NamaPolres", [polres])
+        polsek_rows = query_powerbi([
+            pbi_select("v", "VIEW_MASTER_POLRES_POLSEK", "NamaPolsek"), measure,
+        ], scoped_base + [polres_filter])
+        polsek_totals = {row[0]: int(row[1]) for row in polsek_rows if row[1] > 0}
+        if sum(polsek_totals.values()) != polres_total:
+            raise ValueError(f"{polres or '(unassigned)'}: Polsek totals do not match Polres total")
+
+        branch_total = 0
+        for polsek, expected_total in polsek_totals.items():
+            leaf_filters = scoped_base + [polres_filter, pbi_in("v", "NamaPolsek", [polsek])]
+            location_rows = query_powerbi([
+                pbi_select("l", PUSIKNAS_DATE_ENTITY, "Year"),
+                pbi_select("v1", "VIEW_DATA_LP", "Nama_Kecamatan"),
+                measure,
+            ], leaf_filters)
+            actual_total = sum(int(row[2]) for row in location_rows if row[2] > 0)
+            if actual_total != expected_total:
+                label = polsek or "(unassigned Polsek)"
+                raise ValueError(f"{label}: leaf total {actual_total:,} != hierarchy total {expected_total:,}")
+
+            typed_rows = query_powerbi([
+                pbi_select("l", PUSIKNAS_DATE_ENTITY, "Year"),
+                pbi_select("v1", "VIEW_DATA_LP", "Nama_Kecamatan"),
+                pbi_select("j", "Jenis Kejahatan", "jenis_kejahatan"),
+                measure,
+            ], leaf_filters)
+            branch_total += actual_total
+            typed_by_location = defaultdict(int)
+            for year, kecamatan, crime_type, total in typed_rows:
+                if total > 0:
+                    typed_by_location[(int(year), kecamatan or "")] += int(total)
+                    raw_rows.append([int(year), PUSIKNAS_POLDA, polres or "", polsek or "",
+                                     kecamatan or "", crime_type or "", int(total)])
+            for year, kecamatan, total in location_rows:
+                residual = int(total) - typed_by_location[(int(year), kecamatan or "")]
+                if residual < 0:
+                    label = polsek or "(unassigned Polsek)"
+                    raise ValueError(f"{label}: typed crime total exceeds location total")
+                if residual:
+                    raw_rows.append([int(year), PUSIKNAS_POLDA, polres or "", polsek or "",
+                                     kecamatan or "", "", residual])
+            time.sleep(0.1)
+        hierarchy_total += branch_total
+        print(f"    {polres or '(unassigned Polres)'}: {len(polsek_totals)} Polsek, {branch_total:,} crimes",
+              flush=True)
+
+    if hierarchy_total != sum(polres_totals.values()):
+        raise ValueError("leaf totals do not match Polda hierarchy total")
+
+    aggregated = defaultdict(int)
+    unmatched = []
+    for row in raw_rows:
+        year, _, polres, polsek, kecamatan, crime_type, total = row
+        key = norm(kecamatan)
+        if not kecamatan:
+            unmatched.append(row + ["blank kecamatan"])
+        elif key not in known_districts:
+            unmatched.append(row + ["kecamatan outside DKI boundary dataset"])
+        elif not crime_type:
+            unmatched.append(row + ["blank crime type"])
+            aggregated[(year, known_districts[key], "UNCLASSIFIED")] += total
+        else:
+            aggregated[(year, known_districts[key], crime_type)] += total
+
+    latest_year = max(years)
+    latest = defaultdict(int)
+    latest_types = defaultdict(int)
+    for (year, kecamatan, crime_type), total in aggregated.items():
+        if year == latest_year:
+            latest[(norm(kecamatan), crime_type)] += total
+            latest_types[crime_type] += total
+    if not latest:
+        raise ValueError(f"no matched kecamatan data for latest year {latest_year}")
+
+    evening_rows, time_rows = query_latest_supporting_data(latest_year, street_types)
+    evening = defaultdict(int)
+    unmatched_evening = 0
+    for kecamatan, total in evening_rows:
+        key = norm(kecamatan)
+        if key not in known_districts:
+            unmatched_evening += int(total)
+            continue
+        evening[key] += int(total)
+    if unmatched_evening:
+        print(f"    warning: {unmatched_evening:,} evening crimes have no matched kecamatan", flush=True)
+
+    street_type_keys = {crime_type.casefold().strip() for crime_type in street_types}
+    summary = []
+    for key, name in known_districts.items():
+        district_types = {crime_type: total for (district, crime_type), total in latest.items()
+                          if district == key}
+        total = sum(district_types.values())
+        street = sum(value for crime_type, value in district_types.items()
+                     if crime_type.casefold().strip() in street_type_keys)
+        summary.append([name, total, street, evening.get(key, 0), latest_year])
+    summary.sort(key=lambda row: -row[2])
+
+    aggregate_rows = [[year, kecamatan, crime_type, total]
+                      for (year, kecamatan, crime_type), total in sorted(aggregated.items())]
+    raw_rows.sort(key=lambda row: (row[0], row[2], row[3], row[4], row[5]))
+    unmatched.sort(key=lambda row: (row[0], row[2], row[3], row[4], row[5]))
+    type_rows = sorted(latest_types.items(), key=lambda item: (-item[1], item[0]))
+    clean_time_rows = sorted(((str(row[0]), int(row[1])) for row in time_rows if row[0]),
+                             key=lambda item: -item[1])
+
+    raw_header = ["year", "polda", "polres", "polsek", "kecamatan", "jenis_kejahatan", "crime_total"]
+    write_csv(os.path.join(DATA, "crime_polsek_kecamatan_types.csv"), raw_header, raw_rows)
+    write_csv(os.path.join(DATA, "crime_kecamatan_types.csv"),
+              ["year", "kecamatan", "jenis_kejahatan", "crime_total"], aggregate_rows)
+    write_csv(os.path.join(DATA, "crime_unmatched_locations.csv"), raw_header + ["reason"], unmatched)
+    write_csv(os.path.join(DATA, "crime_kecamatan.csv"),
+              ["kecamatan", "crime_total", "street_crime", "street_crime_evening", "crime_year"],
+              summary)
+    write_csv(os.path.join(DATA, "crime_types.csv"),
+              ["jenis_kejahatan", "crime_total"], type_rows)
+    write_csv(os.path.join(DATA, "crime_time_of_day.csv"),
+              ["waktu_kejadian", "crime_total"], clean_time_rows)
+    return {
+        "ok": True,
+        "rows": len(aggregate_rows),
+        "total": sum(row[3] for row in aggregate_rows),
+        "years": years,
+        "latest_year": latest_year,
+        "raw_rows": len(raw_rows),
+        "unmatched_rows": len(unmatched),
+        "unmatched_total": sum(row[6] for row in unmatched),
+    }
 
 def refresh_crime():
-    failed = 0
-    for label, result in [("crime_kecamatan", refresh_crime_kecamatan()),
-                          ("crime_types", refresh_crime_standalone("crime_types")),
-                          ("crime_time_of_day", refresh_crime_standalone("crime_time_of_day"))]:
-        if result["ok"]:
-            print(f"  ✓ {label:18} {result['rows']:>4} rows, total {result['total']:,}")
-        else:
-            failed += 1
-            print(f"  ✗ {label:18} {result['error']}  → {result['fallback']}")
-    return failed == 0
+    try:
+        result = refresh_crime_hierarchy()
+        year_range = f"{result['years'][0]}-{result['years'][-1]}"
+        print(f"  ✓ crime hierarchy   {result['raw_rows']:,} leaf rows, {result['rows']:,} aggregated rows")
+        print(f"    years {year_range}; latest risk year {result['latest_year']}")
+        print(f"    unmatched {result['unmatched_rows']:,} rows / {result['unmatched_total']:,} crimes")
+        return True
+    except Exception as e:
+        print(f"  ✗ crime hierarchy   {type(e).__name__}: {e}  → kept previous files")
+        return False
 
 def arcgis_page(url, params, retries=4):
     req = urllib.request.Request(f"{url}?{urllib.parse.urlencode(params)}",
@@ -284,6 +527,7 @@ def load_crime():
                 "crime_total": int(r["crime_total"]),
                 "street_crime": int(r["street_crime"]),
                 "street_crime_evening": int(r["street_crime_evening"]),
+                "crime_year": int(r["crime_year"]),
             }
     return out
 
@@ -413,6 +657,7 @@ def build():
             "crime_total": c["crime_total"],
             "street_crime": c["street_crime"],
             "street_crime_evening": c["street_crime_evening"],
+            "crime_year": c["crime_year"],
             "evening_share": round(c["street_crime_evening"] / c["street_crime"], 4) if c["street_crime"] else 0,
             "population": p["population"],
             "area_km2": round(area, 2),

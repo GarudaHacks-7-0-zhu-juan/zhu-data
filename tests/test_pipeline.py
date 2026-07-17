@@ -39,6 +39,43 @@ class RiskScoringTest(unittest.TestCase):
         self.assertEqual(rows[0]["risk_policy_version"], "jakarta-kecamatan-v1")
 
 
+class PowerBiTest(unittest.TestCase):
+    def test_parse_rows_decodes_dictionaries_repetition_and_nulls(self):
+        response = {
+            "results": [{"result": {"data": {"dsr": {"DS": [{
+                "IC": True,
+                "ValueDicts": {"D0": ["A"], "D1": ["X", "Y"]},
+                "PH": [{"DM0": [
+                    {"S": [{"DN": "D0"}, {"DN": "D1"}, {}], "C": [0, 0, 5]},
+                    {"R": 1, "C": [1, 3]},
+                    {"Ø": 1, "C": [0, 2]},
+                ]}],
+            }]}}}}]
+        }
+
+        self.assertEqual(
+            pipeline.parse_rows(response),
+            [["A", "X", 5], ["A", "Y", 3], [None, "X", 2]],
+        )
+
+    def test_parse_rows_rejects_truncated_results(self):
+        response = {
+            "results": [{"result": {"data": {"dsr": {"DS": [{
+                "IC": False,
+                "PH": [{"DM0": [{"S": [{}], "C": [1]}]}],
+            }]}}}}]
+        }
+
+        with self.assertRaisesRegex(ValueError, "truncated"):
+            pipeline.parse_rows(response)
+
+    def test_powerbi_literals_support_nulls_numbers_and_quotes(self):
+        self.assertEqual(pipeline.pbi_literal(None), "null")
+        self.assertEqual(pipeline.pbi_literal(2026), "2026L")
+        self.assertEqual(pipeline.pbi_literal("POLDA METRO JAYA"), "'POLDA METRO JAYA'")
+        self.assertEqual(pipeline.pbi_literal("O'HARA"), "'O''HARA'")
+
+
 class GeneratedArtifactsTest(unittest.TestCase):
     def test_csv_and_geojson_have_matching_risk_properties(self):
         with open(os.path.join(ROOT, "data", "master_dataset.csv"), encoding="utf-8") as f:
@@ -59,6 +96,41 @@ class GeneratedArtifactsTest(unittest.TestCase):
             self.assertEqual(props["risk_policy_version"], csv_row["risk_policy_version"])
             self.assertGreaterEqual(props["risk_score"], 0)
             self.assertLessEqual(props["risk_score"], 1)
+
+    def test_hierarchy_outputs_reconcile_and_cover_all_districts(self):
+        def read_csv(name):
+            with open(os.path.join(ROOT, "data", name), encoding="utf-8") as f:
+                return list(csv.DictReader(f))
+
+        raw = read_csv("crime_polsek_kecamatan_types.csv")
+        aggregated = read_csv("crime_kecamatan_types.csv")
+        unmatched = read_csv("crime_unmatched_locations.csv")
+        latest_summary = read_csv("crime_kecamatan.csv")
+
+        raw_total = sum(int(row["crime_total"]) for row in raw)
+        aggregated_total = sum(int(row["crime_total"]) for row in aggregated)
+        unmapped_location_total = sum(
+            int(row["crime_total"])
+            for row in unmatched
+            if row["reason"] != "blank crime type"
+        )
+        self.assertEqual(raw_total, aggregated_total + unmapped_location_total)
+        self.assertEqual({row["polda"] for row in raw}, {"POLDA METRO JAYA"})
+        self.assertEqual(len({row["kecamatan"] for row in aggregated}), 44)
+
+        years = sorted({int(row["year"]) for row in aggregated})
+        latest_year = years[-1]
+        self.assertEqual({int(row["crime_year"]) for row in latest_summary}, {latest_year})
+        latest_aggregate_total = sum(
+            int(row["crime_total"])
+            for row in aggregated
+            if int(row["year"]) == latest_year
+        )
+        self.assertEqual(
+            latest_aggregate_total,
+            sum(int(row["crime_total"]) for row in latest_summary),
+        )
+        self.assertTrue(any(row["jenis_kejahatan"] == "UNCLASSIFIED" for row in aggregated))
 
 
 if __name__ == "__main__":

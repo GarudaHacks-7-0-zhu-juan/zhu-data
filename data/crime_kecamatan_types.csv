@@ -1,0 +1,4400 @@
+year,kecamatan,jenis_kejahatan,crime_total
+2024,CAKUNG,Cabul,2
+2024,CAKUNG,Curanmor R-2,1
+2024,CAKUNG,Kejahatan Tentang Desain Industri,1
+2024,CAKUNG,Kejahatan Tentang Jaminan Fidusia,1
+2024,CAKUNG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,CAKUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,CAKUNG,Kekerasan Dalam Rumah Tangga,17
+2024,CAKUNG,Manipulasi data autentik secara elektronik (ITE),85
+2024,CAKUNG,Memasuki Pekarangan Tanpa Ijin,6
+2024,CAKUNG,Narkotika ( Narkoba ),15
+2024,CAKUNG,Pemalsuan Surat Otentik,2
+2024,CAKUNG,Pembunuhan,1
+2024,CAKUNG,Pemerasan,13
+2024,CAKUNG,Pemerasan Dan Pengancaman,1
+2024,CAKUNG,Penadahan,1
+2024,CAKUNG,Pencemaran Nama Baik,3
+2024,CAKUNG,Penculikan,1
+2024,CAKUNG,Pencurian Biasa,48
+2024,CAKUNG,Pencurian Dengan Kekerasan ( Curas ),1
+2024,CAKUNG,Pencurian Dengan Pemberatan ( Curat ),42
+2024,CAKUNG,Pencurian dalam lingkungan keluarga,1
+2024,CAKUNG,Pengancaman,1
+2024,CAKUNG,Penganiayaan,28
+2024,CAKUNG,Penganiayaan Berat ( Anirat ),12
+2024,CAKUNG,Pengeroyokan,26
+2024,CAKUNG,Pengerusakan,1
+2024,CAKUNG,Penggelapan,49
+2024,CAKUNG,Penghinaan,1
+2024,CAKUNG,Penipuan / Perbuatan Curang,58
+2024,CAKUNG,Perampasan ( Premanisme ),1
+2024,CAKUNG,Perbuatan Yang Tidak Menyenangkan,4
+2024,CAKUNG,Perzinahan,2
+2024,CAKUNG,Sumpah Palsu Dan Keterangan Palsu,4
+2024,CAKUNG,Terhadap ketertiban umum,2
+2024,CAKUNG,Tindak Pidana Dalam Perlindungan Anak,6
+2024,CAKUNG,Tindak Pidana Transfer Dana,1
+2024,CAKUNG,UNCLASSIFIED,390
+2024,CEMPAKA PUTIH,Curanmor R-2,4
+2024,CEMPAKA PUTIH,Kejahatan Tentang Tenaga Kerja,2
+2024,CEMPAKA PUTIH,Kekerasan Dalam Rumah Tangga,5
+2024,CEMPAKA PUTIH,Kekerasan Seksual (KDRT),1
+2024,CEMPAKA PUTIH,Manipulasi data autentik secara elektronik (ITE),12
+2024,CEMPAKA PUTIH,Memasuki Pekarangan Tanpa Ijin,1
+2024,CEMPAKA PUTIH,Narkotika ( Narkoba ),12
+2024,CEMPAKA PUTIH,Pemalsuan Surat Otentik,5
+2024,CEMPAKA PUTIH,Pencemaran Nama Baik,1
+2024,CEMPAKA PUTIH,Penculikan,1
+2024,CEMPAKA PUTIH,Pencurian Biasa,18
+2024,CEMPAKA PUTIH,Pencurian Dengan Kekerasan ( Curas ),1
+2024,CEMPAKA PUTIH,Pencurian Dengan Pemberatan ( Curat ),18
+2024,CEMPAKA PUTIH,Pencurian dalam lingkungan keluarga,1
+2024,CEMPAKA PUTIH,Penganiayaan,7
+2024,CEMPAKA PUTIH,Pengeroyokan,7
+2024,CEMPAKA PUTIH,Pengerusakan,1
+2024,CEMPAKA PUTIH,Penggelapan,10
+2024,CEMPAKA PUTIH,Penipuan / Perbuatan Curang,22
+2024,CEMPAKA PUTIH,Penistaan Agama,1
+2024,CEMPAKA PUTIH,Perbuatan Yang Tidak Menyenangkan,2
+2024,CEMPAKA PUTIH,Tindak Asusila,1
+2024,CEMPAKA PUTIH,Tindak Pidana Dalam Perlindungan Anak,7
+2024,CEMPAKA PUTIH,UNCLASSIFIED,127
+2024,CENGKARENG,Curanmor R-2,2
+2024,CENGKARENG,Judi,3
+2024,CENGKARENG,Kawin halangan/kawin tanpa ijin,1
+2024,CENGKARENG,Kejahatan Tentang Tenaga Kerja,1
+2024,CENGKARENG,Kejahatan Terkait Merek,1
+2024,CENGKARENG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,CENGKARENG,Kekerasan Dalam Rumah Tangga,9
+2024,CENGKARENG,Kekerasan Seksual (KDRT),2
+2024,CENGKARENG,Manipulasi data autentik secara elektronik (ITE),13
+2024,CENGKARENG,Memasuki Pekarangan Tanpa Ijin,5
+2024,CENGKARENG,Narkotika ( Narkoba ),40
+2024,CENGKARENG,Pemalsuan Surat Otentik,3
+2024,CENGKARENG,Pemerasan,4
+2024,CENGKARENG,Pemerasan Dan Pengancaman,1
+2024,CENGKARENG,Pencemaran Nama Baik,4
+2024,CENGKARENG,Penculikan,1
+2024,CENGKARENG,Pencurian Biasa,26
+2024,CENGKARENG,Pencurian Dengan Kekerasan ( Curas ),4
+2024,CENGKARENG,Pencurian Dengan Pemberatan ( Curat ),26
+2024,CENGKARENG,Pencurian dalam lingkungan keluarga,1
+2024,CENGKARENG,Pengaduan Palsu,1
+2024,CENGKARENG,Penganiayaan,50
+2024,CENGKARENG,Penganiayaan Berat ( Anirat ),3
+2024,CENGKARENG,Pengeroyokan,15
+2024,CENGKARENG,Pengerusakan,1
+2024,CENGKARENG,Penggelapan,48
+2024,CENGKARENG,Penghinaan,1
+2024,CENGKARENG,Penipuan / Perbuatan Curang,32
+2024,CENGKARENG,Penyerobotan Tanah,2
+2024,CENGKARENG,Perbuatan Yang Tidak Menyenangkan,2
+2024,CENGKARENG,Perkosaan,1
+2024,CENGKARENG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,3
+2024,CENGKARENG,Perzinahan,1
+2024,CENGKARENG,Sumpah Palsu Dan Keterangan Palsu,1
+2024,CENGKARENG,Terhadap ketertiban umum,31
+2024,CENGKARENG,Tindak Pidana Dalam Perlindungan Anak,4
+2024,CENGKARENG,Tindak Pidana Transfer Dana,1
+2024,CENGKARENG,UNCLASSIFIED,259
+2024,CILANDAK,Curanmor R-2,3
+2024,CILANDAK,Judi,1
+2024,CILANDAK,Kejahatan Tentang Jaminan Fidusia,5
+2024,CILANDAK,Kejahatan Terkait Perlindungan Data Pribadi,3
+2024,CILANDAK,Kejahatan terkait Tenaga Kesehatan,1
+2024,CILANDAK,Kekerasan Dalam Rumah Tangga,9
+2024,CILANDAK,Kekerasan Seksual (KDRT),6
+2024,CILANDAK,Manipulasi data autentik secara elektronik (ITE),33
+2024,CILANDAK,Memasuki Pekarangan Tanpa Ijin,1
+2024,CILANDAK,Narkotika ( Narkoba ),18
+2024,CILANDAK,Pemalsuan Surat Otentik,1
+2024,CILANDAK,Pemerasan,2
+2024,CILANDAK,Pemerasan Dan Pengancaman,1
+2024,CILANDAK,Pencemaran Nama Baik,4
+2024,CILANDAK,Pencurian Biasa,21
+2024,CILANDAK,Pencurian Dengan Kekerasan ( Curas ),1
+2024,CILANDAK,Pencurian Dengan Pemberatan ( Curat ),12
+2024,CILANDAK,Pengancaman,1
+2024,CILANDAK,Penganiayaan,16
+2024,CILANDAK,Penganiayaan Berat ( Anirat ),1
+2024,CILANDAK,Pengeroyokan,8
+2024,CILANDAK,Penggelapan,40
+2024,CILANDAK,Penghinaan,1
+2024,CILANDAK,Penipuan / Perbuatan Curang,51
+2024,CILANDAK,Penistaan Agama,1
+2024,CILANDAK,Perbankan,1
+2024,CILANDAK,Perbuatan Yang Tidak Menyenangkan,1
+2024,CILANDAK,Percobaan Pencurian,2
+2024,CILANDAK,Perkosaan,1
+2024,CILANDAK,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2024,CILANDAK,Perzinahan,3
+2024,CILANDAK,Tindak Pidana Dalam Perlindungan Anak,4
+2024,CILANDAK,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2024,CILANDAK,UNCLASSIFIED,263
+2024,CILINCING,Cabul,2
+2024,CILINCING,Curanmor R-2,1
+2024,CILINCING,Judi,2
+2024,CILINCING,Kejahatan Tentang Jaminan Fidusia,1
+2024,CILINCING,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,CILINCING,Kekerasan Dalam Rumah Tangga,18
+2024,CILINCING,Kekerasan Seksual (KDRT),1
+2024,CILINCING,Manipulasi data autentik secara elektronik (ITE),5
+2024,CILINCING,Mucikari ( Pelacuran ),2
+2024,CILINCING,Narkotika ( Narkoba ),17
+2024,CILINCING,Pemalsuan Surat Otentik,3
+2024,CILINCING,Pembunuhan,2
+2024,CILINCING,Pemerasan Dan Pengancaman,1
+2024,CILINCING,Penadahan,1
+2024,CILINCING,Pencemaran Nama Baik,2
+2024,CILINCING,Pencurian Biasa,5
+2024,CILINCING,Pencurian Dengan Pemberatan ( Curat ),13
+2024,CILINCING,Penganiayaan,23
+2024,CILINCING,Penganiayaan Berat ( Anirat ),2
+2024,CILINCING,Pengeroyokan,8
+2024,CILINCING,Penggelapan,24
+2024,CILINCING,Penipuan / Perbuatan Curang,20
+2024,CILINCING,Penyekapan,1
+2024,CILINCING,Penyerobotan Tanah,5
+2024,CILINCING,Perbuatan Yang Tidak Menyenangkan,2
+2024,CILINCING,Percobaan Pencurian,1
+2024,CILINCING,Perkosaan,1
+2024,CILINCING,Perzinahan,1
+2024,CILINCING,Sumpah Palsu Dan Keterangan Palsu,1
+2024,CILINCING,Tindak Pidana Dalam Perlindungan Anak,6
+2024,CILINCING,UNCLASSIFIED,113
+2024,CIPAYUNG,Curanmor R-2,1
+2024,CIPAYUNG,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2024,CIPAYUNG,Kekerasan Dalam Rumah Tangga,6
+2024,CIPAYUNG,Kekerasan Seksual (KDRT),1
+2024,CIPAYUNG,Manipulasi data autentik secara elektronik (ITE),41
+2024,CIPAYUNG,Memasuki Pekarangan Tanpa Ijin,11
+2024,CIPAYUNG,Menempatkan anaknya untuk ditemukan atau meninggalkannya dengan maksud untuk melepaskan diri dari padanya,1
+2024,CIPAYUNG,Narkotika ( Narkoba ),5
+2024,CIPAYUNG,Pemerasan,1
+2024,CIPAYUNG,Pencurian Biasa,19
+2024,CIPAYUNG,Pencurian Dengan Kekerasan ( Curas ),5
+2024,CIPAYUNG,Pencurian Dengan Pemberatan ( Curat ),10
+2024,CIPAYUNG,Penganiayaan,11
+2024,CIPAYUNG,Pengeroyokan,5
+2024,CIPAYUNG,Pengerusakan,1
+2024,CIPAYUNG,Penggelapan,15
+2024,CIPAYUNG,Penipuan / Perbuatan Curang,28
+2024,CIPAYUNG,Penyerobotan Tanah,2
+2024,CIPAYUNG,Perbankan,1
+2024,CIPAYUNG,Perbuatan Yang Tidak Menyenangkan,2
+2024,CIPAYUNG,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2024,CIPAYUNG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2024,CIPAYUNG,Perzinahan,1
+2024,CIPAYUNG,Sumpah Palsu Dan Keterangan Palsu,1
+2024,CIPAYUNG,Tindak Pidana Dalam Perlindungan Anak,4
+2024,CIPAYUNG,UNCLASSIFIED,139
+2024,CIRACAS,Cabul,2
+2024,CIRACAS,Curanmor R-2,1
+2024,CIRACAS,Kejahatan Tentang Jaminan Fidusia,2
+2024,CIRACAS,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2024,CIRACAS,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,CIRACAS,Kekerasan Dalam Rumah Tangga,9
+2024,CIRACAS,Manipulasi data autentik secara elektronik (ITE),41
+2024,CIRACAS,Memasuki Pekarangan Tanpa Ijin,2
+2024,CIRACAS,Narkotika ( Narkoba ),11
+2024,CIRACAS,Pemalsuan Surat Otentik,4
+2024,CIRACAS,Pembunuhan,1
+2024,CIRACAS,Pemerasan,3
+2024,CIRACAS,Pencemaran Nama Baik,4
+2024,CIRACAS,Pencurian Biasa,28
+2024,CIRACAS,Pencurian Dengan Kekerasan ( Curas ),1
+2024,CIRACAS,Pencurian Dengan Pemberatan ( Curat ),14
+2024,CIRACAS,Penganiayaan,20
+2024,CIRACAS,Penganiayaan Berat ( Anirat ),3
+2024,CIRACAS,Pengeroyokan,8
+2024,CIRACAS,Penggelapan,11
+2024,CIRACAS,Penghinaan,1
+2024,CIRACAS,Penipuan / Perbuatan Curang,22
+2024,CIRACAS,Penyerobotan Tanah,1
+2024,CIRACAS,Perbuatan Yang Tidak Menyenangkan,1
+2024,CIRACAS,Perkosaan,1
+2024,CIRACAS,Perzinahan,1
+2024,CIRACAS,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2024,CIRACAS,Sumpah Palsu Dan Keterangan Palsu,1
+2024,CIRACAS,Tindak Pidana Dalam Perlindungan Anak,5
+2024,CIRACAS,UNCLASSIFIED,165
+2024,DUREN SAWIT,Curanmor R-2,5
+2024,DUREN SAWIT,Kejahatan Tentang Jaminan Fidusia,3
+2024,DUREN SAWIT,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,DUREN SAWIT,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,DUREN SAWIT,Kekerasan Dalam Rumah Tangga,11
+2024,DUREN SAWIT,Manipulasi data autentik secara elektronik (ITE),50
+2024,DUREN SAWIT,Memasuki Pekarangan Tanpa Ijin,6
+2024,DUREN SAWIT,Menempatkan anaknya untuk ditemukan atau meninggalkannya dengan maksud untuk melepaskan diri dari padanya,1
+2024,DUREN SAWIT,Narkotika ( Narkoba ),6
+2024,DUREN SAWIT,Pemalsuan Surat Otentik,3
+2024,DUREN SAWIT,Pemerasan,1
+2024,DUREN SAWIT,Pemerasan Dan Pengancaman,2
+2024,DUREN SAWIT,Pencurian Biasa,28
+2024,DUREN SAWIT,Pencurian Dengan Kekerasan ( Curas ),2
+2024,DUREN SAWIT,Pencurian Dengan Pemberatan ( Curat ),27
+2024,DUREN SAWIT,Pencurian dalam lingkungan keluarga,1
+2024,DUREN SAWIT,Pengancaman,1
+2024,DUREN SAWIT,Penganiayaan,26
+2024,DUREN SAWIT,Penganiayaan Berat ( Anirat ),3
+2024,DUREN SAWIT,Pengeroyokan,14
+2024,DUREN SAWIT,Pengerusakan,1
+2024,DUREN SAWIT,Penggelapan,12
+2024,DUREN SAWIT,Penipuan / Perbuatan Curang,37
+2024,DUREN SAWIT,Penyekapan,1
+2024,DUREN SAWIT,Penyerobotan Tanah,2
+2024,DUREN SAWIT,Perampasan ( Premanisme ),2
+2024,DUREN SAWIT,Perbuatan Yang Tidak Menyenangkan,4
+2024,DUREN SAWIT,Perzinahan,1
+2024,DUREN SAWIT,Sumpah Palsu Dan Keterangan Palsu,1
+2024,DUREN SAWIT,Tindak Pidana Dalam Perlindungan Anak,3
+2024,DUREN SAWIT,UNCLASSIFIED,241
+2024,GAMBIR,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,2
+2024,GAMBIR,Kejahatan Tentang Jaminan Fidusia,1
+2024,GAMBIR,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2024,GAMBIR,Kejahatan Terkait Merek,1
+2024,GAMBIR,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,GAMBIR,Kekerasan Dalam Rumah Tangga,3
+2024,GAMBIR,Kekerasan Seksual (KDRT),1
+2024,GAMBIR,Manipulasi data autentik secara elektronik (ITE),13
+2024,GAMBIR,Narkotika ( Narkoba ),8
+2024,GAMBIR,Pemalsuan Surat Otentik,6
+2024,GAMBIR,Penadahan,1
+2024,GAMBIR,Pencemaran Nama Baik,5
+2024,GAMBIR,Pencurian Biasa,34
+2024,GAMBIR,Pencurian Dengan Pemberatan ( Curat ),13
+2024,GAMBIR,Pengancaman,1
+2024,GAMBIR,Penganiayaan,3
+2024,GAMBIR,Penganiayaan Berat ( Anirat ),1
+2024,GAMBIR,Pengeroyokan,6
+2024,GAMBIR,Pengerusakan,1
+2024,GAMBIR,Penggelapan,31
+2024,GAMBIR,Penipuan / Perbuatan Curang,40
+2024,GAMBIR,Perampasan ( Premanisme ),1
+2024,GAMBIR,Sumpah Palsu Dan Keterangan Palsu,1
+2024,GAMBIR,Terhadap ketertiban umum,6
+2024,GAMBIR,Tindak Pidana Dalam Perlindungan Anak,1
+2024,GAMBIR,Tindak Pidana Transfer Dana,1
+2024,GAMBIR,UNCLASSIFIED,131
+2024,GROGOL PETAMBURAN,Cabul,2
+2024,GROGOL PETAMBURAN,Judi,1
+2024,GROGOL PETAMBURAN,Kejahatan Tentang Jaminan Fidusia,1
+2024,GROGOL PETAMBURAN,Kejahatan Terkait Merek,2
+2024,GROGOL PETAMBURAN,Kekerasan Dalam Rumah Tangga,8
+2024,GROGOL PETAMBURAN,Kekerasan Seksual (KDRT),3
+2024,GROGOL PETAMBURAN,Manipulasi data autentik secara elektronik (ITE),21
+2024,GROGOL PETAMBURAN,Memasuki Pekarangan Tanpa Ijin,1
+2024,GROGOL PETAMBURAN,Membahayakan keamanan umum,2
+2024,GROGOL PETAMBURAN,Narkotika ( Narkoba ),14
+2024,GROGOL PETAMBURAN,Pemalsuan Surat Otentik,1
+2024,GROGOL PETAMBURAN,Pemerasan Dan Pengancaman,2
+2024,GROGOL PETAMBURAN,Pencemaran Nama Baik,4
+2024,GROGOL PETAMBURAN,Penculikan,1
+2024,GROGOL PETAMBURAN,Pencurian Biasa,27
+2024,GROGOL PETAMBURAN,Pencurian Dengan Kekerasan ( Curas ),3
+2024,GROGOL PETAMBURAN,Pencurian Dengan Pemberatan ( Curat ),26
+2024,GROGOL PETAMBURAN,Pencurian dalam lingkungan keluarga,1
+2024,GROGOL PETAMBURAN,Pengancaman,2
+2024,GROGOL PETAMBURAN,Penganiayaan,8
+2024,GROGOL PETAMBURAN,Pengeroyokan,5
+2024,GROGOL PETAMBURAN,Pengerusakan,1
+2024,GROGOL PETAMBURAN,Penggelapan,24
+2024,GROGOL PETAMBURAN,Penghinaan,1
+2024,GROGOL PETAMBURAN,Penipuan / Perbuatan Curang,23
+2024,GROGOL PETAMBURAN,Perbankan,1
+2024,GROGOL PETAMBURAN,Perbuatan Yang Tidak Menyenangkan,1
+2024,GROGOL PETAMBURAN,Percobaan Pencurian,2
+2024,GROGOL PETAMBURAN,Perkosaan,1
+2024,GROGOL PETAMBURAN,Perzinahan,2
+2024,GROGOL PETAMBURAN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2024,GROGOL PETAMBURAN,Tindak Pidana Dalam Perlindungan Anak,1
+2024,GROGOL PETAMBURAN,UNCLASSIFIED,142
+2024,JAGAKARSA,Curanmor R-2,1
+2024,JAGAKARSA,Judi,1
+2024,JAGAKARSA,Kejahatan Tentang Jaminan Fidusia,1
+2024,JAGAKARSA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,JAGAKARSA,Kekerasan Dalam Rumah Tangga,19
+2024,JAGAKARSA,Kekerasan Seksual (KDRT),2
+2024,JAGAKARSA,Manipulasi data autentik secara elektronik (ITE),28
+2024,JAGAKARSA,Memasuki Pekarangan Tanpa Ijin,3
+2024,JAGAKARSA,Narkotika ( Narkoba ),17
+2024,JAGAKARSA,Pemalsuan Surat Otentik,2
+2024,JAGAKARSA,Pemerasan,8
+2024,JAGAKARSA,Pemerasan Dan Pengancaman,1
+2024,JAGAKARSA,Pencemaran Nama Baik,2
+2024,JAGAKARSA,Pencurian Biasa,28
+2024,JAGAKARSA,Pencurian Dengan Kekerasan ( Curas ),1
+2024,JAGAKARSA,Pencurian Dengan Pemberatan ( Curat ),24
+2024,JAGAKARSA,Penganiayaan,14
+2024,JAGAKARSA,Penganiayaan Berat ( Anirat ),2
+2024,JAGAKARSA,Pengeroyokan,3
+2024,JAGAKARSA,Penggelapan,40
+2024,JAGAKARSA,Penghinaan,1
+2024,JAGAKARSA,Penipuan / Perbuatan Curang,29
+2024,JAGAKARSA,Perbankan,1
+2024,JAGAKARSA,Perbuatan Yang Tidak Menyenangkan,1
+2024,JAGAKARSA,Percobaan Pencurian,1
+2024,JAGAKARSA,Perzinahan,1
+2024,JAGAKARSA,Tindak Pidana Dalam Perlindungan Anak,5
+2024,JAGAKARSA,Tindak Pidana Transfer Dana,2
+2024,JAGAKARSA,UNCLASSIFIED,223
+2024,JATINEGARA,Curanmor R-2,13
+2024,JATINEGARA,Judi,1
+2024,JATINEGARA,Kejahatan Tentang Jaminan Fidusia,1
+2024,JATINEGARA,Kejahatan Tentang Perindustrian,1
+2024,JATINEGARA,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,JATINEGARA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,JATINEGARA,Kekerasan Dalam Rumah Tangga,10
+2024,JATINEGARA,Kekerasan Seksual (KDRT),1
+2024,JATINEGARA,Manipulasi data autentik secara elektronik (ITE),61
+2024,JATINEGARA,Memasuki Pekarangan Tanpa Ijin,2
+2024,JATINEGARA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,4
+2024,JATINEGARA,Narkotika ( Narkoba ),22
+2024,JATINEGARA,Pembunuhan,2
+2024,JATINEGARA,Pemerasan,3
+2024,JATINEGARA,Pemerasan Dan Pengancaman,3
+2024,JATINEGARA,Pencemaran Nama Baik,2
+2024,JATINEGARA,Pencurian Biasa,54
+2024,JATINEGARA,Pencurian Dengan Kekerasan ( Curas ),3
+2024,JATINEGARA,Pencurian Dengan Pemberatan ( Curat ),37
+2024,JATINEGARA,Pencurian dalam lingkungan keluarga,1
+2024,JATINEGARA,Penganiayaan,28
+2024,JATINEGARA,Penganiayaan Berat ( Anirat ),6
+2024,JATINEGARA,Pengeroyokan,24
+2024,JATINEGARA,Pengerusakan,2
+2024,JATINEGARA,Penggelapan,35
+2024,JATINEGARA,Penipuan / Perbuatan Curang,38
+2024,JATINEGARA,Perampasan ( Premanisme ),4
+2024,JATINEGARA,Perbankan,1
+2024,JATINEGARA,Perbuatan Yang Tidak Menyenangkan,3
+2024,JATINEGARA,Percobaan Pencurian,1
+2024,JATINEGARA,Perzinahan,2
+2024,JATINEGARA,Sumpah Palsu Dan Keterangan Palsu,1
+2024,JATINEGARA,Tindak Pidana Dalam Perlindungan Anak,4
+2024,JATINEGARA,UNCLASSIFIED,230
+2024,JOHAR BARU,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,2
+2024,JOHAR BARU,Kejahatan Tentang Tenaga Kerja,1
+2024,JOHAR BARU,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2024,JOHAR BARU,Kejahatan Terkait Rahasia Dagang,1
+2024,JOHAR BARU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,JOHAR BARU,Kekerasan Dalam Rumah Tangga,6
+2024,JOHAR BARU,Manipulasi data autentik secara elektronik (ITE),2
+2024,JOHAR BARU,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2024,JOHAR BARU,Narkotika ( Narkoba ),17
+2024,JOHAR BARU,Pemerasan,1
+2024,JOHAR BARU,Penadahan,1
+2024,JOHAR BARU,Pencurian Biasa,5
+2024,JOHAR BARU,Pencurian Dengan Pemberatan ( Curat ),2
+2024,JOHAR BARU,Penganiayaan,4
+2024,JOHAR BARU,Pengeroyokan,13
+2024,JOHAR BARU,Penggelapan,3
+2024,JOHAR BARU,Penipuan / Perbuatan Curang,15
+2024,JOHAR BARU,Perbuatan Yang Tidak Menyenangkan,1
+2024,JOHAR BARU,Percobaan Pencurian,1
+2024,JOHAR BARU,Tindak Pidana Dalam Perlindungan Anak,1
+2024,JOHAR BARU,UNCLASSIFIED,78
+2024,KALI DERES,Judi,3
+2024,KALI DERES,Kejahatan Tentang Jaminan Fidusia,1
+2024,KALI DERES,Kejahatan Tentang Tenaga Kerja,1
+2024,KALI DERES,Kejahatan Terkait Merek,1
+2024,KALI DERES,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,KALI DERES,Kekerasan Dalam Rumah Tangga,3
+2024,KALI DERES,Kekerasan Seksual (KDRT),1
+2024,KALI DERES,Manipulasi data autentik secara elektronik (ITE),1
+2024,KALI DERES,Memasuki Pekarangan Tanpa Ijin,5
+2024,KALI DERES,Narkotika ( Narkoba ),13
+2024,KALI DERES,Pemalsuan Surat Otentik,2
+2024,KALI DERES,Pemerasan,1
+2024,KALI DERES,Pencemaran Nama Baik,2
+2024,KALI DERES,Pencurian Biasa,23
+2024,KALI DERES,Pencurian Dengan Kekerasan ( Curas ),4
+2024,KALI DERES,Pencurian Dengan Pemberatan ( Curat ),7
+2024,KALI DERES,Penganiayaan,27
+2024,KALI DERES,Penganiayaan Berat ( Anirat ),1
+2024,KALI DERES,Pengeroyokan,9
+2024,KALI DERES,Pengerusakan,2
+2024,KALI DERES,Penggelapan,46
+2024,KALI DERES,Penipuan / Perbuatan Curang,19
+2024,KALI DERES,Perbuatan Yang Tidak Menyenangkan,5
+2024,KALI DERES,Percobaan Pencurian,1
+2024,KALI DERES,Perlindungan Konsumen,1
+2024,KALI DERES,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2024,KALI DERES,Perzinahan,1
+2024,KALI DERES,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2024,KALI DERES,Terhadap ketertiban umum,2
+2024,KALI DERES,Tindak Pidana Dalam Perlindungan Anak,4
+2024,KALI DERES,UNCLASSIFIED,89
+2024,KEBAYORAN BARU,Curanmor R-2,10
+2024,KEBAYORAN BARU,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2024,KEBAYORAN BARU,Judi,9
+2024,KEBAYORAN BARU,Kawin halangan/kawin tanpa ijin,1
+2024,KEBAYORAN BARU,Kejahatan Tentang Jaminan Fidusia,3
+2024,KEBAYORAN BARU,Kejahatan Terkait Perlindungan Data Pribadi,5
+2024,KEBAYORAN BARU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,KEBAYORAN BARU,Kekerasan Dalam Rumah Tangga,7
+2024,KEBAYORAN BARU,Kekerasan Seksual (KDRT),5
+2024,KEBAYORAN BARU,Korupsi ( Tipikor ),4
+2024,KEBAYORAN BARU,Manipulasi data autentik secara elektronik (ITE),82
+2024,KEBAYORAN BARU,Memasuki Pekarangan Tanpa Ijin,6
+2024,KEBAYORAN BARU,Narkotika ( Narkoba ),29
+2024,KEBAYORAN BARU,Pemalsuan Surat Otentik,5
+2024,KEBAYORAN BARU,Pembunuhan,1
+2024,KEBAYORAN BARU,Pemerasan,2
+2024,KEBAYORAN BARU,Penadahan,1
+2024,KEBAYORAN BARU,Pencemaran Nama Baik,8
+2024,KEBAYORAN BARU,Penculikan,1
+2024,KEBAYORAN BARU,Pencurian Biasa,93
+2024,KEBAYORAN BARU,Pencurian Dengan Kekerasan ( Curas ),2
+2024,KEBAYORAN BARU,Pencurian Dengan Pemberatan ( Curat ),49
+2024,KEBAYORAN BARU,Pengaduan Palsu,2
+2024,KEBAYORAN BARU,Pengancaman,4
+2024,KEBAYORAN BARU,Penganiayaan,42
+2024,KEBAYORAN BARU,Penganiayaan Berat ( Anirat ),5
+2024,KEBAYORAN BARU,Pengeroyokan,15
+2024,KEBAYORAN BARU,Pengerusakan,2
+2024,KEBAYORAN BARU,Penggelapan,66
+2024,KEBAYORAN BARU,Penipuan / Perbuatan Curang,85
+2024,KEBAYORAN BARU,Penistaan Agama,1
+2024,KEBAYORAN BARU,Penyalahgunaan Wewenang,1
+2024,KEBAYORAN BARU,Perampasan ( Premanisme ),2
+2024,KEBAYORAN BARU,Perbankan,2
+2024,KEBAYORAN BARU,Perbuatan Yang Tidak Menyenangkan,6
+2024,KEBAYORAN BARU,Percobaan Pencurian,1
+2024,KEBAYORAN BARU,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2024,KEBAYORAN BARU,Perkosaan,1
+2024,KEBAYORAN BARU,Perlindungan Konsumen,1
+2024,KEBAYORAN BARU,Perzinahan,1
+2024,KEBAYORAN BARU,Tindak Pidana Dalam Perlindungan Anak,5
+2024,KEBAYORAN BARU,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2024,KEBAYORAN BARU,Tindak Pidana Transfer Dana,1
+2024,KEBAYORAN BARU,UNCLASSIFIED,471
+2024,KEBAYORAN LAMA,Aborsi,1
+2024,KEBAYORAN LAMA,Curanmor R-2,5
+2024,KEBAYORAN LAMA,Kawin halangan/kawin tanpa ijin,1
+2024,KEBAYORAN LAMA,Kejahatan Tentang Jaminan Fidusia,2
+2024,KEBAYORAN LAMA,Kejahatan Terkait Perlindungan Data Pribadi,2
+2024,KEBAYORAN LAMA,Kekerasan Dalam Rumah Tangga,8
+2024,KEBAYORAN LAMA,Kekerasan Seksual (KDRT),3
+2024,KEBAYORAN LAMA,Manipulasi data autentik secara elektronik (ITE),37
+2024,KEBAYORAN LAMA,Memasuki Pekarangan Tanpa Ijin,3
+2024,KEBAYORAN LAMA,Narkotika ( Narkoba ),11
+2024,KEBAYORAN LAMA,Pemalsuan Surat Otentik,4
+2024,KEBAYORAN LAMA,Pemerasan,3
+2024,KEBAYORAN LAMA,Pemerasan Dan Pengancaman,1
+2024,KEBAYORAN LAMA,Penadahan,1
+2024,KEBAYORAN LAMA,Pencemaran Nama Baik,2
+2024,KEBAYORAN LAMA,Pencurian Biasa,37
+2024,KEBAYORAN LAMA,Pencurian Dengan Kekerasan ( Curas ),2
+2024,KEBAYORAN LAMA,Pencurian Dengan Pemberatan ( Curat ),6
+2024,KEBAYORAN LAMA,Penganiayaan,25
+2024,KEBAYORAN LAMA,Penganiayaan Berat ( Anirat ),3
+2024,KEBAYORAN LAMA,Pengeroyokan,12
+2024,KEBAYORAN LAMA,Penggelapan,35
+2024,KEBAYORAN LAMA,Penipuan / Perbuatan Curang,43
+2024,KEBAYORAN LAMA,Penyerobotan Tanah,2
+2024,KEBAYORAN LAMA,Perampasan ( Premanisme ),4
+2024,KEBAYORAN LAMA,Perbankan,1
+2024,KEBAYORAN LAMA,Perbuatan Yang Tidak Menyenangkan,2
+2024,KEBAYORAN LAMA,Percobaan Pencurian,1
+2024,KEBAYORAN LAMA,Perkosaan,1
+2024,KEBAYORAN LAMA,Tindak Pidana Dalam Perlindungan Anak,6
+2024,KEBAYORAN LAMA,UNCLASSIFIED,233
+2024,KEBON JERUK,Cukai,1
+2024,KEBON JERUK,Curanmor R-2,2
+2024,KEBON JERUK,Judi,1
+2024,KEBON JERUK,Kejahatan Pasar Modal,1
+2024,KEBON JERUK,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,KEBON JERUK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,KEBON JERUK,Kekerasan Dalam Rumah Tangga,8
+2024,KEBON JERUK,Manipulasi data autentik secara elektronik (ITE),8
+2024,KEBON JERUK,Memasuki Pekarangan Tanpa Ijin,3
+2024,KEBON JERUK,Narkotika ( Narkoba ),19
+2024,KEBON JERUK,Pemalsuan Surat Otentik,1
+2024,KEBON JERUK,Pemerasan,1
+2024,KEBON JERUK,Pencemaran Nama Baik,1
+2024,KEBON JERUK,Pencurian Biasa,22
+2024,KEBON JERUK,Pencurian Dengan Kekerasan ( Curas ),1
+2024,KEBON JERUK,Pencurian Dengan Pemberatan ( Curat ),19
+2024,KEBON JERUK,Pengaduan Palsu,1
+2024,KEBON JERUK,Pengancaman,3
+2024,KEBON JERUK,Penganiayaan,23
+2024,KEBON JERUK,Penganiayaan Berat ( Anirat ),2
+2024,KEBON JERUK,Pengeroyokan,9
+2024,KEBON JERUK,Pengerusakan,2
+2024,KEBON JERUK,Penggelapan,40
+2024,KEBON JERUK,Penghinaan,1
+2024,KEBON JERUK,Penipuan / Perbuatan Curang,22
+2024,KEBON JERUK,Penyekapan,1
+2024,KEBON JERUK,Perbuatan Yang Tidak Menyenangkan,1
+2024,KEBON JERUK,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2024,KEBON JERUK,Perzinahan,1
+2024,KEBON JERUK,Tindak Pidana Dalam Perlindungan Anak,2
+2024,KEBON JERUK,UNCLASSIFIED,130
+2024,KELAPA GADING,Curanmor R-2,1
+2024,KELAPA GADING,Kejahatan Tentang Jaminan Fidusia,5
+2024,KELAPA GADING,Kejahatan Tentang Tenaga Kerja,1
+2024,KELAPA GADING,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,KELAPA GADING,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,KELAPA GADING,Kekerasan Dalam Rumah Tangga,12
+2024,KELAPA GADING,Kekerasan Seksual (KDRT),2
+2024,KELAPA GADING,Manipulasi data autentik secara elektronik (ITE),16
+2024,KELAPA GADING,Memasuki Pekarangan Tanpa Ijin,1
+2024,KELAPA GADING,Narkotika ( Narkoba ),3
+2024,KELAPA GADING,Pemalsuan Surat Otentik,3
+2024,KELAPA GADING,Pembunuhan,1
+2024,KELAPA GADING,Pemerasan,1
+2024,KELAPA GADING,Pemerasan Dan Pengancaman,4
+2024,KELAPA GADING,Pencemaran Nama Baik,1
+2024,KELAPA GADING,Penculikan,1
+2024,KELAPA GADING,Pencurian Biasa,26
+2024,KELAPA GADING,Pencurian Dengan Pemberatan ( Curat ),12
+2024,KELAPA GADING,Pencurian dalam lingkungan keluarga,2
+2024,KELAPA GADING,Pengaduan Palsu,1
+2024,KELAPA GADING,Pengancaman,1
+2024,KELAPA GADING,Penganiayaan,12
+2024,KELAPA GADING,Penganiayaan Berat ( Anirat ),1
+2024,KELAPA GADING,Pengeroyokan,2
+2024,KELAPA GADING,Pengerusakan,2
+2024,KELAPA GADING,Penggelapan,35
+2024,KELAPA GADING,Penipuan / Perbuatan Curang,24
+2024,KELAPA GADING,Penyekapan,1
+2024,KELAPA GADING,Penyerobotan Tanah,3
+2024,KELAPA GADING,Perbuatan Yang Tidak Menyenangkan,1
+2024,KELAPA GADING,Perlindungan Konsumen,1
+2024,KELAPA GADING,Tindak Pidana Dalam Perlindungan Anak,4
+2024,KELAPA GADING,Tindak Pidana Transfer Dana,1
+2024,KELAPA GADING,UNCLASSIFIED,122
+2024,KEMAYORAN,Curanmor R-2,46
+2024,KEMAYORAN,Kejahatan Tentang Jaminan Fidusia,2
+2024,KEMAYORAN,Kekerasan Dalam Rumah Tangga,7
+2024,KEMAYORAN,Kekerasan Seksual (KDRT),2
+2024,KEMAYORAN,Manipulasi data autentik secara elektronik (ITE),23
+2024,KEMAYORAN,Memasuki Pekarangan Tanpa Ijin,4
+2024,KEMAYORAN,Mengakibatkan Orang Luka,1
+2024,KEMAYORAN,Narkotika ( Narkoba ),21
+2024,KEMAYORAN,Pemalsuan Surat Otentik,5
+2024,KEMAYORAN,Pemerasan,1
+2024,KEMAYORAN,Pemerasan Dan Pengancaman,4
+2024,KEMAYORAN,Pencemaran Nama Baik,3
+2024,KEMAYORAN,Pencurian Biasa,112
+2024,KEMAYORAN,Pencurian Dengan Kekerasan ( Curas ),1
+2024,KEMAYORAN,Pencurian Dengan Pemberatan ( Curat ),77
+2024,KEMAYORAN,Pengaduan Palsu,1
+2024,KEMAYORAN,Pengancaman,1
+2024,KEMAYORAN,Penganiayaan,26
+2024,KEMAYORAN,Penganiayaan Berat ( Anirat ),2
+2024,KEMAYORAN,Pengeroyokan,14
+2024,KEMAYORAN,Pengerusakan,3
+2024,KEMAYORAN,Penggelapan,46
+2024,KEMAYORAN,Penghinaan,2
+2024,KEMAYORAN,Penipuan / Perbuatan Curang,93
+2024,KEMAYORAN,Penyerobotan Tanah,2
+2024,KEMAYORAN,Perbuatan Yang Tidak Menyenangkan,2
+2024,KEMAYORAN,Percobaan Pencurian,4
+2024,KEMAYORAN,Perkosaan,1
+2024,KEMAYORAN,Sumpah Palsu Dan Keterangan Palsu,3
+2024,KEMAYORAN,Tindak Pidana Dalam Perlindungan Anak,8
+2024,KEMAYORAN,Tindak Pidana Transfer Dana,2
+2024,KEMAYORAN,UNCLASSIFIED,410
+2024,KEMBANGAN,Cabul,1
+2024,KEMBANGAN,Judi,2
+2024,KEMBANGAN,Kejahatan Tentang Perindustrian,1
+2024,KEMBANGAN,Kejahatan Tentang Tenaga Kerja,1
+2024,KEMBANGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,KEMBANGAN,Kekerasan Dalam Rumah Tangga,9
+2024,KEMBANGAN,Manipulasi data autentik secara elektronik (ITE),13
+2024,KEMBANGAN,Memasuki Pekarangan Tanpa Ijin,1
+2024,KEMBANGAN,Narkotika ( Narkoba ),6
+2024,KEMBANGAN,Pemalsuan Surat Otentik,3
+2024,KEMBANGAN,Pemerasan,1
+2024,KEMBANGAN,Pencemaran Nama Baik,3
+2024,KEMBANGAN,Penculikan,2
+2024,KEMBANGAN,Pencurian Biasa,12
+2024,KEMBANGAN,Pencurian Dengan Kekerasan ( Curas ),1
+2024,KEMBANGAN,Pencurian Dengan Pemberatan ( Curat ),12
+2024,KEMBANGAN,Pengancaman,2
+2024,KEMBANGAN,Penganiayaan,11
+2024,KEMBANGAN,Penganiayaan Berat ( Anirat ),4
+2024,KEMBANGAN,Pengeroyokan,4
+2024,KEMBANGAN,Pengerusakan,3
+2024,KEMBANGAN,Penggelapan,30
+2024,KEMBANGAN,Penipuan / Perbuatan Curang,13
+2024,KEMBANGAN,Penyerobotan Tanah,1
+2024,KEMBANGAN,Perbankan,2
+2024,KEMBANGAN,Perbuatan Yang Tidak Menyenangkan,3
+2024,KEMBANGAN,Sumpah Palsu Dan Keterangan Palsu,1
+2024,KEMBANGAN,Terhadap ketertiban umum,1
+2024,KEMBANGAN,Tindak Pidana Dalam Perlindungan Anak,4
+2024,KEMBANGAN,UNCLASSIFIED,111
+2024,KEPULAUAN SERIBU SELATAN,Kekerasan Seksual (KDRT),1
+2024,KEPULAUAN SERIBU SELATAN,Narkotika ( Narkoba ),1
+2024,KEPULAUAN SERIBU SELATAN,Pencurian Biasa,1
+2024,KEPULAUAN SERIBU SELATAN,Penganiayaan,1
+2024,KEPULAUAN SERIBU SELATAN,Penipuan / Perbuatan Curang,1
+2024,KEPULAUAN SERIBU SELATAN,UNCLASSIFIED,5
+2024,KEPULAUAN SERIBU UTARA,Manipulasi data autentik secara elektronik (ITE),1
+2024,KEPULAUAN SERIBU UTARA,Narkotika ( Narkoba ),4
+2024,KEPULAUAN SERIBU UTARA,Penggelapan,1
+2024,KEPULAUAN SERIBU UTARA,Penipuan / Perbuatan Curang,1
+2024,KEPULAUAN SERIBU UTARA,Perkosaan,1
+2024,KEPULAUAN SERIBU UTARA,UNCLASSIFIED,4
+2024,KOJA,Cabul,2
+2024,KOJA,Curanmor R-2,1
+2024,KOJA,Judi,5
+2024,KOJA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),8
+2024,KOJA,Kekerasan Dalam Rumah Tangga,26
+2024,KOJA,Kekerasan Seksual (KDRT),1
+2024,KOJA,Manipulasi data autentik secara elektronik (ITE),5
+2024,KOJA,Narkotika ( Narkoba ),16
+2024,KOJA,Pemalsuan Surat Otentik,4
+2024,KOJA,Pemerasan,1
+2024,KOJA,Pemerasan Dan Pengancaman,1
+2024,KOJA,Penadahan,1
+2024,KOJA,Pencemaran Nama Baik,1
+2024,KOJA,Pencurian Biasa,19
+2024,KOJA,Pencurian Dengan Kekerasan ( Curas ),1
+2024,KOJA,Pencurian Dengan Pemberatan ( Curat ),19
+2024,KOJA,Penganiayaan,13
+2024,KOJA,Penganiayaan Berat ( Anirat ),5
+2024,KOJA,Pengeroyokan,6
+2024,KOJA,Penggelapan,15
+2024,KOJA,Penghinaan,1
+2024,KOJA,Penipuan / Perbuatan Curang,13
+2024,KOJA,Penyerobotan Tanah,1
+2024,KOJA,Perbuatan Yang Tidak Menyenangkan,2
+2024,KOJA,Percobaan Pencurian,2
+2024,KOJA,Perzinahan,1
+2024,KOJA,Sumpah Palsu Dan Keterangan Palsu,1
+2024,KOJA,Tindak Asusila,1
+2024,KOJA,Tindak Pidana Dalam Perlindungan Anak,7
+2024,KOJA,UNCLASSIFIED,110
+2024,KRAMAT JATI,Cabul,1
+2024,KRAMAT JATI,Curanmor R-2,7
+2024,KRAMAT JATI,Judi,2
+2024,KRAMAT JATI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,KRAMAT JATI,Kekerasan Dalam Rumah Tangga,11
+2024,KRAMAT JATI,Manipulasi data autentik secara elektronik (ITE),48
+2024,KRAMAT JATI,Memasuki Pekarangan Tanpa Ijin,3
+2024,KRAMAT JATI,Mengakibatkan Orang Luka,1
+2024,KRAMAT JATI,Narkotika ( Narkoba ),21
+2024,KRAMAT JATI,Pemalsuan Surat Otentik,1
+2024,KRAMAT JATI,Pembunuhan,1
+2024,KRAMAT JATI,Pemerasan,4
+2024,KRAMAT JATI,Pemerasan Dan Pengancaman,2
+2024,KRAMAT JATI,Pencemaran Nama Baik,2
+2024,KRAMAT JATI,Pencurian Biasa,38
+2024,KRAMAT JATI,Pencurian Dengan Pemberatan ( Curat ),12
+2024,KRAMAT JATI,Pengancaman,1
+2024,KRAMAT JATI,Penganiayaan,25
+2024,KRAMAT JATI,Penganiayaan Berat ( Anirat ),1
+2024,KRAMAT JATI,Pengeroyokan,10
+2024,KRAMAT JATI,Penggelapan,10
+2024,KRAMAT JATI,Penghinaan,1
+2024,KRAMAT JATI,Penipuan / Perbuatan Curang,23
+2024,KRAMAT JATI,Penyerobotan Tanah,1
+2024,KRAMAT JATI,Perbuatan Yang Tidak Menyenangkan,7
+2024,KRAMAT JATI,Percobaan Pencurian,5
+2024,KRAMAT JATI,Perzinahan,1
+2024,KRAMAT JATI,Tindak Pidana Dalam Perlindungan Anak,5
+2024,KRAMAT JATI,UNCLASSIFIED,189
+2024,MAKASAR,Curanmor R-2,23
+2024,MAKASAR,Judi,1
+2024,MAKASAR,Kejahatan Tentang Jaminan Fidusia,1
+2024,MAKASAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,MAKASAR,Kejahatan terkait Pemilihan Umum,1
+2024,MAKASAR,Kekerasan Dalam Rumah Tangga,5
+2024,MAKASAR,Manipulasi data autentik secara elektronik (ITE),25
+2024,MAKASAR,Narkotika ( Narkoba ),10
+2024,MAKASAR,Pemalsuan Surat Otentik,1
+2024,MAKASAR,Pemerasan,4
+2024,MAKASAR,Pemerasan Dan Pengancaman,3
+2024,MAKASAR,Pencurian Biasa,20
+2024,MAKASAR,Pencurian Dengan Pemberatan ( Curat ),24
+2024,MAKASAR,Pengaduan Palsu,1
+2024,MAKASAR,Penganiayaan,12
+2024,MAKASAR,Penganiayaan Berat ( Anirat ),1
+2024,MAKASAR,Pengeroyokan,8
+2024,MAKASAR,Pengerusakan,2
+2024,MAKASAR,Penggelapan,12
+2024,MAKASAR,Penghinaan,1
+2024,MAKASAR,Penipuan / Perbuatan Curang,23
+2024,MAKASAR,Perampasan ( Premanisme ),1
+2024,MAKASAR,Sumpah Palsu Dan Keterangan Palsu,1
+2024,MAKASAR,Tindak Pidana Dalam Perlindungan Anak,5
+2024,MAKASAR,Tindak Pidana Transfer Dana,1
+2024,MAKASAR,UNCLASSIFIED,230
+2024,MAMPANG PRAPATAN,Cabul,2
+2024,MAMPANG PRAPATAN,Curanmor R-2,5
+2024,MAMPANG PRAPATAN,Kejahatan Tentang Jaminan Fidusia,1
+2024,MAMPANG PRAPATAN,Kejahatan Tentang Penghapusan Diskriminasi Ras Dan Etnis,1
+2024,MAMPANG PRAPATAN,Kejahatan Terkait Pangan,1
+2024,MAMPANG PRAPATAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,MAMPANG PRAPATAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,MAMPANG PRAPATAN,Kekerasan Dalam Rumah Tangga,9
+2024,MAMPANG PRAPATAN,Kekerasan Seksual (KDRT),2
+2024,MAMPANG PRAPATAN,Manipulasi data autentik secara elektronik (ITE),29
+2024,MAMPANG PRAPATAN,Memasuki Pekarangan Tanpa Ijin,8
+2024,MAMPANG PRAPATAN,Mengakibatkan Orang Luka,1
+2024,MAMPANG PRAPATAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2024,MAMPANG PRAPATAN,Narkotika ( Narkoba ),24
+2024,MAMPANG PRAPATAN,Pencemaran Nama Baik,2
+2024,MAMPANG PRAPATAN,Pencurian Biasa,59
+2024,MAMPANG PRAPATAN,Pencurian Dengan Kekerasan ( Curas ),2
+2024,MAMPANG PRAPATAN,Pencurian Dengan Pemberatan ( Curat ),7
+2024,MAMPANG PRAPATAN,Pencurian dalam lingkungan keluarga,1
+2024,MAMPANG PRAPATAN,Pengancaman,1
+2024,MAMPANG PRAPATAN,Penganiayaan,20
+2024,MAMPANG PRAPATAN,Penganiayaan Berat ( Anirat ),2
+2024,MAMPANG PRAPATAN,Pengeroyokan,25
+2024,MAMPANG PRAPATAN,Pengerusakan,2
+2024,MAMPANG PRAPATAN,Penggelapan,28
+2024,MAMPANG PRAPATAN,Penipuan / Perbuatan Curang,24
+2024,MAMPANG PRAPATAN,Perbuatan Yang Tidak Menyenangkan,2
+2024,MAMPANG PRAPATAN,Perzinahan,1
+2024,MAMPANG PRAPATAN,Psikotropika ( Narkoba ),1
+2024,MAMPANG PRAPATAN,Tindak Asusila,1
+2024,MAMPANG PRAPATAN,Tindak Pidana Dalam Perlindungan Anak,2
+2024,MAMPANG PRAPATAN,Tindak Pidana Transfer Dana,1
+2024,MAMPANG PRAPATAN,UNCLASSIFIED,226
+2024,MATRAMAN,Curanmor R-2,23
+2024,MATRAMAN,Kekerasan Dalam Rumah Tangga,4
+2024,MATRAMAN,Manipulasi data autentik secara elektronik (ITE),31
+2024,MATRAMAN,Narkotika ( Narkoba ),8
+2024,MATRAMAN,Pemalsuan Mata Uang Dan Uang Kertas,1
+2024,MATRAMAN,Pemerasan,1
+2024,MATRAMAN,Pemerasan Dan Pengancaman,1
+2024,MATRAMAN,Pencemaran Nama Baik,1
+2024,MATRAMAN,Pencurian Biasa,27
+2024,MATRAMAN,Pencurian Dengan Kekerasan ( Curas ),1
+2024,MATRAMAN,Pencurian Dengan Pemberatan ( Curat ),51
+2024,MATRAMAN,Penganiayaan,15
+2024,MATRAMAN,Penganiayaan Berat ( Anirat ),1
+2024,MATRAMAN,Pengeroyokan,8
+2024,MATRAMAN,Pengerusakan,1
+2024,MATRAMAN,Penggelapan,6
+2024,MATRAMAN,Penipuan / Perbuatan Curang,26
+2024,MATRAMAN,Perbuatan Yang Tidak Menyenangkan,2
+2024,MATRAMAN,Percobaan Pencurian,2
+2024,MATRAMAN,Perzinahan,1
+2024,MATRAMAN,Tindak Pidana Dalam Perlindungan Anak,1
+2024,MATRAMAN,UNCLASSIFIED,161
+2024,MENTENG,Curanmor R-2,1
+2024,MENTENG,Kejahatan Tentang Jaminan Fidusia,1
+2024,MENTENG,Kekerasan Dalam Rumah Tangga,3
+2024,MENTENG,Kekerasan Seksual (KDRT),1
+2024,MENTENG,Manipulasi data autentik secara elektronik (ITE),18
+2024,MENTENG,Memasuki Pekarangan Tanpa Ijin,3
+2024,MENTENG,Narkotika ( Narkoba ),3
+2024,MENTENG,Pemalsuan Surat Otentik,2
+2024,MENTENG,Pemerasan Dan Pengancaman,2
+2024,MENTENG,Pencemaran Nama Baik,1
+2024,MENTENG,Pencurian Biasa,60
+2024,MENTENG,Pencurian Dengan Kekerasan ( Curas ),2
+2024,MENTENG,Pencurian Dengan Pemberatan ( Curat ),38
+2024,MENTENG,Pengancaman,2
+2024,MENTENG,Penganiayaan,8
+2024,MENTENG,Penganiayaan Berat ( Anirat ),2
+2024,MENTENG,Pengeroyokan,7
+2024,MENTENG,Pengerusakan,1
+2024,MENTENG,Penggelapan,26
+2024,MENTENG,Penipuan / Perbuatan Curang,59
+2024,MENTENG,Penyekapan,1
+2024,MENTENG,Perampasan ( Premanisme ),1
+2024,MENTENG,Perbankan,3
+2024,MENTENG,Perbuatan Yang Tidak Menyenangkan,1
+2024,MENTENG,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2024,MENTENG,Sumpah Palsu Dan Keterangan Palsu,1
+2024,MENTENG,Tindak Pidana Dalam Perlindungan Anak,2
+2024,MENTENG,UNCLASSIFIED,206
+2024,PADEMANGAN,Cabul,1
+2024,PADEMANGAN,Curanmor R-2,1
+2024,PADEMANGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2024,PADEMANGAN,Kejahatan Terkait Merek,1
+2024,PADEMANGAN,Kekerasan Dalam Rumah Tangga,14
+2024,PADEMANGAN,Manipulasi data autentik secara elektronik (ITE),2
+2024,PADEMANGAN,Narkotika ( Narkoba ),7
+2024,PADEMANGAN,Pemalsuan Surat Otentik,1
+2024,PADEMANGAN,Pemerasan Dan Pengancaman,1
+2024,PADEMANGAN,Pencurian Biasa,16
+2024,PADEMANGAN,Pencurian Dengan Kekerasan ( Curas ),2
+2024,PADEMANGAN,Pencurian Dengan Pemberatan ( Curat ),19
+2024,PADEMANGAN,Penganiayaan,10
+2024,PADEMANGAN,Penganiayaan Berat ( Anirat ),1
+2024,PADEMANGAN,Pengeroyokan,5
+2024,PADEMANGAN,Penggelapan,21
+2024,PADEMANGAN,Penipuan / Perbuatan Curang,11
+2024,PADEMANGAN,Perbuatan Yang Tidak Menyenangkan,3
+2024,PADEMANGAN,Percobaan Pencurian,2
+2024,PADEMANGAN,Perzinahan,1
+2024,PADEMANGAN,Terhadap ketertiban umum,2
+2024,PADEMANGAN,Tindak Pidana Dalam Perlindungan Anak,6
+2024,PADEMANGAN,UNCLASSIFIED,75
+2024,PALMERAH,Curanmor R-2,2
+2024,PALMERAH,Judi,2
+2024,PALMERAH,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,PALMERAH,Kekerasan Dalam Rumah Tangga,9
+2024,PALMERAH,Kekerasan Seksual (KDRT),2
+2024,PALMERAH,Manipulasi data autentik secara elektronik (ITE),12
+2024,PALMERAH,Memasuki Pekarangan Tanpa Ijin,1
+2024,PALMERAH,Narkotika ( Narkoba ),16
+2024,PALMERAH,Pemalsuan Surat Otentik,3
+2024,PALMERAH,Pemerasan,1
+2024,PALMERAH,Pemerasan Dan Pengancaman,1
+2024,PALMERAH,Pencemaran Nama Baik,1
+2024,PALMERAH,Pencurian Biasa,16
+2024,PALMERAH,Pencurian Dengan Kekerasan ( Curas ),2
+2024,PALMERAH,Pencurian Dengan Pemberatan ( Curat ),5
+2024,PALMERAH,Penganiayaan,3
+2024,PALMERAH,Pengeroyokan,3
+2024,PALMERAH,Penggelapan,26
+2024,PALMERAH,Penipuan / Perbuatan Curang,8
+2024,PALMERAH,Penyekapan,1
+2024,PALMERAH,Sumpah Palsu Dan Keterangan Palsu,2
+2024,PALMERAH,Tindak Pidana Dalam Perlindungan Anak,3
+2024,PALMERAH,UNCLASSIFIED,108
+2024,PANCORAN,Curanmor R-2,3
+2024,PANCORAN,Kejahatan Tentang Jaminan Fidusia,1
+2024,PANCORAN,Kejahatan Terkait Merek,1
+2024,PANCORAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,PANCORAN,Kejahatan tentang perlindungan pekerja migran indonesia,1
+2024,PANCORAN,Kekerasan Dalam Rumah Tangga,7
+2024,PANCORAN,Kekerasan Seksual (KDRT),2
+2024,PANCORAN,Manipulasi data autentik secara elektronik (ITE),24
+2024,PANCORAN,Mengakibatkan Orang Luka,1
+2024,PANCORAN,Narkotika ( Narkoba ),16
+2024,PANCORAN,Pemalsuan Surat Otentik,1
+2024,PANCORAN,Pemerasan,2
+2024,PANCORAN,Pencemaran Nama Baik,3
+2024,PANCORAN,Pencurian Biasa,34
+2024,PANCORAN,Pencurian Dengan Pemberatan ( Curat ),14
+2024,PANCORAN,Pengancaman,1
+2024,PANCORAN,Penganiayaan,12
+2024,PANCORAN,Penganiayaan Berat ( Anirat ),1
+2024,PANCORAN,Pengeroyokan,4
+2024,PANCORAN,Penggelapan,25
+2024,PANCORAN,Penipuan / Perbuatan Curang,48
+2024,PANCORAN,Penistaan Agama,1
+2024,PANCORAN,Perbuatan Yang Tidak Menyenangkan,3
+2024,PANCORAN,Percobaan Pencurian,1
+2024,PANCORAN,Terhadap ketertiban umum,1
+2024,PANCORAN,Tindak Pidana Dalam Perlindungan Anak,1
+2024,PANCORAN,UNCLASSIFIED,242
+2024,PASAR MINGGU,Curanmor R-2,1
+2024,PASAR MINGGU,Kejahatan Tentang Jaminan Fidusia,2
+2024,PASAR MINGGU,Kejahatan Tentang Tenaga Kerja,1
+2024,PASAR MINGGU,Kejahatan Terkait Perlindungan Data Pribadi,3
+2024,PASAR MINGGU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,PASAR MINGGU,Kekerasan Dalam Rumah Tangga,16
+2024,PASAR MINGGU,Kekerasan Seksual (KDRT),1
+2024,PASAR MINGGU,Korupsi ( Tipikor ),1
+2024,PASAR MINGGU,Manipulasi data autentik secara elektronik (ITE),32
+2024,PASAR MINGGU,Memasuki Pekarangan Tanpa Ijin,2
+2024,PASAR MINGGU,Narkotika ( Narkoba ),22
+2024,PASAR MINGGU,Pemalsuan Surat Otentik,9
+2024,PASAR MINGGU,Pencemaran Nama Baik,2
+2024,PASAR MINGGU,Pencurian Biasa,19
+2024,PASAR MINGGU,Pencurian Dengan Pemberatan ( Curat ),8
+2024,PASAR MINGGU,Pencurian dalam lingkungan keluarga,2
+2024,PASAR MINGGU,Pengaduan Palsu,2
+2024,PASAR MINGGU,Pengancaman,1
+2024,PASAR MINGGU,Penganiayaan,22
+2024,PASAR MINGGU,Penganiayaan Berat ( Anirat ),4
+2024,PASAR MINGGU,Pengeroyokan,7
+2024,PASAR MINGGU,Pengerusakan,1
+2024,PASAR MINGGU,Penggelapan,19
+2024,PASAR MINGGU,Penipuan / Perbuatan Curang,31
+2024,PASAR MINGGU,Penyerobotan Tanah,1
+2024,PASAR MINGGU,Perampasan ( Premanisme ),2
+2024,PASAR MINGGU,Perbankan,1
+2024,PASAR MINGGU,Perbuatan Yang Tidak Menyenangkan,7
+2024,PASAR MINGGU,Percobaan Pencurian,4
+2024,PASAR MINGGU,Perzinahan,1
+2024,PASAR MINGGU,Sumpah Palsu Dan Keterangan Palsu,6
+2024,PASAR MINGGU,Terhadap ketertiban umum,1
+2024,PASAR MINGGU,Tindak Pidana Dalam Perlindungan Anak,4
+2024,PASAR MINGGU,UNCLASSIFIED,248
+2024,PASAR REBO,Curanmor R-2,20
+2024,PASAR REBO,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,PASAR REBO,Kekerasan Dalam Rumah Tangga,5
+2024,PASAR REBO,"Konflik Suku, Agama, Ras, dan Antar Golongan (SARA)",1
+2024,PASAR REBO,Manipulasi data autentik secara elektronik (ITE),26
+2024,PASAR REBO,Narkotika ( Narkoba ),8
+2024,PASAR REBO,Pemerasan,1
+2024,PASAR REBO,Pencemaran Nama Baik,1
+2024,PASAR REBO,Pencurian Biasa,28
+2024,PASAR REBO,Pencurian Dengan Pemberatan ( Curat ),24
+2024,PASAR REBO,Pengancaman,1
+2024,PASAR REBO,Penganiayaan,15
+2024,PASAR REBO,Penganiayaan Berat ( Anirat ),1
+2024,PASAR REBO,Pengeroyokan,6
+2024,PASAR REBO,Penggelapan,12
+2024,PASAR REBO,Penipuan / Perbuatan Curang,25
+2024,PASAR REBO,Perbuatan Yang Tidak Menyenangkan,1
+2024,PASAR REBO,Percobaan Pencurian,1
+2024,PASAR REBO,Tindak Pidana Dalam Perlindungan Anak,2
+2024,PASAR REBO,UNCLASSIFIED,175
+2024,PENJARINGAN,Cabul,1
+2024,PENJARINGAN,Cukai,2
+2024,PENJARINGAN,Curanmor R-2,9
+2024,PENJARINGAN,Hak Atas Kekayaan Intelektual ( HAKI ),2
+2024,PENJARINGAN,Judi,4
+2024,PENJARINGAN,Kejahatan Tentang Jaminan Fidusia,1
+2024,PENJARINGAN,Kejahatan Tentang Pornografi,1
+2024,PENJARINGAN,Kejahatan Terkait Merek,1
+2024,PENJARINGAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,PENJARINGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,PENJARINGAN,Kekerasan Dalam Rumah Tangga,13
+2024,PENJARINGAN,Manipulasi data autentik secara elektronik (ITE),23
+2024,PENJARINGAN,Memasuki Pekarangan Tanpa Ijin,2
+2024,PENJARINGAN,Membahayakan Keamanan Umum Bagi  Orang / Barang,2
+2024,PENJARINGAN,Mengakibatkan Orang Mati,1
+2024,PENJARINGAN,Narkotika ( Narkoba ),17
+2024,PENJARINGAN,Pemalsuan Surat Otentik,4
+2024,PENJARINGAN,Pemerasan Dan Pengancaman,2
+2024,PENJARINGAN,Pencemaran Nama Baik,2
+2024,PENJARINGAN,Pencurian Biasa,17
+2024,PENJARINGAN,Pencurian Dengan Kekerasan ( Curas ),2
+2024,PENJARINGAN,Pencurian Dengan Pemberatan ( Curat ),10
+2024,PENJARINGAN,Penganiayaan,16
+2024,PENJARINGAN,Penganiayaan Berat ( Anirat ),3
+2024,PENJARINGAN,Pengeroyokan,15
+2024,PENJARINGAN,Pengerusakan,4
+2024,PENJARINGAN,Penggelapan,59
+2024,PENJARINGAN,Penghinaan,1
+2024,PENJARINGAN,Penipuan / Perbuatan Curang,34
+2024,PENJARINGAN,Penyelundupan Senjata api (senpi),2
+2024,PENJARINGAN,Penyerobotan Tanah,2
+2024,PENJARINGAN,Perampasan ( Premanisme ),1
+2024,PENJARINGAN,Perbankan,1
+2024,PENJARINGAN,Percobaan Pencurian,4
+2024,PENJARINGAN,Perkosaan,1
+2024,PENJARINGAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2024,PENJARINGAN,Tindak Pidana Dalam Perlindungan Anak,6
+2024,PENJARINGAN,Tindak Pidana Transfer Dana,1
+2024,PENJARINGAN,UNCLASSIFIED,187
+2024,PESANGGRAHAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,PESANGGRAHAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2024,PESANGGRAHAN,Kekerasan Dalam Rumah Tangga,3
+2024,PESANGGRAHAN,Kekerasan Seksual (KDRT),1
+2024,PESANGGRAHAN,Manipulasi data autentik secara elektronik (ITE),29
+2024,PESANGGRAHAN,Memasuki Pekarangan Tanpa Ijin,1
+2024,PESANGGRAHAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2024,PESANGGRAHAN,Narkotika ( Narkoba ),11
+2024,PESANGGRAHAN,Pencurian Biasa,17
+2024,PESANGGRAHAN,Pencurian Dengan Pemberatan ( Curat ),11
+2024,PESANGGRAHAN,Pengancaman,1
+2024,PESANGGRAHAN,Penganiayaan,15
+2024,PESANGGRAHAN,Penganiayaan Berat ( Anirat ),2
+2024,PESANGGRAHAN,Pengeroyokan,8
+2024,PESANGGRAHAN,Pengerusakan,3
+2024,PESANGGRAHAN,Penggelapan,21
+2024,PESANGGRAHAN,Penghinaan,1
+2024,PESANGGRAHAN,Penipuan / Perbuatan Curang,15
+2024,PESANGGRAHAN,Penyerobotan Tanah,1
+2024,PESANGGRAHAN,Perampasan ( Premanisme ),1
+2024,PESANGGRAHAN,Perbuatan Yang Tidak Menyenangkan,2
+2024,PESANGGRAHAN,Tindak Pidana Dalam Perlindungan Anak,3
+2024,PESANGGRAHAN,UNCLASSIFIED,167
+2024,PULO GADUNG,Cabul,1
+2024,PULO GADUNG,Curanmor R-2,1
+2024,PULO GADUNG,Kejahatan Terkait Perlindungan Data Pribadi,2
+2024,PULO GADUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,PULO GADUNG,Kekerasan Dalam Rumah Tangga,10
+2024,PULO GADUNG,Manipulasi data autentik secara elektronik (ITE),52
+2024,PULO GADUNG,Memasuki Pekarangan Tanpa Ijin,3
+2024,PULO GADUNG,Narkotika ( Narkoba ),12
+2024,PULO GADUNG,Pemalsuan Surat Otentik,5
+2024,PULO GADUNG,Pemerasan,6
+2024,PULO GADUNG,Pemerasan Dan Pengancaman,2
+2024,PULO GADUNG,Pencemaran Nama Baik,2
+2024,PULO GADUNG,Pencurian Biasa,52
+2024,PULO GADUNG,Pencurian Dengan Kekerasan ( Curas ),5
+2024,PULO GADUNG,Pencurian Dengan Pemberatan ( Curat ),35
+2024,PULO GADUNG,Pencurian dalam lingkungan keluarga,1
+2024,PULO GADUNG,Pengancaman,1
+2024,PULO GADUNG,Penganiayaan,17
+2024,PULO GADUNG,Penganiayaan Berat ( Anirat ),4
+2024,PULO GADUNG,Pengeroyokan,12
+2024,PULO GADUNG,Penggelapan,19
+2024,PULO GADUNG,Penipuan / Perbuatan Curang,28
+2024,PULO GADUNG,Perampasan ( Premanisme ),3
+2024,PULO GADUNG,Perbuatan Yang Tidak Menyenangkan,3
+2024,PULO GADUNG,Percobaan Pencurian,2
+2024,PULO GADUNG,Perlindungan Konsumen,1
+2024,PULO GADUNG,Perzinahan,1
+2024,PULO GADUNG,Tindak Pidana Dalam Perlindungan Anak,6
+2024,PULO GADUNG,UNCLASSIFIED,371
+2024,SAWAH BESAR,Curanmor R-2,4
+2024,SAWAH BESAR,Judi,1
+2024,SAWAH BESAR,Kejahatan Terkait Merek,2
+2024,SAWAH BESAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2024,SAWAH BESAR,Kekerasan Dalam Rumah Tangga,8
+2024,SAWAH BESAR,Manipulasi data autentik secara elektronik (ITE),7
+2024,SAWAH BESAR,Memasuki Pekarangan Tanpa Ijin,1
+2024,SAWAH BESAR,Narkotika ( Narkoba ),7
+2024,SAWAH BESAR,Pemalsuan Surat Otentik,4
+2024,SAWAH BESAR,Pemerasan Dan Pengancaman,3
+2024,SAWAH BESAR,Pencemaran Nama Baik,2
+2024,SAWAH BESAR,Pencurian Biasa,53
+2024,SAWAH BESAR,Pencurian Dengan Kekerasan ( Curas ),1
+2024,SAWAH BESAR,Pencurian Dengan Pemberatan ( Curat ),28
+2024,SAWAH BESAR,Penganiayaan,15
+2024,SAWAH BESAR,Penganiayaan Berat ( Anirat ),7
+2024,SAWAH BESAR,Pengeroyokan,7
+2024,SAWAH BESAR,Pengerusakan,2
+2024,SAWAH BESAR,Penggelapan,22
+2024,SAWAH BESAR,Penipuan / Perbuatan Curang,33
+2024,SAWAH BESAR,Penyerobotan Tanah,3
+2024,SAWAH BESAR,Perbuatan Yang Tidak Menyenangkan,1
+2024,SAWAH BESAR,Perkosaan,1
+2024,SAWAH BESAR,Perzinahan,1
+2024,SAWAH BESAR,Terhadap ketertiban umum,1
+2024,SAWAH BESAR,UNCLASSIFIED,118
+2024,SENEN,Curanmor R-2,1
+2024,SENEN,Kejahatan Tentang Perdagangan,1
+2024,SENEN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,SENEN,Kekerasan Dalam Rumah Tangga,5
+2024,SENEN,Manipulasi data autentik secara elektronik (ITE),9
+2024,SENEN,Memasuki Pekarangan Tanpa Ijin,1
+2024,SENEN,Mengakibatkan Orang Mati,1
+2024,SENEN,Narkotika ( Narkoba ),12
+2024,SENEN,Pemalsuan Surat Otentik,1
+2024,SENEN,Pemerasan Dan Pengancaman,1
+2024,SENEN,Pencurian Biasa,30
+2024,SENEN,Pencurian Dengan Pemberatan ( Curat ),12
+2024,SENEN,Pengancaman,1
+2024,SENEN,Penganiayaan,9
+2024,SENEN,Penganiayaan Berat ( Anirat ),2
+2024,SENEN,Pengeroyokan,5
+2024,SENEN,Penggelapan,13
+2024,SENEN,Penghinaan,1
+2024,SENEN,Penipuan / Perbuatan Curang,43
+2024,SENEN,Penyekapan,1
+2024,SENEN,Penyerobotan Tanah,3
+2024,SENEN,Perbuatan Yang Tidak Menyenangkan,1
+2024,SENEN,UNCLASSIFIED,109
+2024,SETIA BUDI,Judi,1
+2024,SETIA BUDI,Kejahatan Tentang Jaminan Fidusia,1
+2024,SETIA BUDI,Kejahatan Terkait Perlindungan Data Pribadi,5
+2024,SETIA BUDI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,SETIA BUDI,Kekerasan Dalam Rumah Tangga,8
+2024,SETIA BUDI,Kekerasan Seksual (KDRT),2
+2024,SETIA BUDI,Manipulasi data autentik secara elektronik (ITE),46
+2024,SETIA BUDI,Memasuki Pekarangan Tanpa Ijin,2
+2024,SETIA BUDI,Mengakibatkan Orang Luka,1
+2024,SETIA BUDI,Mengakibatkan Orang Mati,1
+2024,SETIA BUDI,Narkotika ( Narkoba ),23
+2024,SETIA BUDI,Pemalsuan Surat Otentik,4
+2024,SETIA BUDI,Pemerasan,3
+2024,SETIA BUDI,Pemerasan Dan Pengancaman,1
+2024,SETIA BUDI,Pencemaran Nama Baik,5
+2024,SETIA BUDI,Pencurian Biasa,69
+2024,SETIA BUDI,Pencurian Dengan Kekerasan ( Curas ),1
+2024,SETIA BUDI,Pencurian Dengan Pemberatan ( Curat ),14
+2024,SETIA BUDI,Pengancaman,3
+2024,SETIA BUDI,Penganiayaan,32
+2024,SETIA BUDI,Penganiayaan Berat ( Anirat ),1
+2024,SETIA BUDI,Pengeroyokan,14
+2024,SETIA BUDI,Pengerusakan,2
+2024,SETIA BUDI,Penggelapan,45
+2024,SETIA BUDI,Penghinaan,1
+2024,SETIA BUDI,Penipuan / Perbuatan Curang,63
+2024,SETIA BUDI,Penistaan Agama,1
+2024,SETIA BUDI,Penyekapan,1
+2024,SETIA BUDI,Perbankan,6
+2024,SETIA BUDI,Perbuatan Yang Tidak Menyenangkan,1
+2024,SETIA BUDI,Tindak Pidana Dalam Perlindungan Anak,1
+2024,SETIA BUDI,UNCLASSIFIED,370
+2024,TAMAN SARI,Cabul,1
+2024,TAMAN SARI,Curanmor R-2,1
+2024,TAMAN SARI,Judi,1
+2024,TAMAN SARI,Kejahatan Terkait Merek,2
+2024,TAMAN SARI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,TAMAN SARI,Kekerasan Dalam Rumah Tangga,9
+2024,TAMAN SARI,Manipulasi data autentik secara elektronik (ITE),4
+2024,TAMAN SARI,Memasuki Pekarangan Tanpa Ijin,2
+2024,TAMAN SARI,Narkotika ( Narkoba ),29
+2024,TAMAN SARI,Pemalsuan Surat Otentik,2
+2024,TAMAN SARI,Pemerasan Dan Pengancaman,1
+2024,TAMAN SARI,Pencemaran Nama Baik,1
+2024,TAMAN SARI,Pencurian Biasa,17
+2024,TAMAN SARI,Pencurian Dengan Pemberatan ( Curat ),7
+2024,TAMAN SARI,Penganiayaan,30
+2024,TAMAN SARI,Penganiayaan Berat ( Anirat ),2
+2024,TAMAN SARI,Pengeroyokan,15
+2024,TAMAN SARI,Pengerusakan,2
+2024,TAMAN SARI,Penggelapan,27
+2024,TAMAN SARI,Penipuan / Perbuatan Curang,9
+2024,TAMAN SARI,Perbuatan Yang Tidak Menyenangkan,2
+2024,TAMAN SARI,Perkosaan,1
+2024,TAMAN SARI,Perlindungan Konsumen,1
+2024,TAMAN SARI,Tindak Pidana Dalam Perlindungan Anak,1
+2024,TAMAN SARI,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2024,TAMAN SARI,UNCLASSIFIED,81
+2024,TAMBORA,Judi,1
+2024,TAMBORA,Kejahatan Tentang Desain Industri,1
+2024,TAMBORA,Kejahatan Terkait Merek,7
+2024,TAMBORA,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,TAMBORA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,TAMBORA,Kekerasan Dalam Rumah Tangga,6
+2024,TAMBORA,Manipulasi data autentik secara elektronik (ITE),5
+2024,TAMBORA,Memasuki Pekarangan Tanpa Ijin,1
+2024,TAMBORA,Narkotika ( Narkoba ),14
+2024,TAMBORA,Pemalsuan Surat Otentik,1
+2024,TAMBORA,Pemerasan,1
+2024,TAMBORA,Pencurian Biasa,12
+2024,TAMBORA,Pencurian Dengan Kekerasan ( Curas ),1
+2024,TAMBORA,Pencurian Dengan Pemberatan ( Curat ),7
+2024,TAMBORA,Pengancaman,1
+2024,TAMBORA,Penganiayaan,8
+2024,TAMBORA,Pengeroyokan,1
+2024,TAMBORA,Penggelapan,13
+2024,TAMBORA,Penipuan / Perbuatan Curang,2
+2024,TAMBORA,Tindak Pidana Dalam Perlindungan Anak,2
+2024,TAMBORA,UNCLASSIFIED,78
+2024,TANAH ABANG,Cabul,2
+2024,TANAH ABANG,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2024,TANAH ABANG,Kejahatan Terkait Merek,2
+2024,TANAH ABANG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2024,TANAH ABANG,Kekerasan Dalam Rumah Tangga,13
+2024,TANAH ABANG,Kekerasan Seksual (KDRT),1
+2024,TANAH ABANG,Manipulasi data autentik secara elektronik (ITE),40
+2024,TANAH ABANG,Narkotika ( Narkoba ),11
+2024,TANAH ABANG,Pemalsuan Mata Uang Dan Uang Kertas,1
+2024,TANAH ABANG,Pemalsuan Surat Otentik,5
+2024,TANAH ABANG,Pemerasan,4
+2024,TANAH ABANG,Pencemaran Nama Baik,3
+2024,TANAH ABANG,Pencurian Biasa,76
+2024,TANAH ABANG,Pencurian Dengan Kekerasan ( Curas ),6
+2024,TANAH ABANG,Pencurian Dengan Pemberatan ( Curat ),31
+2024,TANAH ABANG,Pengaduan Palsu,2
+2024,TANAH ABANG,Pengancaman,2
+2024,TANAH ABANG,Penganiayaan,30
+2024,TANAH ABANG,Penganiayaan Berat ( Anirat ),5
+2024,TANAH ABANG,Pengeroyokan,29
+2024,TANAH ABANG,Pengerusakan,3
+2024,TANAH ABANG,Penggelapan,58
+2024,TANAH ABANG,Penghinaan,1
+2024,TANAH ABANG,Penipuan / Perbuatan Curang,60
+2024,TANAH ABANG,Perbankan,1
+2024,TANAH ABANG,Perbuatan Yang Tidak Menyenangkan,4
+2024,TANAH ABANG,Perlindungan Konsumen,1
+2024,TANAH ABANG,Terhadap ketertiban umum,2
+2024,TANAH ABANG,Tindak Asusila,1
+2024,TANAH ABANG,Tindak Pidana Transfer Dana,4
+2024,TANAH ABANG,UNCLASSIFIED,218
+2024,TANJUNG PRIOK,Judi,8
+2024,TANJUNG PRIOK,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2024,TANJUNG PRIOK,Kejahatan Terkait Perlindungan Data Pribadi,1
+2024,TANJUNG PRIOK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,TANJUNG PRIOK,Kekerasan Dalam Rumah Tangga,26
+2024,TANJUNG PRIOK,Kekerasan Seksual (KDRT),2
+2024,TANJUNG PRIOK,Korupsi ( Tipikor ),1
+2024,TANJUNG PRIOK,Manipulasi data autentik secara elektronik (ITE),15
+2024,TANJUNG PRIOK,Memasuki Pekarangan Tanpa Ijin,1
+2024,TANJUNG PRIOK,Mucikari ( Pelacuran ),13
+2024,TANJUNG PRIOK,Narkotika ( Narkoba ),20
+2024,TANJUNG PRIOK,Pemalsuan Surat Otentik,3
+2024,TANJUNG PRIOK,Pemerasan Dan Pengancaman,2
+2024,TANJUNG PRIOK,Pencemaran Nama Baik,1
+2024,TANJUNG PRIOK,Pencurian Biasa,28
+2024,TANJUNG PRIOK,Pencurian Dengan Kekerasan ( Curas ),5
+2024,TANJUNG PRIOK,Pencurian Dengan Pemberatan ( Curat ),27
+2024,TANJUNG PRIOK,Penganiayaan,25
+2024,TANJUNG PRIOK,Penganiayaan Berat ( Anirat ),3
+2024,TANJUNG PRIOK,Pengeroyokan,13
+2024,TANJUNG PRIOK,Penggelapan,48
+2024,TANJUNG PRIOK,Penipuan / Perbuatan Curang,24
+2024,TANJUNG PRIOK,Penyerobotan Tanah,4
+2024,TANJUNG PRIOK,Perbuatan Yang Tidak Menyenangkan,5
+2024,TANJUNG PRIOK,Percobaan Pencurian,2
+2024,TANJUNG PRIOK,Perlindungan Konsumen,2
+2024,TANJUNG PRIOK,Perzinahan,2
+2024,TANJUNG PRIOK,Sumpah Palsu Dan Keterangan Palsu,1
+2024,TANJUNG PRIOK,Terhadap ketertiban umum,1
+2024,TANJUNG PRIOK,Tindak Pidana Dalam Perlindungan Anak,5
+2024,TANJUNG PRIOK,UNCLASSIFIED,206
+2024,TEBET,Curanmor R-2,1
+2024,TEBET,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2024,TEBET,Judi,1
+2024,TEBET,Kawin halangan/kawin tanpa ijin,1
+2024,TEBET,Kejahatan Tentang Jaminan Fidusia,2
+2024,TEBET,Kejahatan Terkait Perlindungan Data Pribadi,3
+2024,TEBET,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2024,TEBET,Kejahatan tentang perlindungan pekerja migran indonesia,1
+2024,TEBET,Kekerasan Dalam Rumah Tangga,9
+2024,TEBET,Kekerasan Seksual (KDRT),3
+2024,TEBET,Manipulasi data autentik secara elektronik (ITE),36
+2024,TEBET,Memasuki Pekarangan Tanpa Ijin,3
+2024,TEBET,Narkotika ( Narkoba ),19
+2024,TEBET,Pemalsuan Surat Otentik,5
+2024,TEBET,Pemerasan,5
+2024,TEBET,Pemerasan Dan Pengancaman,1
+2024,TEBET,Penadahan,2
+2024,TEBET,Pencemaran Nama Baik,2
+2024,TEBET,Penculikan,1
+2024,TEBET,Pencurian Biasa,28
+2024,TEBET,Pencurian Dengan Pemberatan ( Curat ),15
+2024,TEBET,Penganiayaan,12
+2024,TEBET,Penganiayaan Berat ( Anirat ),7
+2024,TEBET,Pengeroyokan,9
+2024,TEBET,Pengerusakan,1
+2024,TEBET,Penggelapan,30
+2024,TEBET,Penghinaan,1
+2024,TEBET,Penipuan / Perbuatan Curang,50
+2024,TEBET,Penyekapan,1
+2024,TEBET,Perbankan,2
+2024,TEBET,Percobaan Pencurian,1
+2024,TEBET,Perzinahan,1
+2024,TEBET,Tindak Pidana Dalam Perlindungan Anak,2
+2024,TEBET,Tindak Pidana Transfer Dana,1
+2024,TEBET,UNCLASSIFIED,234
+2025,CAKUNG,Cabul,2
+2025,CAKUNG,Curanmor R-2,2
+2025,CAKUNG,Kawin halangan/kawin tanpa ijin,1
+2025,CAKUNG,Kejahatan Tentang Jaminan Fidusia,4
+2025,CAKUNG,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,CAKUNG,Kejahatan Tentang Pertambangan Mineral Dan Batubara (illegal Mining),1
+2025,CAKUNG,Kejahatan Tentang Pornografi,2
+2025,CAKUNG,Kejahatan Tentang Tenaga Kerja,3
+2025,CAKUNG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,CAKUNG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,CAKUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),16
+2025,CAKUNG,Kejahatan terkait Tenaga Kesehatan,1
+2025,CAKUNG,Kekerasan Dalam Rumah Tangga,30
+2025,CAKUNG,Kekerasan Seksual (KDRT),5
+2025,CAKUNG,Manipulasi data autentik secara elektronik (ITE),289
+2025,CAKUNG,Memasuki Pekarangan Tanpa Ijin,5
+2025,CAKUNG,Membahayakan Keamanan Umum Bagi  Orang / Barang,1
+2025,CAKUNG,Mengakibatkan Orang Luka,1
+2025,CAKUNG,Mengakibatkan Orang Mati,3
+2025,CAKUNG,Narkotika ( Narkoba ),121
+2025,CAKUNG,Pemalsuan Surat Otentik,24
+2025,CAKUNG,Pemerasan,1
+2025,CAKUNG,Pemerasan Dan Pengancaman,29
+2025,CAKUNG,Penadahan,1
+2025,CAKUNG,Pencemaran Nama Baik,7
+2025,CAKUNG,Pencurian Biasa,83
+2025,CAKUNG,Pencurian Dengan Kekerasan ( Curas ),11
+2025,CAKUNG,Pencurian Dengan Pemberatan ( Curat ),436
+2025,CAKUNG,Pencurian Ringan,20
+2025,CAKUNG,Pencurian dalam lingkungan keluarga,1
+2025,CAKUNG,Pengaduan Palsu,3
+2025,CAKUNG,Pengancaman,9
+2025,CAKUNG,Penganiayaan,42
+2025,CAKUNG,Penganiayaan Berat ( Anirat ),65
+2025,CAKUNG,Pengeroyokan,58
+2025,CAKUNG,Pengerusakan,6
+2025,CAKUNG,Penggelapan,83
+2025,CAKUNG,Penghinaan,5
+2025,CAKUNG,Penipuan / Perbuatan Curang,280
+2025,CAKUNG,Penyerobotan Tanah,4
+2025,CAKUNG,Perampasan ( Premanisme ),2
+2025,CAKUNG,Perbankan,1
+2025,CAKUNG,Perbuatan Yang Tidak Menyenangkan,4
+2025,CAKUNG,Percobaan Pencurian,3
+2025,CAKUNG,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,CAKUNG,Perkelahian Pelajar / Mahasiswa,1
+2025,CAKUNG,Perlindungan Konsumen,1
+2025,CAKUNG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,3
+2025,CAKUNG,Perzinahan,1
+2025,CAKUNG,Psikotropika ( Narkoba ),1
+2025,CAKUNG,Sumpah Palsu Dan Keterangan Palsu,6
+2025,CAKUNG,Terhadap ketertiban umum,5
+2025,CAKUNG,Tindak Pidana Dalam Perlindungan Anak,31
+2025,CAKUNG,Tindak Pidana Transfer Dana,1
+2025,CAKUNG,UNCLASSIFIED,42
+2025,CEMPAKA PUTIH,Curanmor R-2,13
+2025,CEMPAKA PUTIH,Kawin halangan/kawin tanpa ijin,1
+2025,CEMPAKA PUTIH,Kejahatan Tentang Jaminan Fidusia,2
+2025,CEMPAKA PUTIH,Kejahatan Tentang Pornografi,1
+2025,CEMPAKA PUTIH,Kejahatan Terkait Pangan,1
+2025,CEMPAKA PUTIH,Kejahatan Terkait Perlindungan Data Pribadi,2
+2025,CEMPAKA PUTIH,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2025,CEMPAKA PUTIH,Kekerasan Dalam Rumah Tangga,14
+2025,CEMPAKA PUTIH,Kekerasan Seksual (KDRT),4
+2025,CEMPAKA PUTIH,Manipulasi data autentik secara elektronik (ITE),38
+2025,CEMPAKA PUTIH,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,CEMPAKA PUTIH,Narkotika ( Narkoba ),63
+2025,CEMPAKA PUTIH,Pemalsuan Surat Otentik,7
+2025,CEMPAKA PUTIH,Pemerasan Dan Pengancaman,4
+2025,CEMPAKA PUTIH,Penadahan,1
+2025,CEMPAKA PUTIH,Pencemaran Nama Baik,1
+2025,CEMPAKA PUTIH,Penculikan,1
+2025,CEMPAKA PUTIH,Pencurian Biasa,27
+2025,CEMPAKA PUTIH,Pencurian Dengan Kekerasan ( Curas ),1
+2025,CEMPAKA PUTIH,Pencurian Dengan Pemberatan ( Curat ),47
+2025,CEMPAKA PUTIH,Penganiayaan,14
+2025,CEMPAKA PUTIH,Penganiayaan Berat ( Anirat ),6
+2025,CEMPAKA PUTIH,Pengeroyokan,6
+2025,CEMPAKA PUTIH,Pengerusakan,4
+2025,CEMPAKA PUTIH,Penggelapan,22
+2025,CEMPAKA PUTIH,Penghinaan,1
+2025,CEMPAKA PUTIH,Penipuan / Perbuatan Curang,116
+2025,CEMPAKA PUTIH,Penistaan Agama,1
+2025,CEMPAKA PUTIH,Penyekapan,1
+2025,CEMPAKA PUTIH,Penyerobotan Tanah,2
+2025,CEMPAKA PUTIH,Perampasan ( Premanisme ),1
+2025,CEMPAKA PUTIH,Percobaan Pencurian,1
+2025,CEMPAKA PUTIH,Perlindungan Konsumen,1
+2025,CEMPAKA PUTIH,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,CEMPAKA PUTIH,Perzinahan,2
+2025,CEMPAKA PUTIH,Sumpah Palsu Dan Keterangan Palsu,1
+2025,CEMPAKA PUTIH,Terhadap ketertiban umum,1
+2025,CEMPAKA PUTIH,Tindak Pidana Dalam Perlindungan Anak,14
+2025,CEMPAKA PUTIH,UNCLASSIFIED,15
+2025,CENGKARENG,Cabul,1
+2025,CENGKARENG,Curanmor R-2,1
+2025,CENGKARENG,Kejahatan Tentang Jaminan Fidusia,2
+2025,CENGKARENG,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,CENGKARENG,Kejahatan Tentang Pornografi,2
+2025,CENGKARENG,Kejahatan Terkait Merek,3
+2025,CENGKARENG,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,CENGKARENG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2025,CENGKARENG,Kejahatan terkait Tenaga Kesehatan,2
+2025,CENGKARENG,Kekerasan Dalam Rumah Tangga,28
+2025,CENGKARENG,Kekerasan Seksual (KDRT),10
+2025,CENGKARENG,Manipulasi data autentik secara elektronik (ITE),92
+2025,CENGKARENG,Memasuki Pekarangan Tanpa Ijin,10
+2025,CENGKARENG,Membahayakan Keamanan Umum Bagi  Orang / Barang,2
+2025,CENGKARENG,Narkotika ( Narkoba ),160
+2025,CENGKARENG,Pemalsuan Surat Otentik,5
+2025,CENGKARENG,Pemerasan Dan Pengancaman,9
+2025,CENGKARENG,Pencemaran Nama Baik,12
+2025,CENGKARENG,Pencurian Biasa,49
+2025,CENGKARENG,Pencurian Dengan Kekerasan ( Curas ),10
+2025,CENGKARENG,Pencurian Dengan Pemberatan ( Curat ),90
+2025,CENGKARENG,Pencurian Ringan,1
+2025,CENGKARENG,Pengancaman,7
+2025,CENGKARENG,Penganiayaan,58
+2025,CENGKARENG,Penganiayaan Berat ( Anirat ),3
+2025,CENGKARENG,Pengeroyokan,31
+2025,CENGKARENG,Pengerusakan,7
+2025,CENGKARENG,Penggelapan,82
+2025,CENGKARENG,Penghinaan,2
+2025,CENGKARENG,Penipuan / Perbuatan Curang,113
+2025,CENGKARENG,Penyalahgunaan Wewenang,1
+2025,CENGKARENG,Penyelundupan Senjata api (senpi),1
+2025,CENGKARENG,Perampasan ( Premanisme ),1
+2025,CENGKARENG,Perbankan,1
+2025,CENGKARENG,Perbuatan Yang Tidak Menyenangkan,5
+2025,CENGKARENG,Percobaan Pencurian,1
+2025,CENGKARENG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,2
+2025,CENGKARENG,Perzinahan,5
+2025,CENGKARENG,Telekomunikasi,1
+2025,CENGKARENG,Terhadap ketertiban umum,47
+2025,CENGKARENG,Tindak Pidana Dalam Perlindungan Anak,31
+2025,CENGKARENG,Tindak Pidana Transfer Dana,1
+2025,CENGKARENG,UNCLASSIFIED,30
+2025,CILANDAK,Curanmor R-2,20
+2025,CILANDAK,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,CILANDAK,Kejahatan Tentang Jaminan Fidusia,3
+2025,CILANDAK,Kejahatan Tentang Tenaga Kerja,1
+2025,CILANDAK,Kejahatan Terkait Merek,3
+2025,CILANDAK,Kejahatan Terkait Perlindungan Data Pribadi,5
+2025,CILANDAK,Kejahatan terkait Tenaga Kesehatan,1
+2025,CILANDAK,Kekerasan Dalam Rumah Tangga,15
+2025,CILANDAK,Kekerasan Seksual (KDRT),5
+2025,CILANDAK,Manipulasi data autentik secara elektronik (ITE),201
+2025,CILANDAK,Memasuki Pekarangan Tanpa Ijin,8
+2025,CILANDAK,Mengakibatkan Orang Luka,1
+2025,CILANDAK,Narkotika ( Narkoba ),64
+2025,CILANDAK,Pemalsuan Surat Otentik,17
+2025,CILANDAK,Pemerasan Dan Pengancaman,7
+2025,CILANDAK,Pencemaran Nama Baik,15
+2025,CILANDAK,Pencurian Biasa,66
+2025,CILANDAK,Pencurian Dengan Kekerasan ( Curas ),1
+2025,CILANDAK,Pencurian Dengan Pemberatan ( Curat ),83
+2025,CILANDAK,Pengancaman,1
+2025,CILANDAK,Penganiayaan,36
+2025,CILANDAK,Penganiayaan Berat ( Anirat ),1
+2025,CILANDAK,Pengeroyokan,10
+2025,CILANDAK,Pengerusakan,5
+2025,CILANDAK,Penggelapan,92
+2025,CILANDAK,Penghinaan,2
+2025,CILANDAK,Penipuan / Perbuatan Curang,238
+2025,CILANDAK,Penyekapan,1
+2025,CILANDAK,Penyerobotan Tanah,1
+2025,CILANDAK,Perampasan ( Premanisme ),4
+2025,CILANDAK,Perbankan,1
+2025,CILANDAK,Perbuatan Yang Tidak Menyenangkan,11
+2025,CILANDAK,Percobaan Pencurian,7
+2025,CILANDAK,Perlindungan Konsumen,1
+2025,CILANDAK,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,CILANDAK,Perzinahan,7
+2025,CILANDAK,Tindak Pidana Dalam Perlindungan Anak,15
+2025,CILANDAK,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,CILANDAK,UNCLASSIFIED,30
+2025,CILINCING,Cabul,6
+2025,CILINCING,Curanmor R-2,3
+2025,CILINCING,Judi,1
+2025,CILINCING,Kejahatan Tentang Jaminan Fidusia,2
+2025,CILINCING,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2025,CILINCING,Kejahatan Tentang Pertambangan Mineral Dan Batubara (illegal Mining),1
+2025,CILINCING,Kejahatan Terhadap Jiwa Orang / Pembunuhan,2
+2025,CILINCING,Kejahatan Terkait Pangan,1
+2025,CILINCING,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,CILINCING,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2025,CILINCING,Kekerasan Dalam Rumah Tangga,17
+2025,CILINCING,Kekerasan Seksual (KDRT),4
+2025,CILINCING,Manipulasi data autentik secara elektronik (ITE),41
+2025,CILINCING,Memasuki Pekarangan Tanpa Ijin,2
+2025,CILINCING,Mengakibatkan Orang Mati,2
+2025,CILINCING,Narkotika ( Narkoba ),108
+2025,CILINCING,Pemalsuan Surat Otentik,15
+2025,CILINCING,Penadahan,1
+2025,CILINCING,Pencemaran Nama Baik,3
+2025,CILINCING,Pencurian Biasa,27
+2025,CILINCING,Pencurian Dengan Kekerasan ( Curas ),9
+2025,CILINCING,Pencurian Dengan Pemberatan ( Curat ),72
+2025,CILINCING,Penganiayaan,18
+2025,CILINCING,Penganiayaan Berat ( Anirat ),11
+2025,CILINCING,Pengeroyokan,12
+2025,CILINCING,Pengerusakan,5
+2025,CILINCING,Penggelapan,51
+2025,CILINCING,Penipuan / Perbuatan Curang,54
+2025,CILINCING,Penyekapan,1
+2025,CILINCING,Penyelundupan Senjata api (senpi),1
+2025,CILINCING,Penyerobotan Tanah,6
+2025,CILINCING,Perbuatan Yang Tidak Menyenangkan,3
+2025,CILINCING,Perkosaan,1
+2025,CILINCING,Sumpah Palsu Dan Keterangan Palsu,1
+2025,CILINCING,Tindak Pidana Dalam Perlindungan Anak,21
+2025,CILINCING,UNCLASSIFIED,12
+2025,CIPAYUNG,Kejahatan Tentang Jaminan Fidusia,2
+2025,CIPAYUNG,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,CIPAYUNG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,CIPAYUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,CIPAYUNG,Kekerasan Dalam Rumah Tangga,18
+2025,CIPAYUNG,Manipulasi data autentik secara elektronik (ITE),201
+2025,CIPAYUNG,Memasuki Pekarangan Tanpa Ijin,12
+2025,CIPAYUNG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2025,CIPAYUNG,Narkotika ( Narkoba ),43
+2025,CIPAYUNG,Pemalsuan Surat Otentik,10
+2025,CIPAYUNG,Pemerasan Dan Pengancaman,6
+2025,CIPAYUNG,Pencemaran Nama Baik,2
+2025,CIPAYUNG,Pencurian Biasa,25
+2025,CIPAYUNG,Pencurian Dengan Kekerasan ( Curas ),4
+2025,CIPAYUNG,Pencurian Dengan Pemberatan ( Curat ),58
+2025,CIPAYUNG,Pencurian Ringan,1
+2025,CIPAYUNG,Pencurian dalam lingkungan keluarga,2
+2025,CIPAYUNG,Pengaduan Palsu,1
+2025,CIPAYUNG,Pengancaman,3
+2025,CIPAYUNG,Penganiayaan,26
+2025,CIPAYUNG,Penganiayaan Berat ( Anirat ),3
+2025,CIPAYUNG,Pengeroyokan,25
+2025,CIPAYUNG,Pengerusakan,1
+2025,CIPAYUNG,Penggelapan,32
+2025,CIPAYUNG,Penipuan / Perbuatan Curang,97
+2025,CIPAYUNG,Penyekapan,1
+2025,CIPAYUNG,Penyerobotan Tanah,1
+2025,CIPAYUNG,Perbuatan Yang Tidak Menyenangkan,1
+2025,CIPAYUNG,Percobaan Pencurian,4
+2025,CIPAYUNG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,CIPAYUNG,Perzinahan,1
+2025,CIPAYUNG,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2025,CIPAYUNG,Sumpah Palsu Dan Keterangan Palsu,2
+2025,CIPAYUNG,Tindak Pidana Dalam Perlindungan Anak,13
+2025,CIPAYUNG,UNCLASSIFIED,22
+2025,CIRACAS,Curanmor R-2,6
+2025,CIRACAS,Hak Atas Kekayaan Intelektual ( HAKI ),3
+2025,CIRACAS,Kejahatan Tentang Jaminan Fidusia,5
+2025,CIRACAS,Kejahatan Tentang Konservasi Sumber Daya Alam Hayati Dan Ekosistem,2
+2025,CIRACAS,Kejahatan Terhadap Jiwa Orang / Pembunuhan,3
+2025,CIRACAS,Kejahatan Terkait Merek,1
+2025,CIRACAS,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,CIRACAS,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),7
+2025,CIRACAS,Kejahatan terkait Tenaga Kesehatan,3
+2025,CIRACAS,Kekerasan Dalam Rumah Tangga,12
+2025,CIRACAS,Kekerasan Seksual (KDRT),1
+2025,CIRACAS,Manipulasi data autentik secara elektronik (ITE),226
+2025,CIRACAS,Memasuki Pekarangan Tanpa Ijin,6
+2025,CIRACAS,Narkotika ( Narkoba ),69
+2025,CIRACAS,Pemalsuan Surat Otentik,2
+2025,CIRACAS,Pemerasan Dan Pengancaman,6
+2025,CIRACAS,Pencemaran Nama Baik,2
+2025,CIRACAS,Penculikan,1
+2025,CIRACAS,Pencurian Biasa,20
+2025,CIRACAS,Pencurian Dengan Kekerasan ( Curas ),7
+2025,CIRACAS,Pencurian Dengan Pemberatan ( Curat ),60
+2025,CIRACAS,Penganiayaan,40
+2025,CIRACAS,Penganiayaan Berat ( Anirat ),8
+2025,CIRACAS,Pengeroyokan,20
+2025,CIRACAS,Pengerusakan,4
+2025,CIRACAS,Penggelapan,28
+2025,CIRACAS,Penghinaan,2
+2025,CIRACAS,Penipuan / Perbuatan Curang,100
+2025,CIRACAS,Penyerobotan Tanah,2
+2025,CIRACAS,Perampasan ( Premanisme ),2
+2025,CIRACAS,Perbuatan Yang Tidak Menyenangkan,3
+2025,CIRACAS,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,CIRACAS,Sumpah Palsu Dan Keterangan Palsu,3
+2025,CIRACAS,Tindak Pidana Dalam Perlindungan Anak,20
+2025,CIRACAS,UNCLASSIFIED,26
+2025,DUREN SAWIT,Curanmor R-2,2
+2025,DUREN SAWIT,Kejahatan Tentang Jaminan Fidusia,10
+2025,DUREN SAWIT,"Kejahatan Tentang Pengusutan, Penuntutan Dan Peradilan Tindak Pidana Ekonomi",1
+2025,DUREN SAWIT,Kejahatan Tentang Perdagangan,1
+2025,DUREN SAWIT,Kejahatan Tentang Pornografi,1
+2025,DUREN SAWIT,Kejahatan Tentang Tenaga Kerja,1
+2025,DUREN SAWIT,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,DUREN SAWIT,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,DUREN SAWIT,Kejahatan terkait Tenaga Kesehatan,1
+2025,DUREN SAWIT,Kekerasan Dalam Rumah Tangga,20
+2025,DUREN SAWIT,Kekerasan Seksual (KDRT),3
+2025,DUREN SAWIT,Manipulasi data autentik secara elektronik (ITE),341
+2025,DUREN SAWIT,Memasuki Pekarangan Tanpa Ijin,13
+2025,DUREN SAWIT,Mengakibatkan Orang Luka,1
+2025,DUREN SAWIT,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,DUREN SAWIT,Narkotika ( Narkoba ),95
+2025,DUREN SAWIT,Pemalsuan Surat Otentik,12
+2025,DUREN SAWIT,Pemerasan Dan Pengancaman,12
+2025,DUREN SAWIT,Pencemaran Nama Baik,3
+2025,DUREN SAWIT,Pencurian Biasa,34
+2025,DUREN SAWIT,Pencurian Dengan Kekerasan ( Curas ),10
+2025,DUREN SAWIT,Pencurian Dengan Pemberatan ( Curat ),69
+2025,DUREN SAWIT,Pencurian dalam lingkungan keluarga,2
+2025,DUREN SAWIT,Pengancaman,4
+2025,DUREN SAWIT,Penganiayaan,37
+2025,DUREN SAWIT,Penganiayaan Berat ( Anirat ),11
+2025,DUREN SAWIT,Pengeroyokan,31
+2025,DUREN SAWIT,Pengerusakan,4
+2025,DUREN SAWIT,Penggelapan,44
+2025,DUREN SAWIT,Penghinaan,2
+2025,DUREN SAWIT,Penipuan / Perbuatan Curang,158
+2025,DUREN SAWIT,Penyelundupan Senjata api (senpi),1
+2025,DUREN SAWIT,Perampasan ( Premanisme ),5
+2025,DUREN SAWIT,Perbuatan Yang Tidak Menyenangkan,11
+2025,DUREN SAWIT,Percobaan Pencurian,1
+2025,DUREN SAWIT,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,DUREN SAWIT,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,DUREN SAWIT,Perzinahan,2
+2025,DUREN SAWIT,Sumpah Palsu Dan Keterangan Palsu,1
+2025,DUREN SAWIT,Terhadap ketertiban umum,1
+2025,DUREN SAWIT,Tindak Pidana Dalam Perlindungan Anak,22
+2025,DUREN SAWIT,Tindak Pidana Transfer Dana,1
+2025,DUREN SAWIT,UNCLASSIFIED,33
+2025,GAMBIR,Cabul,1
+2025,GAMBIR,Kejahatan Tentang Jaminan Fidusia,9
+2025,GAMBIR,Kejahatan Tentang Pornografi,1
+2025,GAMBIR,Kejahatan Tentang Tenaga Kerja,6
+2025,GAMBIR,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,GAMBIR,Kejahatan Terkait Merek,9
+2025,GAMBIR,Kejahatan Terkait Perlindungan Data Pribadi,4
+2025,GAMBIR,Kejahatan Terkait Rahasia Dagang,1
+2025,GAMBIR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2025,GAMBIR,Kekerasan Dalam Rumah Tangga,8
+2025,GAMBIR,Kekerasan Seksual (KDRT),2
+2025,GAMBIR,Manipulasi data autentik secara elektronik (ITE),108
+2025,GAMBIR,Narkotika ( Narkoba ),57
+2025,GAMBIR,Pemalsuan Surat Otentik,16
+2025,GAMBIR,Pemerasan Dan Pengancaman,6
+2025,GAMBIR,Penadahan,1
+2025,GAMBIR,Pencemaran Nama Baik,6
+2025,GAMBIR,Penculikan,1
+2025,GAMBIR,Pencurian Biasa,95
+2025,GAMBIR,Pencurian Dengan Pemberatan ( Curat ),102
+2025,GAMBIR,Pencurian dalam lingkungan keluarga,1
+2025,GAMBIR,Pengaduan Palsu,1
+2025,GAMBIR,Penganiayaan,6
+2025,GAMBIR,Penganiayaan Berat ( Anirat ),2
+2025,GAMBIR,Pengeroyokan,11
+2025,GAMBIR,Pengerusakan,3
+2025,GAMBIR,Penggelapan,50
+2025,GAMBIR,Penipuan / Perbuatan Curang,217
+2025,GAMBIR,Penyalahgunaan Wewenang,3
+2025,GAMBIR,Penyekapan,1
+2025,GAMBIR,Penyerobotan Tanah,3
+2025,GAMBIR,Perbankan,2
+2025,GAMBIR,Perbuatan Yang Tidak Menyenangkan,11
+2025,GAMBIR,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,GAMBIR,Perlindungan Konsumen,2
+2025,GAMBIR,Perzinahan,3
+2025,GAMBIR,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2025,GAMBIR,Sumpah Palsu Dan Keterangan Palsu,5
+2025,GAMBIR,Terhadap ketertiban umum,10
+2025,GAMBIR,Tindak Pidana Dalam Perlindungan Anak,8
+2025,GAMBIR,Tindak Pidana Transfer Dana,1
+2025,GAMBIR,UNCLASSIFIED,26
+2025,GROGOL PETAMBURAN,Cabul,2
+2025,GROGOL PETAMBURAN,Curanmor R-2,4
+2025,GROGOL PETAMBURAN,Kejahatan Tentang Jaminan Fidusia,3
+2025,GROGOL PETAMBURAN,Kejahatan Tentang Pertambangan Mineral Dan Batubara (illegal Mining),1
+2025,GROGOL PETAMBURAN,Kejahatan Tentang Pornografi,2
+2025,GROGOL PETAMBURAN,Kejahatan Tentang Tenaga Kerja,1
+2025,GROGOL PETAMBURAN,Kejahatan Terkait Merek,2
+2025,GROGOL PETAMBURAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,GROGOL PETAMBURAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),9
+2025,GROGOL PETAMBURAN,Kejahatan terkait Tenaga Kesehatan,2
+2025,GROGOL PETAMBURAN,Kekerasan Dalam Rumah Tangga,18
+2025,GROGOL PETAMBURAN,Kekerasan Seksual (KDRT),3
+2025,GROGOL PETAMBURAN,Manipulasi data autentik secara elektronik (ITE),86
+2025,GROGOL PETAMBURAN,Memasuki Pekarangan Tanpa Ijin,3
+2025,GROGOL PETAMBURAN,Mengakibatkan Orang Luka,2
+2025,GROGOL PETAMBURAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,GROGOL PETAMBURAN,Narkotika ( Narkoba ),119
+2025,GROGOL PETAMBURAN,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,GROGOL PETAMBURAN,Pemalsuan Surat Otentik,7
+2025,GROGOL PETAMBURAN,Pemerasan Dan Pengancaman,3
+2025,GROGOL PETAMBURAN,Penadahan,1
+2025,GROGOL PETAMBURAN,Penculikan,1
+2025,GROGOL PETAMBURAN,Pencurian Biasa,64
+2025,GROGOL PETAMBURAN,Pencurian Dengan Kekerasan ( Curas ),8
+2025,GROGOL PETAMBURAN,Pencurian Dengan Pemberatan ( Curat ),107
+2025,GROGOL PETAMBURAN,Pengancaman,6
+2025,GROGOL PETAMBURAN,Penganiayaan,32
+2025,GROGOL PETAMBURAN,Penganiayaan Berat ( Anirat ),1
+2025,GROGOL PETAMBURAN,Pengeroyokan,11
+2025,GROGOL PETAMBURAN,Pengerusakan,4
+2025,GROGOL PETAMBURAN,Penggelapan,44
+2025,GROGOL PETAMBURAN,Penipuan / Perbuatan Curang,105
+2025,GROGOL PETAMBURAN,Perampasan ( Premanisme ),1
+2025,GROGOL PETAMBURAN,Perbuatan Yang Tidak Menyenangkan,7
+2025,GROGOL PETAMBURAN,Percobaan Pencurian,3
+2025,GROGOL PETAMBURAN,Perkosaan,1
+2025,GROGOL PETAMBURAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,6
+2025,GROGOL PETAMBURAN,Perzinahan,1
+2025,GROGOL PETAMBURAN,Psikotropika ( Narkoba ),1
+2025,GROGOL PETAMBURAN,Sumpah Palsu Dan Keterangan Palsu,1
+2025,GROGOL PETAMBURAN,Tindak Pidana Dalam Perlindungan Anak,12
+2025,GROGOL PETAMBURAN,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,GROGOL PETAMBURAN,Tindak Pidana Transfer Dana,1
+2025,GROGOL PETAMBURAN,UNCLASSIFIED,31
+2025,JAGAKARSA,Curanmor R-2,5
+2025,JAGAKARSA,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,JAGAKARSA,Kawin halangan/kawin tanpa ijin,1
+2025,JAGAKARSA,Kejahatan Tentang Jaminan Fidusia,2
+2025,JAGAKARSA,Kejahatan Tentang Perdagangan,2
+2025,JAGAKARSA,Kejahatan Terkait Merek,3
+2025,JAGAKARSA,Kejahatan Terkait Perlindungan Data Pribadi,12
+2025,JAGAKARSA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,JAGAKARSA,Kejahatan terkait Tenaga Kesehatan,1
+2025,JAGAKARSA,Kekerasan Dalam Rumah Tangga,22
+2025,JAGAKARSA,Kekerasan Seksual (KDRT),5
+2025,JAGAKARSA,Manipulasi data autentik secara elektronik (ITE),181
+2025,JAGAKARSA,Memasuki Pekarangan Tanpa Ijin,2
+2025,JAGAKARSA,Narkotika ( Narkoba ),79
+2025,JAGAKARSA,Pemalsuan Surat Otentik,7
+2025,JAGAKARSA,Pemerasan Dan Pengancaman,1
+2025,JAGAKARSA,Pencemaran Nama Baik,5
+2025,JAGAKARSA,Pencurian Biasa,65
+2025,JAGAKARSA,Pencurian Dengan Kekerasan ( Curas ),6
+2025,JAGAKARSA,Pencurian Dengan Pemberatan ( Curat ),104
+2025,JAGAKARSA,Pengancaman,1
+2025,JAGAKARSA,Penganiayaan,16
+2025,JAGAKARSA,Penganiayaan Berat ( Anirat ),10
+2025,JAGAKARSA,Pengeroyokan,9
+2025,JAGAKARSA,Pengerusakan,5
+2025,JAGAKARSA,Penggelapan,58
+2025,JAGAKARSA,Penipuan / Perbuatan Curang,169
+2025,JAGAKARSA,Penyekapan,1
+2025,JAGAKARSA,Penyerobotan Tanah,2
+2025,JAGAKARSA,Perampasan ( Premanisme ),6
+2025,JAGAKARSA,Perbuatan Yang Tidak Menyenangkan,5
+2025,JAGAKARSA,Perzinahan,1
+2025,JAGAKARSA,Psikotropika ( Narkoba ),2
+2025,JAGAKARSA,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2025,JAGAKARSA,Tindak Pidana Dalam Perlindungan Anak,14
+2025,JAGAKARSA,Tindak Pidana Transfer Dana,2
+2025,JAGAKARSA,UNCLASSIFIED,39
+2025,JATINEGARA,Cabul,1
+2025,JATINEGARA,Curanmor R-2,23
+2025,JATINEGARA,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,JATINEGARA,Kejahatan Tentang Jaminan Fidusia,1
+2025,JATINEGARA,Kejahatan Tentang Pers,1
+2025,JATINEGARA,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,JATINEGARA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2025,JATINEGARA,Kejahatan terkait Tenaga Kesehatan,1
+2025,JATINEGARA,Kekerasan Dalam Rumah Tangga,19
+2025,JATINEGARA,Kekerasan Seksual (KDRT),3
+2025,JATINEGARA,Manipulasi data autentik secara elektronik (ITE),281
+2025,JATINEGARA,Memasuki Pekarangan Tanpa Ijin,6
+2025,JATINEGARA,Mengakibatkan Orang Mati,1
+2025,JATINEGARA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2025,JATINEGARA,Narkotika ( Narkoba ),112
+2025,JATINEGARA,Pemalsuan Surat Otentik,13
+2025,JATINEGARA,Pemerasan,1
+2025,JATINEGARA,Pemerasan Dan Pengancaman,13
+2025,JATINEGARA,Pencemaran Nama Baik,5
+2025,JATINEGARA,Pencurian Biasa,157
+2025,JATINEGARA,Pencurian Dengan Kekerasan ( Curas ),5
+2025,JATINEGARA,Pencurian Dengan Pemberatan ( Curat ),166
+2025,JATINEGARA,Pencurian dalam lingkungan keluarga,2
+2025,JATINEGARA,Pengaduan Palsu,2
+2025,JATINEGARA,Pengancaman,3
+2025,JATINEGARA,Penganiayaan,60
+2025,JATINEGARA,Penganiayaan Berat ( Anirat ),22
+2025,JATINEGARA,Pengeroyokan,26
+2025,JATINEGARA,Pengerusakan,6
+2025,JATINEGARA,Penggelapan,43
+2025,JATINEGARA,Penghinaan,1
+2025,JATINEGARA,Penipuan / Perbuatan Curang,167
+2025,JATINEGARA,Penyekapan,1
+2025,JATINEGARA,Penyerobotan Tanah,2
+2025,JATINEGARA,Perampasan ( Premanisme ),12
+2025,JATINEGARA,Perbankan,1
+2025,JATINEGARA,Perbuatan Yang Tidak Menyenangkan,12
+2025,JATINEGARA,Percobaan Pencurian,1
+2025,JATINEGARA,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,JATINEGARA,Perzinahan,3
+2025,JATINEGARA,Psikotropika ( Narkoba ),1
+2025,JATINEGARA,Terhadap ketertiban umum,2
+2025,JATINEGARA,Tindak Pidana Dalam Perlindungan Anak,18
+2025,JATINEGARA,UNCLASSIFIED,43
+2025,JATINEGARA,Unjuk Rasa Anarkis,1
+2025,JOHAR BARU,Cabul,1
+2025,JOHAR BARU,Cukai,1
+2025,JOHAR BARU,Curanmor R-2,1
+2025,JOHAR BARU,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,4
+2025,JOHAR BARU,Kejahatan Tentang Jaminan Fidusia,3
+2025,JOHAR BARU,Kejahatan Tentang Tenaga Kerja,1
+2025,JOHAR BARU,Kejahatan Terhadap Jiwa Orang / Pembunuhan,5
+2025,JOHAR BARU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),10
+2025,JOHAR BARU,Kekerasan Dalam Rumah Tangga,12
+2025,JOHAR BARU,Manipulasi data autentik secara elektronik (ITE),40
+2025,JOHAR BARU,Memasuki Pekarangan Tanpa Ijin,1
+2025,JOHAR BARU,Membahayakan Keamanan Umum Bagi  Orang / Barang,1
+2025,JOHAR BARU,Mengakibatkan Orang Mati,1
+2025,JOHAR BARU,Narkotika ( Narkoba ),78
+2025,JOHAR BARU,Pemalsuan Surat Otentik,4
+2025,JOHAR BARU,Pemerasan Dan Pengancaman,3
+2025,JOHAR BARU,Penadahan,2
+2025,JOHAR BARU,Pencemaran Nama Baik,1
+2025,JOHAR BARU,Penculikan,1
+2025,JOHAR BARU,Pencurian Biasa,26
+2025,JOHAR BARU,Pencurian Dengan Kekerasan ( Curas ),1
+2025,JOHAR BARU,Pencurian Dengan Pemberatan ( Curat ),38
+2025,JOHAR BARU,Pencurian dalam lingkungan keluarga,1
+2025,JOHAR BARU,Pengaduan Palsu,1
+2025,JOHAR BARU,Penganiayaan,22
+2025,JOHAR BARU,Penganiayaan Berat ( Anirat ),3
+2025,JOHAR BARU,Pengeroyokan,15
+2025,JOHAR BARU,Pengerusakan,3
+2025,JOHAR BARU,Penggelapan,15
+2025,JOHAR BARU,Penghinaan,1
+2025,JOHAR BARU,Penipuan / Perbuatan Curang,77
+2025,JOHAR BARU,Penyerobotan Tanah,3
+2025,JOHAR BARU,Perbuatan Yang Tidak Menyenangkan,3
+2025,JOHAR BARU,Percobaan Pencurian,1
+2025,JOHAR BARU,Perlindungan Konsumen,1
+2025,JOHAR BARU,Perzinahan,1
+2025,JOHAR BARU,Terhadap ketertiban umum,12
+2025,JOHAR BARU,Tindak Pidana Dalam Perlindungan Anak,12
+2025,JOHAR BARU,UNCLASSIFIED,11
+2025,KALI DERES,Cabul,1
+2025,KALI DERES,Judi,2
+2025,KALI DERES,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,2
+2025,KALI DERES,Kejahatan Tentang Desain Industri,1
+2025,KALI DERES,Kejahatan Tentang Pornografi,1
+2025,KALI DERES,Kejahatan Tentang Tenaga Kerja,1
+2025,KALI DERES,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,KALI DERES,Kejahatan Terkait Merek,6
+2025,KALI DERES,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,KALI DERES,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,KALI DERES,Kejahatan terkait Tenaga Kesehatan,1
+2025,KALI DERES,Kekerasan Dalam Rumah Tangga,12
+2025,KALI DERES,Kekerasan Seksual (KDRT),5
+2025,KALI DERES,Manipulasi data autentik secara elektronik (ITE),49
+2025,KALI DERES,Memasuki Pekarangan Tanpa Ijin,11
+2025,KALI DERES,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,KALI DERES,Narkotika ( Narkoba ),77
+2025,KALI DERES,Pemalsuan Surat Otentik,14
+2025,KALI DERES,Pemerasan Dan Pengancaman,5
+2025,KALI DERES,Pencemaran Nama Baik,9
+2025,KALI DERES,Pencurian Biasa,37
+2025,KALI DERES,Pencurian Dengan Kekerasan ( Curas ),3
+2025,KALI DERES,Pencurian Dengan Pemberatan ( Curat ),43
+2025,KALI DERES,Pencurian dalam lingkungan keluarga,1
+2025,KALI DERES,Pengancaman,4
+2025,KALI DERES,Penganiayaan,43
+2025,KALI DERES,Penganiayaan Berat ( Anirat ),2
+2025,KALI DERES,Pengeroyokan,10
+2025,KALI DERES,Pengerusakan,2
+2025,KALI DERES,Penggelapan,42
+2025,KALI DERES,Penghinaan,1
+2025,KALI DERES,Penipuan / Perbuatan Curang,83
+2025,KALI DERES,Penyekapan,2
+2025,KALI DERES,Perbuatan Yang Tidak Menyenangkan,4
+2025,KALI DERES,Percobaan Pencurian,3
+2025,KALI DERES,Perkosaan,1
+2025,KALI DERES,Perlindungan Konsumen,1
+2025,KALI DERES,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,2
+2025,KALI DERES,Perzinahan,1
+2025,KALI DERES,Psikotropika ( Narkoba ),1
+2025,KALI DERES,Terhadap ketertiban umum,1
+2025,KALI DERES,Tindak Pidana Dalam Perlindungan Anak,25
+2025,KALI DERES,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,KALI DERES,Tindak Pidana Transfer Dana,1
+2025,KALI DERES,UNCLASSIFIED,24
+2025,KEBAYORAN BARU,Curanmor R-2,95
+2025,KEBAYORAN BARU,Hak Atas Kekayaan Intelektual ( HAKI ),2
+2025,KEBAYORAN BARU,Judi,6
+2025,KEBAYORAN BARU,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,KEBAYORAN BARU,Kawin halangan/kawin tanpa ijin,1
+2025,KEBAYORAN BARU,Kejahatan Tentang Jaminan Fidusia,12
+2025,KEBAYORAN BARU,Kejahatan Tentang Perdagangan,1
+2025,KEBAYORAN BARU,Kejahatan Tentang Pornografi,4
+2025,KEBAYORAN BARU,Kejahatan Tentang Tenaga Kerja,1
+2025,KEBAYORAN BARU,Kejahatan Terkait Administrasi Kependudukan,2
+2025,KEBAYORAN BARU,Kejahatan Terkait Perlindungan Data Pribadi,6
+2025,KEBAYORAN BARU,Kejahatan terkait Tenaga Kesehatan,6
+2025,KEBAYORAN BARU,Kekerasan Dalam Rumah Tangga,18
+2025,KEBAYORAN BARU,Kekerasan Seksual (KDRT),9
+2025,KEBAYORAN BARU,Manipulasi data autentik secara elektronik (ITE),437
+2025,KEBAYORAN BARU,Memasuki Pekarangan Tanpa Ijin,4
+2025,KEBAYORAN BARU,Membahayakan Keamanan Umum Bagi  Orang / Barang,2
+2025,KEBAYORAN BARU,Mengakibatkan Orang Luka,1
+2025,KEBAYORAN BARU,Menghambat Penyidikan,2
+2025,KEBAYORAN BARU,Narkotika ( Narkoba ),104
+2025,KEBAYORAN BARU,Pemalsuan Surat Otentik,41
+2025,KEBAYORAN BARU,Pemerasan Dan Pengancaman,4
+2025,KEBAYORAN BARU,Penadahan,2
+2025,KEBAYORAN BARU,Pencemaran Nama Baik,19
+2025,KEBAYORAN BARU,Pencurian Biasa,180
+2025,KEBAYORAN BARU,Pencurian Dengan Kekerasan ( Curas ),4
+2025,KEBAYORAN BARU,Pencurian Dengan Pemberatan ( Curat ),207
+2025,KEBAYORAN BARU,Pencurian Ringan,6
+2025,KEBAYORAN BARU,Pencurian dalam lingkungan keluarga,3
+2025,KEBAYORAN BARU,Pengaduan Palsu,12
+2025,KEBAYORAN BARU,Pengancaman,5
+2025,KEBAYORAN BARU,Penganiayaan,86
+2025,KEBAYORAN BARU,Penganiayaan Berat ( Anirat ),20
+2025,KEBAYORAN BARU,Pengeroyokan,41
+2025,KEBAYORAN BARU,Pengerusakan,17
+2025,KEBAYORAN BARU,Penggelapan,147
+2025,KEBAYORAN BARU,Penghinaan,1
+2025,KEBAYORAN BARU,Penipuan / Perbuatan Curang,449
+2025,KEBAYORAN BARU,Penyalahgunaan Wewenang,4
+2025,KEBAYORAN BARU,Penyekapan,1
+2025,KEBAYORAN BARU,Perampasan ( Premanisme ),7
+2025,KEBAYORAN BARU,Perbankan,3
+2025,KEBAYORAN BARU,Perbuatan Yang Tidak Menyenangkan,9
+2025,KEBAYORAN BARU,Percobaan Pencurian,1
+2025,KEBAYORAN BARU,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,KEBAYORAN BARU,Perkosaan,1
+2025,KEBAYORAN BARU,Perlindungan Konsumen,4
+2025,KEBAYORAN BARU,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,KEBAYORAN BARU,Perzinahan,10
+2025,KEBAYORAN BARU,Psikotropika ( Narkoba ),1
+2025,KEBAYORAN BARU,Terhadap ketertiban umum,2
+2025,KEBAYORAN BARU,Tindak Pidana Dalam Perlindungan Anak,15
+2025,KEBAYORAN BARU,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,KEBAYORAN BARU,Tindak Pidana Transfer Dana,2
+2025,KEBAYORAN BARU,UNCLASSIFIED,60
+2025,KEBAYORAN LAMA,Curanmor R-2,88
+2025,KEBAYORAN LAMA,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2025,KEBAYORAN LAMA,Kejahatan Tentang Jaminan Fidusia,20
+2025,KEBAYORAN LAMA,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,KEBAYORAN LAMA,Kejahatan Tentang Pornografi,1
+2025,KEBAYORAN LAMA,Kejahatan Tentang Tenaga Kerja,2
+2025,KEBAYORAN LAMA,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,KEBAYORAN LAMA,Kejahatan Terkait Merek,1
+2025,KEBAYORAN LAMA,Kejahatan Terkait Perlindungan Data Pribadi,6
+2025,KEBAYORAN LAMA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,KEBAYORAN LAMA,Kekerasan Dalam Rumah Tangga,25
+2025,KEBAYORAN LAMA,Kekerasan Seksual (KDRT),6
+2025,KEBAYORAN LAMA,Manipulasi data autentik secara elektronik (ITE),310
+2025,KEBAYORAN LAMA,Memasuki Pekarangan Tanpa Ijin,10
+2025,KEBAYORAN LAMA,Mengakibatkan Orang Luka,2
+2025,KEBAYORAN LAMA,Narkotika ( Narkoba ),89
+2025,KEBAYORAN LAMA,Pemalsuan Surat Otentik,16
+2025,KEBAYORAN LAMA,Pemerasan Dan Pengancaman,7
+2025,KEBAYORAN LAMA,Pencemaran Nama Baik,3
+2025,KEBAYORAN LAMA,Penculikan,1
+2025,KEBAYORAN LAMA,Pencurian Biasa,68
+2025,KEBAYORAN LAMA,Pencurian Dengan Kekerasan ( Curas ),5
+2025,KEBAYORAN LAMA,Pencurian Dengan Pemberatan ( Curat ),81
+2025,KEBAYORAN LAMA,Pengancaman,1
+2025,KEBAYORAN LAMA,Penganiayaan,36
+2025,KEBAYORAN LAMA,Penganiayaan Berat ( Anirat ),18
+2025,KEBAYORAN LAMA,Pengeroyokan,14
+2025,KEBAYORAN LAMA,Pengerusakan,2
+2025,KEBAYORAN LAMA,Penggelapan,87
+2025,KEBAYORAN LAMA,Penipuan / Perbuatan Curang,258
+2025,KEBAYORAN LAMA,Penyekapan,1
+2025,KEBAYORAN LAMA,Perampasan ( Premanisme ),12
+2025,KEBAYORAN LAMA,Perbuatan Yang Tidak Menyenangkan,7
+2025,KEBAYORAN LAMA,Perlindungan Konsumen,2
+2025,KEBAYORAN LAMA,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,KEBAYORAN LAMA,Perzinahan,1
+2025,KEBAYORAN LAMA,Tindak Pidana Dalam Perlindungan Anak,23
+2025,KEBAYORAN LAMA,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,KEBAYORAN LAMA,UNCLASSIFIED,35
+2025,KEBON JERUK,Curanmor R-2,4
+2025,KEBON JERUK,Kejahatan Tentang Jaminan Fidusia,1
+2025,KEBON JERUK,Kejahatan Tentang Pornografi,2
+2025,KEBON JERUK,Kejahatan Tentang Tenaga Kerja,2
+2025,KEBON JERUK,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,KEBON JERUK,Kejahatan Terkait Merek,79
+2025,KEBON JERUK,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,KEBON JERUK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,KEBON JERUK,Kejahatan terkait Tenaga Kesehatan,1
+2025,KEBON JERUK,Kekerasan Dalam Rumah Tangga,17
+2025,KEBON JERUK,Kekerasan Seksual (KDRT),2
+2025,KEBON JERUK,Manipulasi data autentik secara elektronik (ITE),90
+2025,KEBON JERUK,Memasuki Pekarangan Tanpa Ijin,7
+2025,KEBON JERUK,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2025,KEBON JERUK,Narkotika ( Narkoba ),99
+2025,KEBON JERUK,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,KEBON JERUK,Pemalsuan Surat Otentik,20
+2025,KEBON JERUK,Pemerasan Dan Pengancaman,2
+2025,KEBON JERUK,Pencurian Biasa,36
+2025,KEBON JERUK,Pencurian Dengan Kekerasan ( Curas ),5
+2025,KEBON JERUK,Pencurian Dengan Pemberatan ( Curat ),88
+2025,KEBON JERUK,Pengaduan Palsu,2
+2025,KEBON JERUK,Pengancaman,7
+2025,KEBON JERUK,Penganiayaan,31
+2025,KEBON JERUK,Penganiayaan Berat ( Anirat ),3
+2025,KEBON JERUK,Pengeroyokan,20
+2025,KEBON JERUK,Pengerusakan,2
+2025,KEBON JERUK,Penggelapan,68
+2025,KEBON JERUK,Penghinaan,1
+2025,KEBON JERUK,Penipuan / Perbuatan Curang,113
+2025,KEBON JERUK,Penyalahgunaan Wewenang,4
+2025,KEBON JERUK,Penyerobotan Tanah,2
+2025,KEBON JERUK,Perbuatan Yang Tidak Menyenangkan,4
+2025,KEBON JERUK,Percobaan Pencurian,2
+2025,KEBON JERUK,Perlindungan Konsumen,3
+2025,KEBON JERUK,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,4
+2025,KEBON JERUK,Psikotropika ( Narkoba ),1
+2025,KEBON JERUK,Tindak Pidana Dalam Perlindungan Anak,8
+2025,KEBON JERUK,UNCLASSIFIED,37
+2025,KELAPA GADING,Cabul,1
+2025,KELAPA GADING,Curanmor R-2,24
+2025,KELAPA GADING,Hak Atas Kekayaan Intelektual ( HAKI ),3
+2025,KELAPA GADING,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,KELAPA GADING,Kejahatan Lingkungan Hidup,1
+2025,KELAPA GADING,Kejahatan Tentang Jaminan Fidusia,12
+2025,KELAPA GADING,Kejahatan Tentang Konservasi Sumber Daya Alam Hayati Dan Ekosistem,1
+2025,KELAPA GADING,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),3
+2025,KELAPA GADING,Kejahatan Tentang Tenaga Kerja,1
+2025,KELAPA GADING,Kejahatan Terkait Merek,3
+2025,KELAPA GADING,Kejahatan Terkait Rahasia Dagang,1
+2025,KELAPA GADING,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2025,KELAPA GADING,Kejahatan terkait Tenaga Kesehatan,3
+2025,KELAPA GADING,Kekerasan Dalam Rumah Tangga,10
+2025,KELAPA GADING,Kekerasan Seksual (KDRT),8
+2025,KELAPA GADING,Manipulasi data autentik secara elektronik (ITE),88
+2025,KELAPA GADING,Memasuki Pekarangan Tanpa Ijin,2
+2025,KELAPA GADING,Membahayakan Keamanan Umum Bagi  Orang / Barang,1
+2025,KELAPA GADING,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2025,KELAPA GADING,Mucikari ( Pelacuran ),1
+2025,KELAPA GADING,Narkotika ( Narkoba ),64
+2025,KELAPA GADING,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,KELAPA GADING,Pemalsuan Surat Otentik,14
+2025,KELAPA GADING,Pemerasan Dan Pengancaman,2
+2025,KELAPA GADING,Penadahan,1
+2025,KELAPA GADING,Pencemaran Nama Baik,5
+2025,KELAPA GADING,Pencurian Biasa,35
+2025,KELAPA GADING,Pencurian Dengan Kekerasan ( Curas ),2
+2025,KELAPA GADING,Pencurian Dengan Pemberatan ( Curat ),44
+2025,KELAPA GADING,Pencurian Ringan,13
+2025,KELAPA GADING,Penganiayaan,31
+2025,KELAPA GADING,Penganiayaan Berat ( Anirat ),11
+2025,KELAPA GADING,Pengeroyokan,19
+2025,KELAPA GADING,Pengerusakan,7
+2025,KELAPA GADING,Penggelapan,62
+2025,KELAPA GADING,Penghinaan,2
+2025,KELAPA GADING,Penipuan / Perbuatan Curang,124
+2025,KELAPA GADING,Penyerobotan Tanah,2
+2025,KELAPA GADING,Perampasan ( Premanisme ),1
+2025,KELAPA GADING,Perbankan,2
+2025,KELAPA GADING,Perbuatan Yang Tidak Menyenangkan,6
+2025,KELAPA GADING,Perkosaan,1
+2025,KELAPA GADING,Perlindungan Konsumen,1
+2025,KELAPA GADING,Perzinahan,3
+2025,KELAPA GADING,Tindak Pidana Dalam Perlindungan Anak,20
+2025,KELAPA GADING,UNCLASSIFIED,15
+2025,KEMAYORAN,Curanmor R-2,83
+2025,KEMAYORAN,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2025,KEMAYORAN,Kejahatan Tentang Jaminan Fidusia,5
+2025,KEMAYORAN,Kejahatan Tentang Pornografi,1
+2025,KEMAYORAN,Kejahatan Tentang Tenaga Kerja,1
+2025,KEMAYORAN,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,KEMAYORAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,KEMAYORAN,Kejahatan terkait Tenaga Kesehatan,3
+2025,KEMAYORAN,Kekerasan Dalam Rumah Tangga,35
+2025,KEMAYORAN,Kekerasan Seksual (KDRT),9
+2025,KEMAYORAN,Manipulasi data autentik secara elektronik (ITE),107
+2025,KEMAYORAN,Memasuki Pekarangan Tanpa Ijin,6
+2025,KEMAYORAN,Narkotika ( Narkoba ),80
+2025,KEMAYORAN,Pemalsuan Surat Otentik,22
+2025,KEMAYORAN,Pemerasan Dan Pengancaman,10
+2025,KEMAYORAN,Pencemaran Nama Baik,8
+2025,KEMAYORAN,Pencurian Biasa,172
+2025,KEMAYORAN,Pencurian Dengan Kekerasan ( Curas ),21
+2025,KEMAYORAN,Pencurian Dengan Pemberatan ( Curat ),306
+2025,KEMAYORAN,Pencurian Ringan,1
+2025,KEMAYORAN,Pencurian dalam lingkungan keluarga,2
+2025,KEMAYORAN,Pengaduan Palsu,3
+2025,KEMAYORAN,Pengancaman,3
+2025,KEMAYORAN,Penganiayaan,61
+2025,KEMAYORAN,Penganiayaan Berat ( Anirat ),7
+2025,KEMAYORAN,Pengeroyokan,28
+2025,KEMAYORAN,Pengerusakan,10
+2025,KEMAYORAN,Penggelapan,82
+2025,KEMAYORAN,Penghinaan,2
+2025,KEMAYORAN,Penipuan / Perbuatan Curang,395
+2025,KEMAYORAN,Penyekapan,1
+2025,KEMAYORAN,Penyerobotan Tanah,3
+2025,KEMAYORAN,Perbankan,1
+2025,KEMAYORAN,Perbuatan Yang Tidak Menyenangkan,11
+2025,KEMAYORAN,Percobaan Pencurian,5
+2025,KEMAYORAN,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,KEMAYORAN,Perkosaan,2
+2025,KEMAYORAN,Perlindungan Konsumen,1
+2025,KEMAYORAN,Perzinahan,3
+2025,KEMAYORAN,Sumpah Palsu Dan Keterangan Palsu,11
+2025,KEMAYORAN,Terhadap ketertiban umum,1
+2025,KEMAYORAN,Tindak Pidana Dalam Perlindungan Anak,18
+2025,KEMAYORAN,Tindak Pidana Transfer Dana,2
+2025,KEMAYORAN,UNCLASSIFIED,53
+2025,KEMBANGAN,Curanmor R-2,1
+2025,KEMBANGAN,Kawin halangan/kawin tanpa ijin,1
+2025,KEMBANGAN,Kejahatan Tentang Jaminan Fidusia,4
+2025,KEMBANGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,KEMBANGAN,Kejahatan Tentang Perindustrian,2
+2025,KEMBANGAN,Kejahatan Tentang Tenaga Kerja,1
+2025,KEMBANGAN,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,KEMBANGAN,Kejahatan Terkait Merek,1
+2025,KEMBANGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,KEMBANGAN,Kejahatan terkait Tenaga Kesehatan,1
+2025,KEMBANGAN,Kekerasan Dalam Rumah Tangga,23
+2025,KEMBANGAN,Kekerasan Seksual (KDRT),3
+2025,KEMBANGAN,Manipulasi data autentik secara elektronik (ITE),97
+2025,KEMBANGAN,Memasuki Pekarangan Tanpa Ijin,5
+2025,KEMBANGAN,Narkotika ( Narkoba ),59
+2025,KEMBANGAN,Pemalsuan Surat Otentik,12
+2025,KEMBANGAN,Pemerasan Dan Pengancaman,2
+2025,KEMBANGAN,Pencemaran Nama Baik,3
+2025,KEMBANGAN,Pencurian Biasa,28
+2025,KEMBANGAN,Pencurian Dengan Kekerasan ( Curas ),9
+2025,KEMBANGAN,Pencurian Dengan Pemberatan ( Curat ),53
+2025,KEMBANGAN,Pengancaman,4
+2025,KEMBANGAN,Penganiayaan,33
+2025,KEMBANGAN,Penganiayaan Berat ( Anirat ),22
+2025,KEMBANGAN,Pengeroyokan,12
+2025,KEMBANGAN,Pengerusakan,4
+2025,KEMBANGAN,Penggelapan,70
+2025,KEMBANGAN,Penghinaan,3
+2025,KEMBANGAN,Penipuan / Perbuatan Curang,101
+2025,KEMBANGAN,Perampasan ( Premanisme ),1
+2025,KEMBANGAN,Perbuatan Yang Tidak Menyenangkan,5
+2025,KEMBANGAN,Percobaan Pencurian,1
+2025,KEMBANGAN,Perkosaan,1
+2025,KEMBANGAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,2
+2025,KEMBANGAN,Perzinahan,1
+2025,KEMBANGAN,Psikotropika ( Narkoba ),5
+2025,KEMBANGAN,Sumpah Palsu Dan Keterangan Palsu,3
+2025,KEMBANGAN,Tindak Pidana Dalam Perlindungan Anak,9
+2025,KEMBANGAN,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,KEMBANGAN,Tindak Pidana Transfer Dana,1
+2025,KEMBANGAN,UNCLASSIFIED,21
+2025,KEPULAUAN SERIBU SELATAN,Illegal Fishing,14
+2025,KEPULAUAN SERIBU SELATAN,Kekerasan Seksual (KDRT),1
+2025,KEPULAUAN SERIBU SELATAN,Manipulasi data autentik secara elektronik (ITE),1
+2025,KEPULAUAN SERIBU SELATAN,Narkotika ( Narkoba ),1
+2025,KEPULAUAN SERIBU SELATAN,Pencemaran Nama Baik,1
+2025,KEPULAUAN SERIBU SELATAN,Pengeroyokan,1
+2025,KEPULAUAN SERIBU SELATAN,Penipuan / Perbuatan Curang,2
+2025,KEPULAUAN SERIBU SELATAN,Tindak Pidana Dalam Perlindungan Anak,1
+2025,KEPULAUAN SERIBU UTARA,Manipulasi data autentik secara elektronik (ITE),1
+2025,KEPULAUAN SERIBU UTARA,Mengakibatkan Orang Mati,1
+2025,KEPULAUAN SERIBU UTARA,Narkotika ( Narkoba ),3
+2025,KEPULAUAN SERIBU UTARA,Pencemaran Nama Baik,1
+2025,KEPULAUAN SERIBU UTARA,Pencurian Dengan Pemberatan ( Curat ),1
+2025,KEPULAUAN SERIBU UTARA,Pengancaman,3
+2025,KEPULAUAN SERIBU UTARA,Penganiayaan,3
+2025,KEPULAUAN SERIBU UTARA,Pengeroyokan,3
+2025,KEPULAUAN SERIBU UTARA,Penipuan / Perbuatan Curang,1
+2025,KEPULAUAN SERIBU UTARA,Perbuatan Yang Tidak Menyenangkan,1
+2025,KEPULAUAN SERIBU UTARA,Tindak Pidana Dalam Perlindungan Anak,3
+2025,KOJA,Curanmor R-2,11
+2025,KOJA,Judi,7
+2025,KOJA,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2025,KOJA,Kejahatan Terkait Pangan,1
+2025,KOJA,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,KOJA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),40
+2025,KOJA,Kekerasan Dalam Rumah Tangga,26
+2025,KOJA,Kekerasan Seksual (KDRT),3
+2025,KOJA,Manipulasi data autentik secara elektronik (ITE),31
+2025,KOJA,Memasuki Pekarangan Tanpa Ijin,1
+2025,KOJA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,KOJA,Narkotika ( Narkoba ),128
+2025,KOJA,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,KOJA,Pemalsuan Surat Otentik,14
+2025,KOJA,Pemerasan Dan Pengancaman,2
+2025,KOJA,Pencemaran Nama Baik,3
+2025,KOJA,Pencurian Biasa,32
+2025,KOJA,Pencurian Dengan Kekerasan ( Curas ),6
+2025,KOJA,Pencurian Dengan Pemberatan ( Curat ),130
+2025,KOJA,Pencurian Ringan,6
+2025,KOJA,Pengaduan Palsu,1
+2025,KOJA,Pengancaman,1
+2025,KOJA,Penganiayaan,28
+2025,KOJA,Penganiayaan Berat ( Anirat ),22
+2025,KOJA,Pengeroyokan,18
+2025,KOJA,Penggelapan,34
+2025,KOJA,Penipuan / Perbuatan Curang,63
+2025,KOJA,Penyalahgunaan Wewenang,2
+2025,KOJA,Penyerobotan Tanah,5
+2025,KOJA,Perbuatan Yang Tidak Menyenangkan,8
+2025,KOJA,Percobaan Pencurian,3
+2025,KOJA,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,6
+2025,KOJA,Perzinahan,2
+2025,KOJA,Sumpah Palsu Dan Keterangan Palsu,1
+2025,KOJA,Terhadap ketertiban umum,4
+2025,KOJA,Tindak Pidana Dalam Perlindungan Anak,28
+2025,KOJA,UNCLASSIFIED,17
+2025,KRAMAT JATI,Aborsi,1
+2025,KRAMAT JATI,Cabul,1
+2025,KRAMAT JATI,Curanmor R-2,18
+2025,KRAMAT JATI,Kejahatan Tentang Jaminan Fidusia,3
+2025,KRAMAT JATI,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,KRAMAT JATI,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,KRAMAT JATI,Kejahatan Terkait Merek,2
+2025,KRAMAT JATI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2025,KRAMAT JATI,Kekerasan Dalam Rumah Tangga,12
+2025,KRAMAT JATI,Kekerasan Seksual (KDRT),4
+2025,KRAMAT JATI,Manipulasi data autentik secara elektronik (ITE),209
+2025,KRAMAT JATI,Memasuki Pekarangan Tanpa Ijin,2
+2025,KRAMAT JATI,Mengakibatkan Orang Mati,1
+2025,KRAMAT JATI,Narkotika ( Narkoba ),100
+2025,KRAMAT JATI,Pemalsuan Surat Otentik,5
+2025,KRAMAT JATI,Pemerasan Dan Pengancaman,3
+2025,KRAMAT JATI,Penadahan,2
+2025,KRAMAT JATI,Pencemaran Nama Baik,3
+2025,KRAMAT JATI,Pencurian Biasa,96
+2025,KRAMAT JATI,Pencurian Dengan Kekerasan ( Curas ),1
+2025,KRAMAT JATI,Pencurian Dengan Pemberatan ( Curat ),58
+2025,KRAMAT JATI,Pencurian dalam lingkungan keluarga,1
+2025,KRAMAT JATI,Pengancaman,6
+2025,KRAMAT JATI,Penganiayaan,69
+2025,KRAMAT JATI,Penganiayaan Berat ( Anirat ),8
+2025,KRAMAT JATI,Pengeroyokan,27
+2025,KRAMAT JATI,Pengerusakan,4
+2025,KRAMAT JATI,Penggelapan,23
+2025,KRAMAT JATI,Penipuan / Perbuatan Curang,130
+2025,KRAMAT JATI,Penyelundupan Senjata api (senpi),1
+2025,KRAMAT JATI,Penyerobotan Tanah,2
+2025,KRAMAT JATI,Perampasan ( Premanisme ),7
+2025,KRAMAT JATI,Perbuatan Yang Tidak Menyenangkan,7
+2025,KRAMAT JATI,Percobaan Pencurian,3
+2025,KRAMAT JATI,Perzinahan,1
+2025,KRAMAT JATI,Tindak Pidana Dalam Perlindungan Anak,14
+2025,KRAMAT JATI,UNCLASSIFIED,25
+2025,MAKASAR,Cabul,2
+2025,MAKASAR,Curanmor R-2,61
+2025,MAKASAR,Kejahatan Tentang Jaminan Fidusia,2
+2025,MAKASAR,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,MAKASAR,Kejahatan Tentang Pornografi,1
+2025,MAKASAR,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,MAKASAR,Kejahatan Terkait Merek,1
+2025,MAKASAR,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,MAKASAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2025,MAKASAR,Kejahatan terkait Tenaga Kesehatan,1
+2025,MAKASAR,Kekerasan Dalam Rumah Tangga,10
+2025,MAKASAR,Kekerasan Seksual (KDRT),3
+2025,MAKASAR,Manipulasi data autentik secara elektronik (ITE),178
+2025,MAKASAR,Memasuki Pekarangan Tanpa Ijin,1
+2025,MAKASAR,Narkotika ( Narkoba ),25
+2025,MAKASAR,Pemalsuan Surat Otentik,4
+2025,MAKASAR,Pemerasan Dan Pengancaman,9
+2025,MAKASAR,Pencemaran Nama Baik,3
+2025,MAKASAR,Pencurian Biasa,34
+2025,MAKASAR,Pencurian Dengan Kekerasan ( Curas ),7
+2025,MAKASAR,Pencurian Dengan Pemberatan ( Curat ),56
+2025,MAKASAR,Pengancaman,1
+2025,MAKASAR,Penganiayaan,30
+2025,MAKASAR,Penganiayaan Berat ( Anirat ),10
+2025,MAKASAR,Pengeroyokan,12
+2025,MAKASAR,Pengerusakan,6
+2025,MAKASAR,Penggelapan,16
+2025,MAKASAR,Penghinaan,1
+2025,MAKASAR,Penipuan / Perbuatan Curang,121
+2025,MAKASAR,Perampasan ( Premanisme ),3
+2025,MAKASAR,Perbuatan Yang Tidak Menyenangkan,5
+2025,MAKASAR,Perzinahan,3
+2025,MAKASAR,Tindak Pidana Dalam Perlindungan Anak,11
+2025,MAKASAR,UNCLASSIFIED,25
+2025,MAMPANG PRAPATAN,Curanmor R-2,9
+2025,MAMPANG PRAPATAN,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2025,MAMPANG PRAPATAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,MAMPANG PRAPATAN,Kejahatan Tentang Pornografi,1
+2025,MAMPANG PRAPATAN,Kejahatan Tentang Tenaga Kerja,1
+2025,MAMPANG PRAPATAN,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,MAMPANG PRAPATAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,MAMPANG PRAPATAN,Kejahatan terkait Tenaga Kesehatan,7
+2025,MAMPANG PRAPATAN,Kekerasan Dalam Rumah Tangga,11
+2025,MAMPANG PRAPATAN,Kekerasan Seksual (KDRT),8
+2025,MAMPANG PRAPATAN,Manipulasi data autentik secara elektronik (ITE),148
+2025,MAMPANG PRAPATAN,Melawan Kekuasaan Umum,1
+2025,MAMPANG PRAPATAN,Memasuki Pekarangan Tanpa Ijin,4
+2025,MAMPANG PRAPATAN,Narkotika ( Narkoba ),66
+2025,MAMPANG PRAPATAN,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,MAMPANG PRAPATAN,Pemalsuan Surat Otentik,9
+2025,MAMPANG PRAPATAN,Pemerasan Dan Pengancaman,1
+2025,MAMPANG PRAPATAN,Pencemaran Nama Baik,8
+2025,MAMPANG PRAPATAN,Pencurian Biasa,43
+2025,MAMPANG PRAPATAN,Pencurian Dengan Kekerasan ( Curas ),3
+2025,MAMPANG PRAPATAN,Pencurian Dengan Pemberatan ( Curat ),50
+2025,MAMPANG PRAPATAN,Pengancaman,1
+2025,MAMPANG PRAPATAN,Penganiayaan,44
+2025,MAMPANG PRAPATAN,Penganiayaan Berat ( Anirat ),4
+2025,MAMPANG PRAPATAN,Pengeroyokan,19
+2025,MAMPANG PRAPATAN,Pengerusakan,6
+2025,MAMPANG PRAPATAN,Penggelapan,51
+2025,MAMPANG PRAPATAN,Penipuan / Perbuatan Curang,103
+2025,MAMPANG PRAPATAN,Penyerobotan Tanah,1
+2025,MAMPANG PRAPATAN,Perampasan ( Premanisme ),1
+2025,MAMPANG PRAPATAN,Perbuatan Yang Tidak Menyenangkan,2
+2025,MAMPANG PRAPATAN,Perlindungan Konsumen,1
+2025,MAMPANG PRAPATAN,Perzinahan,2
+2025,MAMPANG PRAPATAN,Terhadap ketertiban umum,1
+2025,MAMPANG PRAPATAN,Tindak Pidana Dalam Perlindungan Anak,7
+2025,MAMPANG PRAPATAN,UNCLASSIFIED,20
+2025,MATRAMAN,Cabul,1
+2025,MATRAMAN,Curanmor R-2,32
+2025,MATRAMAN,Kejahatan Tentang Jaminan Fidusia,2
+2025,MATRAMAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,MATRAMAN,Kejahatan terkait Tenaga Kesehatan,1
+2025,MATRAMAN,Kekerasan Dalam Rumah Tangga,7
+2025,MATRAMAN,Manipulasi data autentik secara elektronik (ITE),169
+2025,MATRAMAN,Memasuki Pekarangan Tanpa Ijin,2
+2025,MATRAMAN,Narkotika ( Narkoba ),68
+2025,MATRAMAN,Pemalsuan Surat Otentik,2
+2025,MATRAMAN,Pemerasan Dan Pengancaman,8
+2025,MATRAMAN,Pencemaran Nama Baik,1
+2025,MATRAMAN,Pencurian Biasa,44
+2025,MATRAMAN,Pencurian Dengan Kekerasan ( Curas ),6
+2025,MATRAMAN,Pencurian Dengan Pemberatan ( Curat ),87
+2025,MATRAMAN,Pencurian dalam lingkungan keluarga,2
+2025,MATRAMAN,Pengancaman,1
+2025,MATRAMAN,Penganiayaan,15
+2025,MATRAMAN,Penganiayaan Berat ( Anirat ),16
+2025,MATRAMAN,Pengeroyokan,14
+2025,MATRAMAN,Pengerusakan,3
+2025,MATRAMAN,Penggelapan,16
+2025,MATRAMAN,Penghinaan,2
+2025,MATRAMAN,Penipuan / Perbuatan Curang,88
+2025,MATRAMAN,Perbuatan Yang Tidak Menyenangkan,3
+2025,MATRAMAN,Percobaan Pencurian,1
+2025,MATRAMAN,Perkelahian Tanding,2
+2025,MATRAMAN,Perkosaan,1
+2025,MATRAMAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,MATRAMAN,Tindak Pidana Dalam Perlindungan Anak,6
+2025,MATRAMAN,UNCLASSIFIED,22
+2025,MENTENG,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,3
+2025,MENTENG,Kejahatan Tentang Jaminan Fidusia,2
+2025,MENTENG,Kejahatan Tentang Tenaga Kerja,1
+2025,MENTENG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,MENTENG,Kejahatan Terkait Merek,1
+2025,MENTENG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,MENTENG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2025,MENTENG,Kejahatan terkait Tenaga Kesehatan,2
+2025,MENTENG,Kekerasan Dalam Rumah Tangga,5
+2025,MENTENG,Kekerasan Seksual (KDRT),7
+2025,MENTENG,Manipulasi data autentik secara elektronik (ITE),99
+2025,MENTENG,Membahayakan Keamanan Umum Bagi  Orang / Barang,2
+2025,MENTENG,Mengakibatkan Orang Luka,1
+2025,MENTENG,Mengakibatkan Orang Mati,1
+2025,MENTENG,Narkotika ( Narkoba ),45
+2025,MENTENG,Pemalsuan Surat Otentik,14
+2025,MENTENG,Pemerasan,1
+2025,MENTENG,Pemerasan Dan Pengancaman,8
+2025,MENTENG,Pencemaran Nama Baik,7
+2025,MENTENG,Pencurian Biasa,105
+2025,MENTENG,Pencurian Dengan Kekerasan ( Curas ),2
+2025,MENTENG,Pencurian Dengan Pemberatan ( Curat ),121
+2025,MENTENG,Pengaduan Palsu,2
+2025,MENTENG,Penganiayaan,30
+2025,MENTENG,Penganiayaan Berat ( Anirat ),3
+2025,MENTENG,Pengeroyokan,8
+2025,MENTENG,Pengerusakan,4
+2025,MENTENG,Penggelapan,61
+2025,MENTENG,Penipuan / Perbuatan Curang,247
+2025,MENTENG,Penyebaran Berita Bohong ( Hoax ),1
+2025,MENTENG,Perampasan ( Premanisme ),1
+2025,MENTENG,Perbankan,1
+2025,MENTENG,Perbuatan Yang Tidak Menyenangkan,3
+2025,MENTENG,Percobaan Pencurian,1
+2025,MENTENG,Perlindungan Konsumen,1
+2025,MENTENG,Perzinahan,2
+2025,MENTENG,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2025,MENTENG,Sumpah Palsu Dan Keterangan Palsu,1
+2025,MENTENG,Terhadap ketertiban umum,5
+2025,MENTENG,Tindak Pidana Dalam Perlindungan Anak,9
+2025,MENTENG,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,MENTENG,Tindak Pidana Transfer Dana,1
+2025,MENTENG,UNCLASSIFIED,24
+2025,PADEMANGAN,Cabul,2
+2025,PADEMANGAN,Curanmor R-2,2
+2025,PADEMANGAN,Judi,1
+2025,PADEMANGAN,Kejahatan Tentang Jaminan Fidusia,3
+2025,PADEMANGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,PADEMANGAN,Kejahatan Tentang Perdagangan,2
+2025,PADEMANGAN,Kejahatan Tentang Tenaga Kerja,2
+2025,PADEMANGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,PADEMANGAN,Kejahatan terkait Tenaga Kesehatan,1
+2025,PADEMANGAN,Kekerasan Dalam Rumah Tangga,11
+2025,PADEMANGAN,Kekerasan Seksual (KDRT),5
+2025,PADEMANGAN,Manipulasi data autentik secara elektronik (ITE),40
+2025,PADEMANGAN,Memasuki Pekarangan Tanpa Ijin,2
+2025,PADEMANGAN,Mengakibatkan Orang Mati,1
+2025,PADEMANGAN,Mucikari ( Pelacuran ),2
+2025,PADEMANGAN,Narkotika ( Narkoba ),76
+2025,PADEMANGAN,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,PADEMANGAN,Pemalsuan Surat Otentik,5
+2025,PADEMANGAN,Pemerasan Dan Pengancaman,2
+2025,PADEMANGAN,Pencemaran Nama Baik,1
+2025,PADEMANGAN,Penculikan,1
+2025,PADEMANGAN,Pencurian Biasa,15
+2025,PADEMANGAN,Pencurian Dengan Kekerasan ( Curas ),5
+2025,PADEMANGAN,Pencurian Dengan Pemberatan ( Curat ),71
+2025,PADEMANGAN,Penganiayaan,13
+2025,PADEMANGAN,Penganiayaan Berat ( Anirat ),6
+2025,PADEMANGAN,Pengeroyokan,8
+2025,PADEMANGAN,Penggelapan,34
+2025,PADEMANGAN,Penipuan / Perbuatan Curang,48
+2025,PADEMANGAN,Penyekapan,1
+2025,PADEMANGAN,Penyerobotan Tanah,2
+2025,PADEMANGAN,Perbuatan Yang Tidak Menyenangkan,4
+2025,PADEMANGAN,Percobaan Pencurian,1
+2025,PADEMANGAN,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,PADEMANGAN,Perzinahan,1
+2025,PADEMANGAN,Psikotropika ( Narkoba ),2
+2025,PADEMANGAN,Sumpah Palsu Dan Keterangan Palsu,1
+2025,PADEMANGAN,Tindak Pidana Dalam Perlindungan Anak,19
+2025,PADEMANGAN,UNCLASSIFIED,8
+2025,PALMERAH,Curanmor R-2,1
+2025,PALMERAH,Kejahatan Tentang Desain Industri,1
+2025,PALMERAH,Kejahatan Tentang Jaminan Fidusia,1
+2025,PALMERAH,Kejahatan Tentang Perindustrian,1
+2025,PALMERAH,Kejahatan Tentang Pornografi,1
+2025,PALMERAH,Kejahatan Terkait Perlindungan Data Pribadi,2
+2025,PALMERAH,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2025,PALMERAH,Kejahatan terkait Tenaga Kesehatan,5
+2025,PALMERAH,Kekerasan Dalam Rumah Tangga,12
+2025,PALMERAH,Kekerasan Seksual (KDRT),3
+2025,PALMERAH,Manipulasi data autentik secara elektronik (ITE),61
+2025,PALMERAH,Memasuki Pekarangan Tanpa Ijin,1
+2025,PALMERAH,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,PALMERAH,Narkotika ( Narkoba ),82
+2025,PALMERAH,Pemalsuan Surat Otentik,8
+2025,PALMERAH,Pemerasan Dan Pengancaman,1
+2025,PALMERAH,Penadahan,1
+2025,PALMERAH,Pencemaran Nama Baik,3
+2025,PALMERAH,Pencurian Biasa,30
+2025,PALMERAH,Pencurian Dengan Kekerasan ( Curas ),4
+2025,PALMERAH,Pencurian Dengan Pemberatan ( Curat ),46
+2025,PALMERAH,Pengancaman,1
+2025,PALMERAH,Penganiayaan,27
+2025,PALMERAH,Penganiayaan Berat ( Anirat ),5
+2025,PALMERAH,Pengeroyokan,15
+2025,PALMERAH,Pengerusakan,1
+2025,PALMERAH,Penggelapan,74
+2025,PALMERAH,Penipuan / Perbuatan Curang,101
+2025,PALMERAH,Penyekapan,1
+2025,PALMERAH,Penyelundupan Senjata api (senpi),1
+2025,PALMERAH,Perampasan ( Premanisme ),1
+2025,PALMERAH,Perbankan,1
+2025,PALMERAH,Perbuatan Yang Tidak Menyenangkan,1
+2025,PALMERAH,Percobaan Pencurian,2
+2025,PALMERAH,Perzinahan,1
+2025,PALMERAH,Sumpah Palsu Dan Keterangan Palsu,4
+2025,PALMERAH,Tindak Pidana Dalam Perlindungan Anak,11
+2025,PALMERAH,Tindak Pidana Transfer Dana,1
+2025,PALMERAH,UNCLASSIFIED,27
+2025,PANCORAN,Cabul,1
+2025,PANCORAN,Curanmor R-2,5
+2025,PANCORAN,Kawin halangan/kawin tanpa ijin,1
+2025,PANCORAN,Kejahatan Tentang Jaminan Fidusia,2
+2025,PANCORAN,Kejahatan Tentang Tenaga Kerja,1
+2025,PANCORAN,Kejahatan Terkait Perlindungan Data Pribadi,5
+2025,PANCORAN,Kejahatan tentang perlindungan pekerja migran indonesia,1
+2025,PANCORAN,Kekerasan Dalam Rumah Tangga,17
+2025,PANCORAN,Kekerasan Seksual (KDRT),3
+2025,PANCORAN,Manipulasi data autentik secara elektronik (ITE),163
+2025,PANCORAN,Memasuki Pekarangan Tanpa Ijin,3
+2025,PANCORAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,PANCORAN,Narkotika ( Narkoba ),72
+2025,PANCORAN,Pemalsuan Surat Otentik,4
+2025,PANCORAN,Pembunuhan,1
+2025,PANCORAN,Pemerasan Dan Pengancaman,1
+2025,PANCORAN,Pencemaran Nama Baik,6
+2025,PANCORAN,Penculikan,1
+2025,PANCORAN,Pencurian Biasa,46
+2025,PANCORAN,Pencurian Dengan Kekerasan ( Curas ),6
+2025,PANCORAN,Pencurian Dengan Pemberatan ( Curat ),63
+2025,PANCORAN,Pengancaman,3
+2025,PANCORAN,Penganiayaan,36
+2025,PANCORAN,Penganiayaan Berat ( Anirat ),4
+2025,PANCORAN,Pengeroyokan,6
+2025,PANCORAN,Pengerusakan,1
+2025,PANCORAN,Penggelapan,42
+2025,PANCORAN,Penipuan / Perbuatan Curang,146
+2025,PANCORAN,Penyekapan,1
+2025,PANCORAN,Perampasan ( Premanisme ),2
+2025,PANCORAN,Perbankan,1
+2025,PANCORAN,Perbuatan Yang Tidak Menyenangkan,5
+2025,PANCORAN,Percobaan Pencurian,1
+2025,PANCORAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,PANCORAN,Perzinahan,2
+2025,PANCORAN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2025,PANCORAN,Tindak Pidana Dalam Perlindungan Anak,13
+2025,PANCORAN,Tindak Pidana Transfer Dana,1
+2025,PANCORAN,UNCLASSIFIED,19
+2025,PASAR MINGGU,Cabul,1
+2025,PASAR MINGGU,Curanmor R-2,13
+2025,PASAR MINGGU,Hak Atas Kekayaan Intelektual ( HAKI ),2
+2025,PASAR MINGGU,Kejahatan Tentang Jaminan Fidusia,5
+2025,PASAR MINGGU,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,PASAR MINGGU,Kejahatan Tentang Perdagangan,1
+2025,PASAR MINGGU,Kejahatan Terkait Merek,2
+2025,PASAR MINGGU,Kejahatan Terkait Perlindungan Data Pribadi,2
+2025,PASAR MINGGU,Kejahatan Terkait Rahasia Dagang,1
+2025,PASAR MINGGU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,PASAR MINGGU,Kekerasan Dalam Rumah Tangga,22
+2025,PASAR MINGGU,Kekerasan Seksual (KDRT),10
+2025,PASAR MINGGU,Korupsi ( Tipikor ),1
+2025,PASAR MINGGU,Manipulasi data autentik secara elektronik (ITE),225
+2025,PASAR MINGGU,Melawan Putusan Pengadilan,1
+2025,PASAR MINGGU,Memasuki Pekarangan Tanpa Ijin,3
+2025,PASAR MINGGU,Mengakibatkan Orang Mati,1
+2025,PASAR MINGGU,Menghambat Penyidikan,1
+2025,PASAR MINGGU,Narkotika ( Narkoba ),111
+2025,PASAR MINGGU,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,PASAR MINGGU,Pemalsuan Surat Otentik,22
+2025,PASAR MINGGU,Pemerasan Dan Pengancaman,3
+2025,PASAR MINGGU,Penadahan,1
+2025,PASAR MINGGU,Pencemaran Nama Baik,7
+2025,PASAR MINGGU,Pencurian Biasa,44
+2025,PASAR MINGGU,Pencurian Dengan Kekerasan ( Curas ),4
+2025,PASAR MINGGU,Pencurian Dengan Pemberatan ( Curat ),62
+2025,PASAR MINGGU,Pencurian Ringan,2
+2025,PASAR MINGGU,Pengaduan Palsu,1
+2025,PASAR MINGGU,Penganiayaan,30
+2025,PASAR MINGGU,Penganiayaan Berat ( Anirat ),15
+2025,PASAR MINGGU,Pengeroyokan,13
+2025,PASAR MINGGU,Pengerusakan,7
+2025,PASAR MINGGU,Penggelapan,62
+2025,PASAR MINGGU,Penghinaan,3
+2025,PASAR MINGGU,Penipuan / Perbuatan Curang,174
+2025,PASAR MINGGU,Penyerobotan Tanah,1
+2025,PASAR MINGGU,Perampasan ( Premanisme ),2
+2025,PASAR MINGGU,Perbankan,1
+2025,PASAR MINGGU,Perbuatan Yang Tidak Menyenangkan,4
+2025,PASAR MINGGU,Percobaan Pencurian,4
+2025,PASAR MINGGU,Perlindungan Konsumen,3
+2025,PASAR MINGGU,Perzinahan,3
+2025,PASAR MINGGU,Psikotropika ( Narkoba ),2
+2025,PASAR MINGGU,Sumpah Palsu Dan Keterangan Palsu,9
+2025,PASAR MINGGU,Tindak Pidana Dalam Perlindungan Anak,17
+2025,PASAR MINGGU,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,PASAR MINGGU,UNCLASSIFIED,35
+2025,PASAR REBO,Curanmor R-2,20
+2025,PASAR REBO,Kejahatan Tentang Jaminan Fidusia,2
+2025,PASAR REBO,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,PASAR REBO,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),7
+2025,PASAR REBO,Kekerasan Dalam Rumah Tangga,6
+2025,PASAR REBO,Kekerasan Seksual (KDRT),2
+2025,PASAR REBO,Manipulasi data autentik secara elektronik (ITE),117
+2025,PASAR REBO,Memasuki Pekarangan Tanpa Ijin,1
+2025,PASAR REBO,Membahayakan Keamanan Umum Bagi  Orang / Barang,1
+2025,PASAR REBO,Mengakibatkan Orang Luka,1
+2025,PASAR REBO,Narkotika ( Narkoba ),36
+2025,PASAR REBO,Pemerasan Dan Pengancaman,5
+2025,PASAR REBO,Pencemaran Nama Baik,2
+2025,PASAR REBO,Pencurian Biasa,39
+2025,PASAR REBO,Pencurian Dengan Kekerasan ( Curas ),2
+2025,PASAR REBO,Pencurian Dengan Pemberatan ( Curat ),88
+2025,PASAR REBO,Pencurian Ringan,8
+2025,PASAR REBO,Pencurian dalam lingkungan keluarga,2
+2025,PASAR REBO,Penganiayaan,26
+2025,PASAR REBO,Penganiayaan Berat ( Anirat ),13
+2025,PASAR REBO,Pengeroyokan,11
+2025,PASAR REBO,Pengerusakan,2
+2025,PASAR REBO,Penggelapan,10
+2025,PASAR REBO,Penipuan / Perbuatan Curang,102
+2025,PASAR REBO,Penyekapan,1
+2025,PASAR REBO,Perampasan ( Premanisme ),4
+2025,PASAR REBO,Perbuatan Yang Tidak Menyenangkan,2
+2025,PASAR REBO,Percobaan Pencurian,2
+2025,PASAR REBO,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,PASAR REBO,Psikotropika ( Narkoba ),1
+2025,PASAR REBO,Sumpah Palsu Dan Keterangan Palsu,1
+2025,PASAR REBO,Tindak Pidana Dalam Perlindungan Anak,10
+2025,PASAR REBO,UNCLASSIFIED,10
+2025,PENJARINGAN,Cabul,2
+2025,PENJARINGAN,Curanmor R-2,19
+2025,PENJARINGAN,Judi,6
+2025,PENJARINGAN,Kejahatan Tentang Jaminan Fidusia,3
+2025,PENJARINGAN,Kejahatan Tentang Konservasi Sumber Daya Alam Hayati Dan Ekosistem,1
+2025,PENJARINGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,PENJARINGAN,Kejahatan Tentang Perdagangan,4
+2025,PENJARINGAN,Kejahatan Tentang Perindustrian,2
+2025,PENJARINGAN,Kejahatan Tentang Peternakan Dan Kesehatan Hewan,1
+2025,PENJARINGAN,Kejahatan Tentang Pornografi,3
+2025,PENJARINGAN,Kejahatan Tentang Tenaga Kerja,1
+2025,PENJARINGAN,Kejahatan Terhadap Jiwa Orang / Pembunuhan,2
+2025,PENJARINGAN,Kejahatan Terkait Merek,2
+2025,PENJARINGAN,Kejahatan Terkait Pangan,4
+2025,PENJARINGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,PENJARINGAN,Kejahatan terkait Tenaga Kesehatan,9
+2025,PENJARINGAN,Kekerasan Dalam Rumah Tangga,30
+2025,PENJARINGAN,Kekerasan Seksual (KDRT),9
+2025,PENJARINGAN,Manipulasi data autentik secara elektronik (ITE),121
+2025,PENJARINGAN,Memasuki Pekarangan Tanpa Ijin,1
+2025,PENJARINGAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,5
+2025,PENJARINGAN,Narkotika ( Narkoba ),140
+2025,PENJARINGAN,Pemalsuan Surat Otentik,17
+2025,PENJARINGAN,Pemerasan Dan Pengancaman,9
+2025,PENJARINGAN,Penadahan,1
+2025,PENJARINGAN,Pencemaran Nama Baik,8
+2025,PENJARINGAN,Pencurian Biasa,29
+2025,PENJARINGAN,Pencurian Dengan Kekerasan ( Curas ),8
+2025,PENJARINGAN,Pencurian Dengan Pemberatan ( Curat ),72
+2025,PENJARINGAN,Pencurian Ringan,3
+2025,PENJARINGAN,Pengancaman,3
+2025,PENJARINGAN,Penganiayaan,19
+2025,PENJARINGAN,Penganiayaan Berat ( Anirat ),27
+2025,PENJARINGAN,Pengeroyokan,28
+2025,PENJARINGAN,Pengerusakan,3
+2025,PENJARINGAN,Penggelapan,111
+2025,PENJARINGAN,Penipuan / Perbuatan Curang,142
+2025,PENJARINGAN,Penyekapan,1
+2025,PENJARINGAN,Penyelundupan Senjata api (senpi),8
+2025,PENJARINGAN,Penyerobotan Tanah,5
+2025,PENJARINGAN,Perampasan ( Premanisme ),1
+2025,PENJARINGAN,Perbuatan Yang Tidak Menyenangkan,9
+2025,PENJARINGAN,Percobaan Pencurian,5
+2025,PENJARINGAN,Perlindungan Konsumen,2
+2025,PENJARINGAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,PENJARINGAN,Perzinahan,1
+2025,PENJARINGAN,Psikotropika ( Narkoba ),3
+2025,PENJARINGAN,Telekomunikasi,1
+2025,PENJARINGAN,Terhadap ketertiban umum,2
+2025,PENJARINGAN,Tindak Pidana Dalam Perlindungan Anak,27
+2025,PENJARINGAN,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),3
+2025,PENJARINGAN,UNCLASSIFIED,32
+2025,PESANGGRAHAN,Curanmor R-2,8
+2025,PESANGGRAHAN,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2025,PESANGGRAHAN,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,PESANGGRAHAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2025,PESANGGRAHAN,Kejahatan Tentang Pornografi,1
+2025,PESANGGRAHAN,Kejahatan Terkait Merek,1
+2025,PESANGGRAHAN,Kejahatan Terkait Perlindungan Data Pribadi,3
+2025,PESANGGRAHAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2025,PESANGGRAHAN,Kejahatan terkait Tenaga Kesehatan,3
+2025,PESANGGRAHAN,Kekerasan Dalam Rumah Tangga,24
+2025,PESANGGRAHAN,Kekerasan Seksual (KDRT),3
+2025,PESANGGRAHAN,Manipulasi data autentik secara elektronik (ITE),100
+2025,PESANGGRAHAN,Memasuki Pekarangan Tanpa Ijin,3
+2025,PESANGGRAHAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,PESANGGRAHAN,Narkotika ( Narkoba ),43
+2025,PESANGGRAHAN,Pemalsuan Surat Otentik,4
+2025,PESANGGRAHAN,Pemerasan Dan Pengancaman,3
+2025,PESANGGRAHAN,Penadahan,1
+2025,PESANGGRAHAN,Pencemaran Nama Baik,5
+2025,PESANGGRAHAN,Pencurian Biasa,27
+2025,PESANGGRAHAN,Pencurian Dengan Pemberatan ( Curat ),44
+2025,PESANGGRAHAN,Pencurian dalam lingkungan keluarga,1
+2025,PESANGGRAHAN,Pengaduan Palsu,1
+2025,PESANGGRAHAN,Pengancaman,1
+2025,PESANGGRAHAN,Penganiayaan,14
+2025,PESANGGRAHAN,Penganiayaan Berat ( Anirat ),7
+2025,PESANGGRAHAN,Pengeroyokan,8
+2025,PESANGGRAHAN,Pengerusakan,2
+2025,PESANGGRAHAN,Penggelapan,42
+2025,PESANGGRAHAN,Penghinaan,1
+2025,PESANGGRAHAN,Penipuan / Perbuatan Curang,75
+2025,PESANGGRAHAN,Penyekapan,1
+2025,PESANGGRAHAN,Perampasan ( Premanisme ),1
+2025,PESANGGRAHAN,Perbuatan Yang Tidak Menyenangkan,8
+2025,PESANGGRAHAN,Perlindungan Konsumen,1
+2025,PESANGGRAHAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2025,PESANGGRAHAN,Perzinahan,2
+2025,PESANGGRAHAN,Psikotropika ( Narkoba ),2
+2025,PESANGGRAHAN,Tindak Pidana Dalam Perlindungan Anak,11
+2025,PESANGGRAHAN,UNCLASSIFIED,13
+2025,PULO GADUNG,Cabul,2
+2025,PULO GADUNG,Curanmor R-2,1
+2025,PULO GADUNG,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2025,PULO GADUNG,Kejahatan Tentang Jaminan Fidusia,2
+2025,PULO GADUNG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,PULO GADUNG,Kejahatan Terkait Merek,1
+2025,PULO GADUNG,Kejahatan Terkait Metrologi Legal,1
+2025,PULO GADUNG,Kejahatan Terkait Pangan,1
+2025,PULO GADUNG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,PULO GADUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,PULO GADUNG,Kekerasan Dalam Rumah Tangga,17
+2025,PULO GADUNG,Kekerasan Seksual (KDRT),5
+2025,PULO GADUNG,Manipulasi data autentik secara elektronik (ITE),322
+2025,PULO GADUNG,Memasuki Pekarangan Tanpa Ijin,8
+2025,PULO GADUNG,Menempatkan anaknya untuk ditemukan atau meninggalkannya dengan maksud untuk melepaskan diri dari padanya,1
+2025,PULO GADUNG,Mengakibatkan Orang Luka,2
+2025,PULO GADUNG,Mengakibatkan Orang Mati,2
+2025,PULO GADUNG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2025,PULO GADUNG,Narkotika ( Narkoba ),96
+2025,PULO GADUNG,Pemalsuan Surat Otentik,8
+2025,PULO GADUNG,Pemerasan Dan Pengancaman,8
+2025,PULO GADUNG,Pencemaran Nama Baik,5
+2025,PULO GADUNG,Pencurian Biasa,44
+2025,PULO GADUNG,Pencurian Dengan Kekerasan ( Curas ),15
+2025,PULO GADUNG,Pencurian Dengan Pemberatan ( Curat ),81
+2025,PULO GADUNG,Pengancaman,2
+2025,PULO GADUNG,Penganiayaan,35
+2025,PULO GADUNG,Penganiayaan Berat ( Anirat ),26
+2025,PULO GADUNG,Pengeroyokan,23
+2025,PULO GADUNG,Pengerusakan,4
+2025,PULO GADUNG,Penggelapan,38
+2025,PULO GADUNG,Penghinaan,2
+2025,PULO GADUNG,Penipuan / Perbuatan Curang,118
+2025,PULO GADUNG,Penyekapan,1
+2025,PULO GADUNG,Penyerobotan Tanah,4
+2025,PULO GADUNG,Perampasan ( Premanisme ),7
+2025,PULO GADUNG,Perbuatan Yang Tidak Menyenangkan,8
+2025,PULO GADUNG,Perlindungan Konsumen,1
+2025,PULO GADUNG,Perzinahan,1
+2025,PULO GADUNG,Terhadap ketertiban umum,3
+2025,PULO GADUNG,Tindak Pidana Dalam Perlindungan Anak,21
+2025,PULO GADUNG,UNCLASSIFIED,34
+2025,SAWAH BESAR,Curanmor R-2,9
+2025,SAWAH BESAR,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,SAWAH BESAR,Kejahatan Tentang Desain Industri,1
+2025,SAWAH BESAR,Kejahatan Tentang Jaminan Fidusia,5
+2025,SAWAH BESAR,Kejahatan Tentang Perindustrian,1
+2025,SAWAH BESAR,Kejahatan Tentang Pornografi,1
+2025,SAWAH BESAR,Kejahatan Terkait Merek,1
+2025,SAWAH BESAR,Kejahatan Terkait Perlindungan Data Pribadi,1
+2025,SAWAH BESAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),28
+2025,SAWAH BESAR,Kejahatan terkait Tenaga Kesehatan,1
+2025,SAWAH BESAR,Kekerasan Dalam Rumah Tangga,11
+2025,SAWAH BESAR,Kekerasan Seksual (KDRT),5
+2025,SAWAH BESAR,Manipulasi data autentik secara elektronik (ITE),63
+2025,SAWAH BESAR,Memasuki Pekarangan Tanpa Ijin,3
+2025,SAWAH BESAR,Membahayakan Keamanan Umum Bagi  Orang / Barang,2
+2025,SAWAH BESAR,Narkotika ( Narkoba ),81
+2025,SAWAH BESAR,Pemalsuan Surat Otentik,6
+2025,SAWAH BESAR,Pemerasan Dan Pengancaman,4
+2025,SAWAH BESAR,Penadahan,1
+2025,SAWAH BESAR,Pencemaran Nama Baik,5
+2025,SAWAH BESAR,Penculikan,1
+2025,SAWAH BESAR,Pencurian Biasa,136
+2025,SAWAH BESAR,Pencurian Dengan Kekerasan ( Curas ),2
+2025,SAWAH BESAR,Pencurian Dengan Pemberatan ( Curat ),176
+2025,SAWAH BESAR,Pencurian Ringan,3
+2025,SAWAH BESAR,Pengancaman,5
+2025,SAWAH BESAR,Penganiayaan,21
+2025,SAWAH BESAR,Penganiayaan Berat ( Anirat ),14
+2025,SAWAH BESAR,Pengeroyokan,17
+2025,SAWAH BESAR,Pengerusakan,5
+2025,SAWAH BESAR,Penggelapan,41
+2025,SAWAH BESAR,Penghinaan,1
+2025,SAWAH BESAR,Penipuan / Perbuatan Curang,170
+2025,SAWAH BESAR,Penyerobotan Tanah,3
+2025,SAWAH BESAR,Perampasan ( Premanisme ),2
+2025,SAWAH BESAR,Perbankan,3
+2025,SAWAH BESAR,Perbuatan Yang Tidak Menyenangkan,3
+2025,SAWAH BESAR,Percobaan Pencurian,1
+2025,SAWAH BESAR,Perlindungan Konsumen,1
+2025,SAWAH BESAR,Perzinahan,6
+2025,SAWAH BESAR,Sumpah Palsu Dan Keterangan Palsu,1
+2025,SAWAH BESAR,Terhadap ketertiban umum,1
+2025,SAWAH BESAR,Tindak Pidana Dalam Perlindungan Anak,17
+2025,SAWAH BESAR,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,SAWAH BESAR,UNCLASSIFIED,26
+2025,SENEN,Curanmor R-2,5
+2025,SENEN,Kejahatan Tentang Jaminan Fidusia,3
+2025,SENEN,Kejahatan Tentang Perdagangan Berjangka,1
+2025,SENEN,Kejahatan Tentang Tenaga Kerja,1
+2025,SENEN,Kejahatan Terkait Merek,10
+2025,SENEN,Kejahatan Terkait Perlindungan Data Pribadi,2
+2025,SENEN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2025,SENEN,Kekerasan Dalam Rumah Tangga,8
+2025,SENEN,Kekerasan Seksual (KDRT),2
+2025,SENEN,Manipulasi data autentik secara elektronik (ITE),64
+2025,SENEN,Memasuki Pekarangan Tanpa Ijin,1
+2025,SENEN,Menghambat Penyidikan,1
+2025,SENEN,Narkotika ( Narkoba ),72
+2025,SENEN,Pemalsuan Surat Otentik,9
+2025,SENEN,Pemerasan Dan Pengancaman,2
+2025,SENEN,Pencemaran Nama Baik,2
+2025,SENEN,Penculikan,1
+2025,SENEN,Pencurian Biasa,81
+2025,SENEN,Pencurian Dengan Kekerasan ( Curas ),1
+2025,SENEN,Pencurian Dengan Pemberatan ( Curat ),66
+2025,SENEN,Penganiayaan,20
+2025,SENEN,Penganiayaan Berat ( Anirat ),8
+2025,SENEN,Pengeroyokan,13
+2025,SENEN,Pengerusakan,5
+2025,SENEN,Penggelapan,29
+2025,SENEN,Penghinaan,1
+2025,SENEN,Penipuan / Perbuatan Curang,175
+2025,SENEN,Penyekapan,1
+2025,SENEN,Penyerobotan Tanah,2
+2025,SENEN,Perbuatan Yang Tidak Menyenangkan,9
+2025,SENEN,Percobaan Pencurian,3
+2025,SENEN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,3
+2025,SENEN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),4
+2025,SENEN,Terhadap ketertiban umum,1
+2025,SENEN,Tindak Pidana Dalam Perlindungan Anak,9
+2025,SENEN,UNCLASSIFIED,19
+2025,SETIA BUDI,Curanmor R-2,3
+2025,SETIA BUDI,Hak Atas Kekayaan Intelektual ( HAKI ),4
+2025,SETIA BUDI,Kejahatan Tentang Peternakan Dan Kesehatan Hewan,1
+2025,SETIA BUDI,Kejahatan Tentang Pornografi,1
+2025,SETIA BUDI,Kejahatan Tentang Tenaga Kerja,1
+2025,SETIA BUDI,Kejahatan Terkait Merek,1
+2025,SETIA BUDI,Kejahatan Terkait Perlindungan Data Pribadi,5
+2025,SETIA BUDI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2025,SETIA BUDI,Kejahatan terkait Tenaga Kesehatan,2
+2025,SETIA BUDI,Kekerasan Dalam Rumah Tangga,7
+2025,SETIA BUDI,Kekerasan Seksual (KDRT),11
+2025,SETIA BUDI,Manipulasi data autentik secara elektronik (ITE),310
+2025,SETIA BUDI,Memasuki Pekarangan Tanpa Ijin,1
+2025,SETIA BUDI,Narkotika ( Narkoba ),72
+2025,SETIA BUDI,Pemalsuan Mata Uang Dan Uang Kertas,2
+2025,SETIA BUDI,Pemalsuan Surat Otentik,29
+2025,SETIA BUDI,Pemerasan Dan Pengancaman,4
+2025,SETIA BUDI,Pencemaran Nama Baik,13
+2025,SETIA BUDI,Pencurian Biasa,129
+2025,SETIA BUDI,Pencurian Dengan Kekerasan ( Curas ),3
+2025,SETIA BUDI,Pencurian Dengan Pemberatan ( Curat ),111
+2025,SETIA BUDI,Pencurian Ringan,3
+2025,SETIA BUDI,Pengaduan Palsu,6
+2025,SETIA BUDI,Pengancaman,9
+2025,SETIA BUDI,Penganiayaan,72
+2025,SETIA BUDI,Pengeroyokan,31
+2025,SETIA BUDI,Pengerusakan,5
+2025,SETIA BUDI,Penggelapan,99
+2025,SETIA BUDI,Penghinaan,3
+2025,SETIA BUDI,Penipuan / Perbuatan Curang,245
+2025,SETIA BUDI,Penyalahgunaan Wewenang,4
+2025,SETIA BUDI,Penyelundupan Senjata api (senpi),1
+2025,SETIA BUDI,Perampasan ( Premanisme ),5
+2025,SETIA BUDI,Perbankan,1
+2025,SETIA BUDI,Perbuatan Yang Tidak Menyenangkan,8
+2025,SETIA BUDI,Perlindungan Konsumen,4
+2025,SETIA BUDI,Perzinahan,2
+2025,SETIA BUDI,Psikotropika ( Narkoba ),2
+2025,SETIA BUDI,Sumpah Palsu Dan Keterangan Palsu,2
+2025,SETIA BUDI,Terhadap ketertiban umum,1
+2025,SETIA BUDI,Tindak Pidana Dalam Perlindungan Anak,13
+2025,SETIA BUDI,UNCLASSIFIED,28
+2025,TAMAN SARI,Cabul,1
+2025,TAMAN SARI,Judi,2
+2025,TAMAN SARI,Kejahatan Tentang Jaminan Fidusia,2
+2025,TAMAN SARI,Kejahatan Tentang Tenaga Kerja,1
+2025,TAMAN SARI,Kejahatan Terkait Merek,6
+2025,TAMAN SARI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2025,TAMAN SARI,Kekerasan Dalam Rumah Tangga,6
+2025,TAMAN SARI,Kekerasan Seksual (KDRT),2
+2025,TAMAN SARI,Manipulasi data autentik secara elektronik (ITE),34
+2025,TAMAN SARI,Memasuki Pekarangan Tanpa Ijin,2
+2025,TAMAN SARI,Narkotika ( Narkoba ),127
+2025,TAMAN SARI,Pemalsuan Surat Otentik,6
+2025,TAMAN SARI,Pemerasan Dan Pengancaman,3
+2025,TAMAN SARI,Pencemaran Nama Baik,1
+2025,TAMAN SARI,Pencurian Biasa,29
+2025,TAMAN SARI,Pencurian Dengan Kekerasan ( Curas ),3
+2025,TAMAN SARI,Pencurian Dengan Pemberatan ( Curat ),33
+2025,TAMAN SARI,Pengancaman,2
+2025,TAMAN SARI,Penganiayaan,41
+2025,TAMAN SARI,Penganiayaan Berat ( Anirat ),6
+2025,TAMAN SARI,Pengeroyokan,12
+2025,TAMAN SARI,Pengerusakan,4
+2025,TAMAN SARI,Penggelapan,49
+2025,TAMAN SARI,Penipuan / Perbuatan Curang,42
+2025,TAMAN SARI,Penyekapan,2
+2025,TAMAN SARI,Perampasan ( Premanisme ),1
+2025,TAMAN SARI,Perbankan,2
+2025,TAMAN SARI,Perbuatan Yang Tidak Menyenangkan,2
+2025,TAMAN SARI,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),2
+2025,TAMAN SARI,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,3
+2025,TAMAN SARI,Terhadap ketertiban umum,22
+2025,TAMAN SARI,Tindak Pidana Dalam Perlindungan Anak,8
+2025,TAMAN SARI,UNCLASSIFIED,11
+2025,TAMBORA,Cabul,1
+2025,TAMBORA,Curanmor R-2,2
+2025,TAMBORA,Kejahatan Tentang Jaminan Fidusia,1
+2025,TAMBORA,Kejahatan Tentang Pornografi,1
+2025,TAMBORA,Kejahatan Tentang Tenaga Kerja,1
+2025,TAMBORA,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,TAMBORA,Kejahatan Terkait Merek,73
+2025,TAMBORA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,TAMBORA,Kejahatan terkait Tenaga Kesehatan,1
+2025,TAMBORA,Kekerasan Dalam Rumah Tangga,3
+2025,TAMBORA,Manipulasi data autentik secara elektronik (ITE),35
+2025,TAMBORA,Memasuki Pekarangan Tanpa Ijin,4
+2025,TAMBORA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,3
+2025,TAMBORA,Narkotika ( Narkoba ),86
+2025,TAMBORA,Penadahan,2
+2025,TAMBORA,Pencemaran Nama Baik,3
+2025,TAMBORA,Pencurian Biasa,20
+2025,TAMBORA,Pencurian Dengan Kekerasan ( Curas ),9
+2025,TAMBORA,Pencurian Dengan Pemberatan ( Curat ),28
+2025,TAMBORA,Penganiayaan,15
+2025,TAMBORA,Penganiayaan Berat ( Anirat ),3
+2025,TAMBORA,Pengeroyokan,6
+2025,TAMBORA,Pengerusakan,5
+2025,TAMBORA,Penggelapan,26
+2025,TAMBORA,Penghinaan,1
+2025,TAMBORA,Penipuan / Perbuatan Curang,46
+2025,TAMBORA,Penyelundupan Senjata api (senpi),1
+2025,TAMBORA,Penyerobotan Tanah,1
+2025,TAMBORA,Perbuatan Yang Tidak Menyenangkan,1
+2025,TAMBORA,Percobaan Pencurian,2
+2025,TAMBORA,Psikotropika ( Narkoba ),1
+2025,TAMBORA,Terhadap ketertiban umum,1
+2025,TAMBORA,Tindak Pidana Dalam Perlindungan Anak,12
+2025,TAMBORA,Tindak Pidana Transfer Dana,1
+2025,TAMBORA,UNCLASSIFIED,14
+2025,TANAH ABANG,Cabul,1
+2025,TANAH ABANG,Curanmor R-2,2
+2025,TANAH ABANG,Hak Atas Kekayaan Intelektual ( HAKI ),3
+2025,TANAH ABANG,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2025,TANAH ABANG,Kejahatan Tentang Jaminan Fidusia,5
+2025,TANAH ABANG,Kejahatan Tentang Tenaga Kerja,2
+2025,TANAH ABANG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,2
+2025,TANAH ABANG,Kejahatan Terkait Merek,3
+2025,TANAH ABANG,Kejahatan Terkait Perlindungan Data Pribadi,4
+2025,TANAH ABANG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),8
+2025,TANAH ABANG,Kejahatan terkait Tenaga Kesehatan,8
+2025,TANAH ABANG,Kekerasan Dalam Rumah Tangga,20
+2025,TANAH ABANG,Kekerasan Seksual (KDRT),10
+2025,TANAH ABANG,Manipulasi data autentik secara elektronik (ITE),236
+2025,TANAH ABANG,Memasuki Pekarangan Tanpa Ijin,3
+2025,TANAH ABANG,Mengakibatkan Orang Luka,3
+2025,TANAH ABANG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2025,TANAH ABANG,Narkotika ( Narkoba ),85
+2025,TANAH ABANG,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,TANAH ABANG,Pemalsuan Surat Otentik,14
+2025,TANAH ABANG,Pemerasan Dan Pengancaman,11
+2025,TANAH ABANG,Penadahan,1
+2025,TANAH ABANG,Pencemaran Nama Baik,11
+2025,TANAH ABANG,Pencurian Biasa,171
+2025,TANAH ABANG,Pencurian Dengan Kekerasan ( Curas ),18
+2025,TANAH ABANG,Pencurian Dengan Pemberatan ( Curat ),119
+2025,TANAH ABANG,Pencurian dalam lingkungan keluarga,1
+2025,TANAH ABANG,Penganiayaan,46
+2025,TANAH ABANG,Penganiayaan Berat ( Anirat ),25
+2025,TANAH ABANG,Pengeroyokan,38
+2025,TANAH ABANG,Pengerusakan,13
+2025,TANAH ABANG,Penggelapan,85
+2025,TANAH ABANG,Penghinaan,5
+2025,TANAH ABANG,Penipuan / Perbuatan Curang,233
+2025,TANAH ABANG,Penyekapan,1
+2025,TANAH ABANG,Penyerobotan Tanah,6
+2025,TANAH ABANG,Perampasan ( Premanisme ),1
+2025,TANAH ABANG,Perbankan,1
+2025,TANAH ABANG,Perbuatan Yang Tidak Menyenangkan,9
+2025,TANAH ABANG,Percobaan Pencurian,4
+2025,TANAH ABANG,Perlindungan Konsumen,3
+2025,TANAH ABANG,Perzinahan,2
+2025,TANAH ABANG,Psikotropika ( Narkoba ),2
+2025,TANAH ABANG,Terhadap ketertiban umum,4
+2025,TANAH ABANG,Tindak Pidana Dalam Perlindungan Anak,11
+2025,TANAH ABANG,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2025,TANAH ABANG,Tindak Pidana Transfer Dana,1
+2025,TANAH ABANG,UNCLASSIFIED,41
+2025,TANJUNG PRIOK,Curanmor R-2,15
+2025,TANJUNG PRIOK,Judi,1
+2025,TANJUNG PRIOK,Kejahatan Lingkungan Hidup,1
+2025,TANJUNG PRIOK,Kejahatan Tentang Jaminan Fidusia,5
+2025,TANJUNG PRIOK,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),9
+2025,TANJUNG PRIOK,Kejahatan Tentang Perindustrian,2
+2025,TANJUNG PRIOK,Kejahatan Tentang Tenaga Kerja,1
+2025,TANJUNG PRIOK,Kejahatan Terhadap Jiwa Orang / Pembunuhan,2
+2025,TANJUNG PRIOK,Kejahatan Terkait Merek,1
+2025,TANJUNG PRIOK,Kejahatan Terkait Perlindungan Data Pribadi,2
+2025,TANJUNG PRIOK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),18
+2025,TANJUNG PRIOK,Kejahatan terkait Tenaga Kesehatan,1
+2025,TANJUNG PRIOK,Kekerasan Dalam Rumah Tangga,28
+2025,TANJUNG PRIOK,Kekerasan Seksual (KDRT),6
+2025,TANJUNG PRIOK,Manipulasi data autentik secara elektronik (ITE),93
+2025,TANJUNG PRIOK,Membahayakan Keamanan Umum Bagi  Orang / Barang,1
+2025,TANJUNG PRIOK,Mengakibatkan Orang Mati,1
+2025,TANJUNG PRIOK,Mucikari ( Pelacuran ),19
+2025,TANJUNG PRIOK,Narkotika ( Narkoba ),187
+2025,TANJUNG PRIOK,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,TANJUNG PRIOK,Pemalsuan Surat Otentik,26
+2025,TANJUNG PRIOK,Pemerasan Dan Pengancaman,3
+2025,TANJUNG PRIOK,Penadahan,1
+2025,TANJUNG PRIOK,Pencemaran Nama Baik,6
+2025,TANJUNG PRIOK,Penculikan,1
+2025,TANJUNG PRIOK,Pencurian Biasa,72
+2025,TANJUNG PRIOK,Pencurian Dengan Kekerasan ( Curas ),20
+2025,TANJUNG PRIOK,Pencurian Dengan Pemberatan ( Curat ),180
+2025,TANJUNG PRIOK,Pencurian Ringan,1
+2025,TANJUNG PRIOK,Pencurian dalam lingkungan keluarga,2
+2025,TANJUNG PRIOK,Pengaduan Palsu,2
+2025,TANJUNG PRIOK,Pengancaman,2
+2025,TANJUNG PRIOK,Penganiayaan,64
+2025,TANJUNG PRIOK,Penganiayaan Berat ( Anirat ),8
+2025,TANJUNG PRIOK,Pengeroyokan,28
+2025,TANJUNG PRIOK,Pengerusakan,7
+2025,TANJUNG PRIOK,Penggelapan,76
+2025,TANJUNG PRIOK,Penghinaan,2
+2025,TANJUNG PRIOK,Penipuan / Perbuatan Curang,141
+2025,TANJUNG PRIOK,Penyalahgunaan Wewenang,1
+2025,TANJUNG PRIOK,Penyekapan,1
+2025,TANJUNG PRIOK,Perampasan ( Premanisme ),1
+2025,TANJUNG PRIOK,Perbuatan Yang Tidak Menyenangkan,6
+2025,TANJUNG PRIOK,Percobaan Pencurian,3
+2025,TANJUNG PRIOK,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2025,TANJUNG PRIOK,Perkosaan,1
+2025,TANJUNG PRIOK,Perlindungan Konsumen,2
+2025,TANJUNG PRIOK,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,2
+2025,TANJUNG PRIOK,Perzinahan,1
+2025,TANJUNG PRIOK,Psikotropika ( Narkoba ),1
+2025,TANJUNG PRIOK,Sumpah Palsu Dan Keterangan Palsu,9
+2025,TANJUNG PRIOK,Terhadap ketertiban umum,2
+2025,TANJUNG PRIOK,Tindak Pidana Dalam Perlindungan Anak,32
+2025,TANJUNG PRIOK,UNCLASSIFIED,24
+2025,TEBET,Curanmor R-2,5
+2025,TEBET,Kawin halangan/kawin tanpa ijin,3
+2025,TEBET,Kejahatan Tentang Jaminan Fidusia,13
+2025,TEBET,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2025,TEBET,Kejahatan Terkait Merek,1
+2025,TEBET,Kejahatan Terkait Metrologi Legal,1
+2025,TEBET,Kejahatan Terkait Perlindungan Data Pribadi,4
+2025,TEBET,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),5
+2025,TEBET,Kejahatan terkait Tenaga Kesehatan,5
+2025,TEBET,Kekerasan Dalam Rumah Tangga,19
+2025,TEBET,Kekerasan Seksual (KDRT),10
+2025,TEBET,Manipulasi data autentik secara elektronik (ITE),222
+2025,TEBET,Mengakibatkan Orang Luka,2
+2025,TEBET,Narkotika ( Narkoba ),108
+2025,TEBET,Pemalsuan Mata Uang Dan Uang Kertas,1
+2025,TEBET,Pemalsuan Surat Otentik,20
+2025,TEBET,Pemerasan Dan Pengancaman,6
+2025,TEBET,Pencemaran Nama Baik,3
+2025,TEBET,Pencurian Biasa,43
+2025,TEBET,Pencurian Dengan Kekerasan ( Curas ),3
+2025,TEBET,Pencurian Dengan Pemberatan ( Curat ),63
+2025,TEBET,Pencurian Ringan,1
+2025,TEBET,Pengaduan Palsu,2
+2025,TEBET,Pengancaman,1
+2025,TEBET,Penganiayaan,26
+2025,TEBET,Penganiayaan Berat ( Anirat ),6
+2025,TEBET,Pengeroyokan,8
+2025,TEBET,Pengerusakan,6
+2025,TEBET,Penggelapan,73
+2025,TEBET,Penghinaan,1
+2025,TEBET,Penipuan / Perbuatan Curang,179
+2025,TEBET,Perampasan ( Premanisme ),1
+2025,TEBET,Perbankan,1
+2025,TEBET,Perbuatan Yang Tidak Menyenangkan,2
+2025,TEBET,Percobaan Pencurian,3
+2025,TEBET,Perzinahan,2
+2025,TEBET,Psikotropika ( Narkoba ),1
+2025,TEBET,Tindak Pidana Dalam Perlindungan Anak,14
+2025,TEBET,Tindak Pidana Transfer Dana,1
+2025,TEBET,UNCLASSIFIED,25
+2026,CAKUNG,Cabul,5
+2026,CAKUNG,Kejahatan Terkait Perlindungan Data Pribadi,3
+2026,CAKUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2026,CAKUNG,Kejahatan terkait Tenaga Kesehatan,2
+2026,CAKUNG,Kekerasan Dalam Rumah Tangga,11
+2026,CAKUNG,Kekerasan Seksual (KDRT),2
+2026,CAKUNG,Manipulasi data autentik secara elektronik (ITE),66
+2026,CAKUNG,Melawan Putusan Pengadilan,1
+2026,CAKUNG,Memasuki Pekarangan Tanpa Ijin,8
+2026,CAKUNG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,CAKUNG,Narkotika ( Narkoba ),28
+2026,CAKUNG,Pemalsuan Surat Otentik,3
+2026,CAKUNG,Pemerasan,1
+2026,CAKUNG,Pemerasan Dan Pengancaman,2
+2026,CAKUNG,Penadahan,1
+2026,CAKUNG,Pencemaran Nama Baik,4
+2026,CAKUNG,Pencurian Biasa,50
+2026,CAKUNG,Pencurian Dengan Kekerasan ( Curas ),3
+2026,CAKUNG,Pencurian Dengan Pemberatan ( Curat ),34
+2026,CAKUNG,Pencurian Ringan,3
+2026,CAKUNG,Pengaduan Palsu,1
+2026,CAKUNG,Pengancaman,4
+2026,CAKUNG,Penganiayaan,48
+2026,CAKUNG,Penganiayaan Berat ( Anirat ),6
+2026,CAKUNG,Pengeroyokan,21
+2026,CAKUNG,Pengerusakan,1
+2026,CAKUNG,Penggelapan,42
+2026,CAKUNG,Penghinaan,1
+2026,CAKUNG,Penipuan / Perbuatan Curang,46
+2026,CAKUNG,Penyekapan,1
+2026,CAKUNG,Penyerobotan Tanah,2
+2026,CAKUNG,Perbuatan Yang Tidak Menyenangkan,2
+2026,CAKUNG,Percobaan Pencurian,1
+2026,CAKUNG,Perkosaan,1
+2026,CAKUNG,Perzinahan,1
+2026,CAKUNG,Sumpah Palsu Dan Keterangan Palsu,2
+2026,CAKUNG,Tindak Pidana Dalam Perlindungan Anak,1
+2026,CAKUNG,UNCLASSIFIED,228
+2026,CEMPAKA PUTIH,Cabul,1
+2026,CEMPAKA PUTIH,Curanmor R-2,5
+2026,CEMPAKA PUTIH,Kejahatan Terkait Merek,4
+2026,CEMPAKA PUTIH,Kejahatan Terkait Perlindungan Data Pribadi,5
+2026,CEMPAKA PUTIH,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,CEMPAKA PUTIH,Kejahatan terkait Tenaga Kesehatan,2
+2026,CEMPAKA PUTIH,Kekerasan Dalam Rumah Tangga,3
+2026,CEMPAKA PUTIH,Manipulasi data autentik secara elektronik (ITE),15
+2026,CEMPAKA PUTIH,Mengakibatkan Orang Mati,1
+2026,CEMPAKA PUTIH,Narkotika ( Narkoba ),6
+2026,CEMPAKA PUTIH,Pemerasan Dan Pengancaman,3
+2026,CEMPAKA PUTIH,Pencemaran Nama Baik,7
+2026,CEMPAKA PUTIH,Penculikan,1
+2026,CEMPAKA PUTIH,Pencurian Biasa,12
+2026,CEMPAKA PUTIH,Pencurian Dengan Pemberatan ( Curat ),24
+2026,CEMPAKA PUTIH,Pengancaman,4
+2026,CEMPAKA PUTIH,Penganiayaan,4
+2026,CEMPAKA PUTIH,Penganiayaan Berat ( Anirat ),2
+2026,CEMPAKA PUTIH,Pengeroyokan,3
+2026,CEMPAKA PUTIH,Penggelapan,19
+2026,CEMPAKA PUTIH,Penghinaan,1
+2026,CEMPAKA PUTIH,Penipuan / Perbuatan Curang,39
+2026,CEMPAKA PUTIH,Perbuatan Yang Tidak Menyenangkan,1
+2026,CEMPAKA PUTIH,Percobaan Pencurian,2
+2026,CEMPAKA PUTIH,Perkosaan,3
+2026,CEMPAKA PUTIH,Perzinahan,1
+2026,CEMPAKA PUTIH,Tindak Pidana Dalam Perlindungan Anak,1
+2026,CEMPAKA PUTIH,Tindak Pidana Transfer Dana,1
+2026,CEMPAKA PUTIH,UNCLASSIFIED,115
+2026,CENGKARENG,Curanmor R-2,1
+2026,CENGKARENG,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,CENGKARENG,Kejahatan Tentang Pornografi,2
+2026,CENGKARENG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2026,CENGKARENG,Kejahatan Terkait Perlindungan Data Pribadi,5
+2026,CENGKARENG,Kekerasan Dalam Rumah Tangga,8
+2026,CENGKARENG,Kekerasan Seksual (KDRT),2
+2026,CENGKARENG,Manipulasi data autentik secara elektronik (ITE),21
+2026,CENGKARENG,Memasuki Pekarangan Tanpa Ijin,3
+2026,CENGKARENG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,CENGKARENG,Narkotika ( Narkoba ),34
+2026,CENGKARENG,Pemalsuan Surat Otentik,1
+2026,CENGKARENG,Pembunuhan,1
+2026,CENGKARENG,Pemerasan,2
+2026,CENGKARENG,Pemerasan Dan Pengancaman,2
+2026,CENGKARENG,Pencemaran Nama Baik,8
+2026,CENGKARENG,Pencurian Biasa,62
+2026,CENGKARENG,Pencurian Dengan Kekerasan ( Curas ),3
+2026,CENGKARENG,Pencurian Dengan Pemberatan ( Curat ),34
+2026,CENGKARENG,Pencurian Ringan,2
+2026,CENGKARENG,Pencurian dalam lingkungan keluarga,1
+2026,CENGKARENG,Pengancaman,13
+2026,CENGKARENG,Penganiayaan,43
+2026,CENGKARENG,Penganiayaan Berat ( Anirat ),2
+2026,CENGKARENG,Pengeroyokan,18
+2026,CENGKARENG,Pengerusakan,2
+2026,CENGKARENG,Penggelapan,56
+2026,CENGKARENG,Penghinaan,2
+2026,CENGKARENG,Penipuan / Perbuatan Curang,70
+2026,CENGKARENG,Perbuatan Yang Tidak Menyenangkan,4
+2026,CENGKARENG,Perkosaan,2
+2026,CENGKARENG,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,CENGKARENG,Perzinahan,3
+2026,CENGKARENG,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,CENGKARENG,Sumpah Palsu Dan Keterangan Palsu,1
+2026,CENGKARENG,Terhadap ketertiban umum,22
+2026,CENGKARENG,Tindak Pidana Dalam Perlindungan Anak,4
+2026,CENGKARENG,UNCLASSIFIED,241
+2026,CILANDAK,Cabul,2
+2026,CILANDAK,Curanmor R-2,4
+2026,CILANDAK,Kejahatan Tentang Pornografi,2
+2026,CILANDAK,Kejahatan Terkait Merek,4
+2026,CILANDAK,Kejahatan Terkait Perlindungan Data Pribadi,8
+2026,CILANDAK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,CILANDAK,Kejahatan terkait Tenaga Kesehatan,2
+2026,CILANDAK,Kekerasan Dalam Rumah Tangga,9
+2026,CILANDAK,Manipulasi data autentik secara elektronik (ITE),60
+2026,CILANDAK,Memasuki Pekarangan Tanpa Ijin,3
+2026,CILANDAK,Membahayakan keamanan umum,1
+2026,CILANDAK,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,CILANDAK,Narkotika ( Narkoba ),13
+2026,CILANDAK,Pemerasan,1
+2026,CILANDAK,Pemerasan Dan Pengancaman,1
+2026,CILANDAK,Pencemaran Nama Baik,15
+2026,CILANDAK,Penculikan,1
+2026,CILANDAK,Pencurian Biasa,36
+2026,CILANDAK,Pencurian Dengan Kekerasan ( Curas ),2
+2026,CILANDAK,Pencurian Dengan Pemberatan ( Curat ),26
+2026,CILANDAK,Pencurian Ringan,1
+2026,CILANDAK,Pengancaman,2
+2026,CILANDAK,Penganiayaan,23
+2026,CILANDAK,Pengeroyokan,9
+2026,CILANDAK,Penggelapan,44
+2026,CILANDAK,Penipuan / Perbuatan Curang,56
+2026,CILANDAK,Perkosaan,1
+2026,CILANDAK,Perlindungan Konsumen,1
+2026,CILANDAK,Perzinahan,5
+2026,CILANDAK,Sumpah Palsu Dan Keterangan Palsu,1
+2026,CILANDAK,Terhadap ketertiban umum,2
+2026,CILANDAK,Tindak Pidana Dalam Perlindungan Anak,3
+2026,CILANDAK,UNCLASSIFIED,190
+2026,CILINCING,Curanmor R-2,5
+2026,CILINCING,Judi,3
+2026,CILINCING,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2026,CILINCING,Kejahatan Tentang Perindustrian,1
+2026,CILINCING,Kejahatan Tentang Tenaga Kerja,1
+2026,CILINCING,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2026,CILINCING,Kejahatan Terhadap Penguasa Umum,1
+2026,CILINCING,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,CILINCING,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,CILINCING,Manipulasi data autentik secara elektronik (ITE),12
+2026,CILINCING,Memasuki Pekarangan Tanpa Ijin,1
+2026,CILINCING,Mengakibatkan Orang Mati,2
+2026,CILINCING,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,3
+2026,CILINCING,Narkotika ( Narkoba ),19
+2026,CILINCING,Pemalsuan Surat Otentik,1
+2026,CILINCING,Pemerasan,1
+2026,CILINCING,Pencemaran Nama Baik,4
+2026,CILINCING,Pencurian Biasa,13
+2026,CILINCING,Pencurian Dengan Kekerasan ( Curas ),2
+2026,CILINCING,Pencurian Dengan Pemberatan ( Curat ),16
+2026,CILINCING,Pencurian Ringan,1
+2026,CILINCING,Pengancaman,1
+2026,CILINCING,Penganiayaan,45
+2026,CILINCING,Pengeroyokan,10
+2026,CILINCING,Pengerusakan,1
+2026,CILINCING,Penggelapan,32
+2026,CILINCING,Penipuan / Perbuatan Curang,22
+2026,CILINCING,Penyerobotan Tanah,3
+2026,CILINCING,Percobaan Pencurian,1
+2026,CILINCING,Perlindungan Konsumen,1
+2026,CILINCING,Telekomunikasi,2
+2026,CILINCING,Terhadap ketertiban umum,3
+2026,CILINCING,UNCLASSIFIED,146
+2026,CIPAYUNG,Aborsi,1
+2026,CIPAYUNG,Cabul,1
+2026,CIPAYUNG,Curanmor R-2,1
+2026,CIPAYUNG,Kejahatan Tentang Jaminan Fidusia,1
+2026,CIPAYUNG,Kejahatan Terhadap Jiwa Orang / Pembunuhan,2
+2026,CIPAYUNG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,CIPAYUNG,Kejahatan tentang perlindungan pekerja migran indonesia,1
+2026,CIPAYUNG,Kejahatan terkait Tenaga Kesehatan,1
+2026,CIPAYUNG,Kekerasan Dalam Rumah Tangga,5
+2026,CIPAYUNG,Manipulasi data autentik secara elektronik (ITE),44
+2026,CIPAYUNG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,CIPAYUNG,Narkotika ( Narkoba ),8
+2026,CIPAYUNG,Pemalsuan Surat Otentik,1
+2026,CIPAYUNG,Pemerasan Dan Pengancaman,1
+2026,CIPAYUNG,Pencemaran Nama Baik,2
+2026,CIPAYUNG,Pencurian Biasa,13
+2026,CIPAYUNG,Pencurian Dengan Pemberatan ( Curat ),18
+2026,CIPAYUNG,Pencurian Ringan,1
+2026,CIPAYUNG,Pencurian dalam lingkungan keluarga,1
+2026,CIPAYUNG,Pengancaman,2
+2026,CIPAYUNG,Penganiayaan,9
+2026,CIPAYUNG,Penganiayaan Berat ( Anirat ),1
+2026,CIPAYUNG,Pengeroyokan,7
+2026,CIPAYUNG,Pengerusakan,1
+2026,CIPAYUNG,Penggelapan,24
+2026,CIPAYUNG,Penipuan / Perbuatan Curang,21
+2026,CIPAYUNG,Penyalahgunaan Wewenang,1
+2026,CIPAYUNG,Penyerobotan Tanah,1
+2026,CIPAYUNG,Perbankan,1
+2026,CIPAYUNG,Perlindungan Konsumen,1
+2026,CIPAYUNG,Perzinahan,4
+2026,CIPAYUNG,Terhadap ketertiban umum,1
+2026,CIPAYUNG,Tindak Pidana Dalam Perlindungan Anak,3
+2026,CIPAYUNG,UNCLASSIFIED,133
+2026,CIRACAS,Curanmor R-2,2
+2026,CIRACAS,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2026,CIRACAS,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2026,CIRACAS,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,CIRACAS,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,CIRACAS,Kejahatan terkait Tenaga Kesehatan,2
+2026,CIRACAS,Kekerasan Dalam Rumah Tangga,5
+2026,CIRACAS,Manipulasi data autentik secara elektronik (ITE),42
+2026,CIRACAS,Memasuki Pekarangan Tanpa Ijin,3
+2026,CIRACAS,Narkotika ( Narkoba ),19
+2026,CIRACAS,Pemalsuan Surat Otentik,2
+2026,CIRACAS,Pemerasan,1
+2026,CIRACAS,Pencemaran Nama Baik,2
+2026,CIRACAS,Pencurian Biasa,15
+2026,CIRACAS,Pencurian Dengan Kekerasan ( Curas ),3
+2026,CIRACAS,Pencurian Dengan Pemberatan ( Curat ),24
+2026,CIRACAS,Pencurian Ringan,2
+2026,CIRACAS,Pengancaman,2
+2026,CIRACAS,Penganiayaan,13
+2026,CIRACAS,Penganiayaan Berat ( Anirat ),1
+2026,CIRACAS,Pengeroyokan,3
+2026,CIRACAS,Pengerusakan,2
+2026,CIRACAS,Penggelapan,7
+2026,CIRACAS,Penghinaan,1
+2026,CIRACAS,Penipuan / Perbuatan Curang,36
+2026,CIRACAS,Penyerobotan Tanah,1
+2026,CIRACAS,Perbuatan Yang Tidak Menyenangkan,2
+2026,CIRACAS,Percobaan Pencurian,1
+2026,CIRACAS,Perkosaan,1
+2026,CIRACAS,Sumpah Palsu Dan Keterangan Palsu,2
+2026,CIRACAS,Tindak Pidana Dalam Perlindungan Anak,3
+2026,CIRACAS,UNCLASSIFIED,123
+2026,DUREN SAWIT,Cabul,1
+2026,DUREN SAWIT,Curanmor R-2,4
+2026,DUREN SAWIT,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2026,DUREN SAWIT,Kejahatan Tentang Peternakan Dan Kesehatan Hewan,1
+2026,DUREN SAWIT,Kejahatan Terkait Merek,1
+2026,DUREN SAWIT,Kejahatan Terkait Perlindungan Data Pribadi,7
+2026,DUREN SAWIT,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,DUREN SAWIT,Kejahatan terkait Tenaga Kesehatan,1
+2026,DUREN SAWIT,Kekerasan Dalam Rumah Tangga,4
+2026,DUREN SAWIT,Kekerasan Seksual (KDRT),1
+2026,DUREN SAWIT,Manipulasi data autentik secara elektronik (ITE),91
+2026,DUREN SAWIT,Memasuki Pekarangan Tanpa Ijin,1
+2026,DUREN SAWIT,Narkotika ( Narkoba ),24
+2026,DUREN SAWIT,Pemalsuan Surat Otentik,2
+2026,DUREN SAWIT,Pemerasan,4
+2026,DUREN SAWIT,Pemerasan Dan Pengancaman,3
+2026,DUREN SAWIT,Pencemaran Nama Baik,7
+2026,DUREN SAWIT,Pencurian Biasa,62
+2026,DUREN SAWIT,Pencurian Dengan Kekerasan ( Curas ),1
+2026,DUREN SAWIT,Pencurian Dengan Pemberatan ( Curat ),67
+2026,DUREN SAWIT,Pencurian Ringan,2
+2026,DUREN SAWIT,Pengancaman,4
+2026,DUREN SAWIT,Penganiayaan,31
+2026,DUREN SAWIT,Penganiayaan Berat ( Anirat ),3
+2026,DUREN SAWIT,Pengeroyokan,7
+2026,DUREN SAWIT,Penggelapan,26
+2026,DUREN SAWIT,Penipuan / Perbuatan Curang,45
+2026,DUREN SAWIT,Perbankan,1
+2026,DUREN SAWIT,Perbuatan Yang Tidak Menyenangkan,4
+2026,DUREN SAWIT,Percobaan Pencurian,3
+2026,DUREN SAWIT,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,DUREN SAWIT,Perzinahan,2
+2026,DUREN SAWIT,Tindak Pidana Dalam Perlindungan Anak,1
+2026,DUREN SAWIT,UNCLASSIFIED,213
+2026,GAMBIR,Cabul,1
+2026,GAMBIR,Kejahatan Tentang Jaminan Fidusia,3
+2026,GAMBIR,Kejahatan Tentang Pornografi,1
+2026,GAMBIR,Kejahatan Tentang Tenaga Kerja,1
+2026,GAMBIR,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,GAMBIR,Kekerasan Dalam Rumah Tangga,11
+2026,GAMBIR,Kekerasan Seksual (KDRT),2
+2026,GAMBIR,"Konflik Suku, Agama, Ras, dan Antar Golongan (SARA)",1
+2026,GAMBIR,Manipulasi data autentik secara elektronik (ITE),23
+2026,GAMBIR,Memasuki Pekarangan Tanpa Ijin,1
+2026,GAMBIR,Mengakibatkan Orang Mati,1
+2026,GAMBIR,Narkotika ( Narkoba ),12
+2026,GAMBIR,Pemalsuan Surat Otentik,4
+2026,GAMBIR,Pemerasan,1
+2026,GAMBIR,Pemerasan Dan Pengancaman,2
+2026,GAMBIR,Pencemaran Nama Baik,13
+2026,GAMBIR,Pencurian Biasa,44
+2026,GAMBIR,Pencurian Dengan Kekerasan ( Curas ),2
+2026,GAMBIR,Pencurian Dengan Pemberatan ( Curat ),19
+2026,GAMBIR,Pencurian Ringan,1
+2026,GAMBIR,Pengaduan Palsu,1
+2026,GAMBIR,Pengancaman,5
+2026,GAMBIR,Penganiayaan,11
+2026,GAMBIR,Pengeroyokan,4
+2026,GAMBIR,Pengerusakan,1
+2026,GAMBIR,Penggelapan,32
+2026,GAMBIR,Penghinaan,1
+2026,GAMBIR,Penipuan / Perbuatan Curang,46
+2026,GAMBIR,Penyerobotan Tanah,2
+2026,GAMBIR,Perbuatan Yang Tidak Menyenangkan,3
+2026,GAMBIR,Perzinahan,1
+2026,GAMBIR,Sumpah Palsu Dan Keterangan Palsu,2
+2026,GAMBIR,Terhadap ketertiban umum,6
+2026,GAMBIR,Tindak Pidana Transfer Dana,2
+2026,GAMBIR,UNCLASSIFIED,142
+2026,GROGOL PETAMBURAN,Cabul,1
+2026,GROGOL PETAMBURAN,Curanmor R-2,1
+2026,GROGOL PETAMBURAN,Kejahatan Tentang Jaminan Fidusia,1
+2026,GROGOL PETAMBURAN,Kejahatan Tentang Pornografi,1
+2026,GROGOL PETAMBURAN,Kejahatan Terkait Perlindungan Data Pribadi,5
+2026,GROGOL PETAMBURAN,Kekerasan Dalam Rumah Tangga,4
+2026,GROGOL PETAMBURAN,Manipulasi data autentik secara elektronik (ITE),35
+2026,GROGOL PETAMBURAN,Memasuki Pekarangan Tanpa Ijin,2
+2026,GROGOL PETAMBURAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,3
+2026,GROGOL PETAMBURAN,Narkotika ( Narkoba ),25
+2026,GROGOL PETAMBURAN,Pemalsuan Surat Otentik,7
+2026,GROGOL PETAMBURAN,Pemerasan,4
+2026,GROGOL PETAMBURAN,Pemerasan Dan Pengancaman,5
+2026,GROGOL PETAMBURAN,Pencemaran Nama Baik,21
+2026,GROGOL PETAMBURAN,Pencurian Biasa,52
+2026,GROGOL PETAMBURAN,Pencurian Dengan Kekerasan ( Curas ),10
+2026,GROGOL PETAMBURAN,Pencurian Dengan Pemberatan ( Curat ),43
+2026,GROGOL PETAMBURAN,Pencurian Ringan,1
+2026,GROGOL PETAMBURAN,Pengancaman,6
+2026,GROGOL PETAMBURAN,Penganiayaan,15
+2026,GROGOL PETAMBURAN,Penganiayaan Berat ( Anirat ),2
+2026,GROGOL PETAMBURAN,Pengeroyokan,11
+2026,GROGOL PETAMBURAN,Pengerusakan,3
+2026,GROGOL PETAMBURAN,Penggelapan,40
+2026,GROGOL PETAMBURAN,Penghinaan,2
+2026,GROGOL PETAMBURAN,Penipuan / Perbuatan Curang,98
+2026,GROGOL PETAMBURAN,Perbankan,1
+2026,GROGOL PETAMBURAN,Perbuatan Yang Tidak Menyenangkan,1
+2026,GROGOL PETAMBURAN,Percobaan Pencurian,2
+2026,GROGOL PETAMBURAN,Perzinahan,1
+2026,GROGOL PETAMBURAN,Sumpah Palsu Dan Keterangan Palsu,1
+2026,GROGOL PETAMBURAN,Tindak Pidana Transfer Dana,1
+2026,GROGOL PETAMBURAN,UNCLASSIFIED,205
+2026,JAGAKARSA,Curanmor R-2,4
+2026,JAGAKARSA,Kejahatan Tentang Pornografi,1
+2026,JAGAKARSA,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2026,JAGAKARSA,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,JAGAKARSA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,JAGAKARSA,Kejahatan terkait Tenaga Kesehatan,1
+2026,JAGAKARSA,Kekerasan Dalam Rumah Tangga,13
+2026,JAGAKARSA,Manipulasi data autentik secara elektronik (ITE),61
+2026,JAGAKARSA,Memasuki Pekarangan Tanpa Ijin,5
+2026,JAGAKARSA,Mengakibatkan Orang Mati,1
+2026,JAGAKARSA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2026,JAGAKARSA,Narkotika ( Narkoba ),16
+2026,JAGAKARSA,Pemalsuan Surat Otentik,6
+2026,JAGAKARSA,Pemerasan Dan Pengancaman,3
+2026,JAGAKARSA,Pencemaran Nama Baik,12
+2026,JAGAKARSA,Pencurian Biasa,25
+2026,JAGAKARSA,Pencurian Dengan Kekerasan ( Curas ),1
+2026,JAGAKARSA,Pencurian Dengan Pemberatan ( Curat ),37
+2026,JAGAKARSA,Pencurian Ringan,1
+2026,JAGAKARSA,Pengancaman,5
+2026,JAGAKARSA,Penganiayaan,12
+2026,JAGAKARSA,Penganiayaan Berat ( Anirat ),2
+2026,JAGAKARSA,Pengeroyokan,6
+2026,JAGAKARSA,Pengerusakan,1
+2026,JAGAKARSA,Penggelapan,20
+2026,JAGAKARSA,Penghinaan,2
+2026,JAGAKARSA,Penipuan / Perbuatan Curang,43
+2026,JAGAKARSA,Penyebaran Berita Bohong ( Hoax ),1
+2026,JAGAKARSA,Penyerobotan Tanah,3
+2026,JAGAKARSA,Perbankan,1
+2026,JAGAKARSA,Perbuatan Yang Tidak Menyenangkan,1
+2026,JAGAKARSA,Perkelahian Pelajar / Mahasiswa,1
+2026,JAGAKARSA,Perkosaan,2
+2026,JAGAKARSA,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,2
+2026,JAGAKARSA,Perzinahan,1
+2026,JAGAKARSA,Terorisme,1
+2026,JAGAKARSA,Tindak Pidana Transfer Dana,1
+2026,JAGAKARSA,UNCLASSIFIED,203
+2026,JATINEGARA,Cabul,2
+2026,JATINEGARA,Curanmor R-2,7
+2026,JATINEGARA,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,JATINEGARA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,JATINEGARA,Kejahatan terkait Tenaga Kesehatan,1
+2026,JATINEGARA,Kekerasan Dalam Rumah Tangga,3
+2026,JATINEGARA,Manipulasi data autentik secara elektronik (ITE),72
+2026,JATINEGARA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,JATINEGARA,Narkotika ( Narkoba ),35
+2026,JATINEGARA,Pemalsuan Mata Uang Dan Uang Kertas,1
+2026,JATINEGARA,Pemalsuan Surat Otentik,2
+2026,JATINEGARA,Pemerasan,4
+2026,JATINEGARA,Pemerasan Dan Pengancaman,2
+2026,JATINEGARA,Pencemaran Nama Baik,7
+2026,JATINEGARA,Pencurian Biasa,77
+2026,JATINEGARA,Pencurian Dengan Pemberatan ( Curat ),30
+2026,JATINEGARA,Pencurian Ringan,1
+2026,JATINEGARA,Pencurian dalam lingkungan keluarga,1
+2026,JATINEGARA,Pengancaman,2
+2026,JATINEGARA,Penganiayaan,36
+2026,JATINEGARA,Penganiayaan Berat ( Anirat ),1
+2026,JATINEGARA,Pengeroyokan,16
+2026,JATINEGARA,Pengerusakan,1
+2026,JATINEGARA,Penggelapan,25
+2026,JATINEGARA,Penghinaan,1
+2026,JATINEGARA,Penipuan / Perbuatan Curang,34
+2026,JATINEGARA,Penyekapan,2
+2026,JATINEGARA,Perampasan ( Premanisme ),2
+2026,JATINEGARA,Perbankan,1
+2026,JATINEGARA,Perkosaan,1
+2026,JATINEGARA,Perzinahan,1
+2026,JATINEGARA,Tindak Pidana Dalam Perlindungan Anak,2
+2026,JATINEGARA,UNCLASSIFIED,214
+2026,JOHAR BARU,Curanmor R-2,2
+2026,JOHAR BARU,Kejahatan Tentang Penghapusan Diskriminasi Ras Dan Etnis,1
+2026,JOHAR BARU,Kejahatan Terhadap Jiwa Orang / Pembunuhan,1
+2026,JOHAR BARU,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,JOHAR BARU,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,JOHAR BARU,Kekerasan Dalam Rumah Tangga,2
+2026,JOHAR BARU,Kekerasan Seksual (KDRT),1
+2026,JOHAR BARU,Manipulasi data autentik secara elektronik (ITE),4
+2026,JOHAR BARU,Narkotika ( Narkoba ),9
+2026,JOHAR BARU,Pemerasan,1
+2026,JOHAR BARU,Pencurian Biasa,9
+2026,JOHAR BARU,Pencurian Dengan Pemberatan ( Curat ),20
+2026,JOHAR BARU,Pencurian Ringan,2
+2026,JOHAR BARU,Pengancaman,2
+2026,JOHAR BARU,Penganiayaan,5
+2026,JOHAR BARU,Penganiayaan Berat ( Anirat ),1
+2026,JOHAR BARU,Pengeroyokan,11
+2026,JOHAR BARU,Penggelapan,10
+2026,JOHAR BARU,Penipuan / Perbuatan Curang,24
+2026,JOHAR BARU,Perbuatan Yang Tidak Menyenangkan,1
+2026,JOHAR BARU,Perkosaan,1
+2026,JOHAR BARU,Tindak Pidana Dalam Perlindungan Anak,1
+2026,JOHAR BARU,UNCLASSIFIED,75
+2026,KALI DERES,Cabul,2
+2026,KALI DERES,Judi,1
+2026,KALI DERES,Kejahatan Tentang Desain Industri,1
+2026,KALI DERES,Kejahatan Tentang Pornografi,1
+2026,KALI DERES,Kejahatan Tentang Tenaga Kerja,1
+2026,KALI DERES,Kejahatan Terkait Pangan,1
+2026,KALI DERES,Kejahatan terkait Tenaga Kesehatan,3
+2026,KALI DERES,Kekerasan Dalam Rumah Tangga,11
+2026,KALI DERES,Kekerasan Seksual (KDRT),1
+2026,KALI DERES,Manipulasi data autentik secara elektronik (ITE),10
+2026,KALI DERES,Memasuki Pekarangan Tanpa Ijin,5
+2026,KALI DERES,Narkotika ( Narkoba ),22
+2026,KALI DERES,Pemerasan,2
+2026,KALI DERES,Pemerasan Dan Pengancaman,1
+2026,KALI DERES,Pencemaran Nama Baik,13
+2026,KALI DERES,Penculikan,1
+2026,KALI DERES,Pencurian Biasa,39
+2026,KALI DERES,Pencurian Dengan Kekerasan ( Curas ),4
+2026,KALI DERES,Pencurian Dengan Pemberatan ( Curat ),38
+2026,KALI DERES,Pengancaman,5
+2026,KALI DERES,Penganiayaan,37
+2026,KALI DERES,Pengeroyokan,12
+2026,KALI DERES,Pengerusakan,3
+2026,KALI DERES,Penggelapan,34
+2026,KALI DERES,Penghinaan,1
+2026,KALI DERES,Penipuan / Perbuatan Curang,60
+2026,KALI DERES,Penyerobotan Tanah,1
+2026,KALI DERES,Perbuatan Yang Tidak Menyenangkan,1
+2026,KALI DERES,Perkosaan,1
+2026,KALI DERES,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,KALI DERES,Perzinahan,1
+2026,KALI DERES,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,KALI DERES,Sumpah Palsu Dan Keterangan Palsu,1
+2026,KALI DERES,Terhadap ketertiban umum,2
+2026,KALI DERES,Tindak Pidana Dalam Perlindungan Anak,4
+2026,KALI DERES,Tindak Pidana Transfer Dana,2
+2026,KALI DERES,UNCLASSIFIED,182
+2026,KEBAYORAN BARU,Cabul,1
+2026,KEBAYORAN BARU,Curanmor R-2,18
+2026,KEBAYORAN BARU,Kejahatan Tentang Jaminan Fidusia,1
+2026,KEBAYORAN BARU,Kejahatan Tentang Pornografi,1
+2026,KEBAYORAN BARU,Kejahatan Terkait Perlindungan Data Pribadi,11
+2026,KEBAYORAN BARU,Kejahatan terkait Tenaga Kesehatan,1
+2026,KEBAYORAN BARU,Kekerasan Dalam Rumah Tangga,9
+2026,KEBAYORAN BARU,Kekerasan Seksual (KDRT),3
+2026,KEBAYORAN BARU,Korupsi ( Tipikor ),1
+2026,KEBAYORAN BARU,Manipulasi data autentik secara elektronik (ITE),77
+2026,KEBAYORAN BARU,Melawan Putusan Pengadilan,1
+2026,KEBAYORAN BARU,Memasuki Pekarangan Tanpa Ijin,6
+2026,KEBAYORAN BARU,Mengakibatkan Orang Luka,1
+2026,KEBAYORAN BARU,Narkotika ( Narkoba ),22
+2026,KEBAYORAN BARU,Pemalsuan Surat Otentik,5
+2026,KEBAYORAN BARU,Pembunuhan,1
+2026,KEBAYORAN BARU,Pemerasan,2
+2026,KEBAYORAN BARU,Pemerasan Dan Pengancaman,4
+2026,KEBAYORAN BARU,Penadahan,5
+2026,KEBAYORAN BARU,Pencemaran Nama Baik,37
+2026,KEBAYORAN BARU,Pencurian Biasa,150
+2026,KEBAYORAN BARU,Pencurian Dengan Kekerasan ( Curas ),4
+2026,KEBAYORAN BARU,Pencurian Dengan Pemberatan ( Curat ),58
+2026,KEBAYORAN BARU,Pencurian Ringan,5
+2026,KEBAYORAN BARU,Pengaduan Palsu,2
+2026,KEBAYORAN BARU,Pengancaman,8
+2026,KEBAYORAN BARU,Penganiayaan,51
+2026,KEBAYORAN BARU,Penganiayaan Berat ( Anirat ),2
+2026,KEBAYORAN BARU,Pengeroyokan,18
+2026,KEBAYORAN BARU,Pengerusakan,2
+2026,KEBAYORAN BARU,Penggelapan,72
+2026,KEBAYORAN BARU,Penghinaan,3
+2026,KEBAYORAN BARU,Penipuan / Perbuatan Curang,102
+2026,KEBAYORAN BARU,Penistaan Agama,1
+2026,KEBAYORAN BARU,Perbankan,1
+2026,KEBAYORAN BARU,Perbuatan Yang Tidak Menyenangkan,2
+2026,KEBAYORAN BARU,Percobaan Pencurian,2
+2026,KEBAYORAN BARU,Perkosaan,4
+2026,KEBAYORAN BARU,Perzinahan,5
+2026,KEBAYORAN BARU,Psikotropika ( Narkoba ),1
+2026,KEBAYORAN BARU,Sumpah Palsu Dan Keterangan Palsu,2
+2026,KEBAYORAN BARU,Tindak Pidana Dalam Perlindungan Anak,2
+2026,KEBAYORAN BARU,Tindak Pidana Transfer Dana,2
+2026,KEBAYORAN BARU,UNCLASSIFIED,302
+2026,KEBAYORAN LAMA,Cabul,3
+2026,KEBAYORAN LAMA,Curanmor R-2,6
+2026,KEBAYORAN LAMA,Kejahatan Tentang Jaminan Fidusia,1
+2026,KEBAYORAN LAMA,Kejahatan Tentang Pornografi,2
+2026,KEBAYORAN LAMA,Kejahatan Tentang Tenaga Kerja,1
+2026,KEBAYORAN LAMA,Kejahatan Terkait Perlindungan Data Pribadi,4
+2026,KEBAYORAN LAMA,Kejahatan Terkait Rahasia Dagang,1
+2026,KEBAYORAN LAMA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,KEBAYORAN LAMA,Kejahatan terkait Tenaga Kesehatan,1
+2026,KEBAYORAN LAMA,Kekerasan Dalam Rumah Tangga,16
+2026,KEBAYORAN LAMA,Kekerasan Seksual (KDRT),4
+2026,KEBAYORAN LAMA,Manipulasi data autentik secara elektronik (ITE),60
+2026,KEBAYORAN LAMA,Memasuki Pekarangan Tanpa Ijin,5
+2026,KEBAYORAN LAMA,Narkotika ( Narkoba ),27
+2026,KEBAYORAN LAMA,Pemerasan Dan Pengancaman,2
+2026,KEBAYORAN LAMA,Pencemaran Nama Baik,25
+2026,KEBAYORAN LAMA,Penculikan,2
+2026,KEBAYORAN LAMA,Pencurian Biasa,62
+2026,KEBAYORAN LAMA,Pencurian Dengan Kekerasan ( Curas ),1
+2026,KEBAYORAN LAMA,Pencurian Dengan Pemberatan ( Curat ),25
+2026,KEBAYORAN LAMA,Pencurian Ringan,1
+2026,KEBAYORAN LAMA,Pengancaman,5
+2026,KEBAYORAN LAMA,Penganiayaan,27
+2026,KEBAYORAN LAMA,Pengeroyokan,7
+2026,KEBAYORAN LAMA,Pengerusakan,1
+2026,KEBAYORAN LAMA,Penggelapan,46
+2026,KEBAYORAN LAMA,Penipuan / Perbuatan Curang,48
+2026,KEBAYORAN LAMA,Penyekapan,1
+2026,KEBAYORAN LAMA,Perampasan ( Premanisme ),1
+2026,KEBAYORAN LAMA,Perbankan,1
+2026,KEBAYORAN LAMA,Perbuatan Yang Tidak Menyenangkan,2
+2026,KEBAYORAN LAMA,Percobaan Pencurian,3
+2026,KEBAYORAN LAMA,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2026,KEBAYORAN LAMA,Perkosaan,3
+2026,KEBAYORAN LAMA,Perzinahan,2
+2026,KEBAYORAN LAMA,Sumpah Palsu Dan Keterangan Palsu,1
+2026,KEBAYORAN LAMA,Tindak Asusila,1
+2026,KEBAYORAN LAMA,Tindak Pidana Dalam Perlindungan Anak,2
+2026,KEBAYORAN LAMA,Tindak Pidana Transfer Dana,2
+2026,KEBAYORAN LAMA,UNCLASSIFIED,211
+2026,KEBON JERUK,Cabul,1
+2026,KEBON JERUK,Judi,1
+2026,KEBON JERUK,Kejahatan Tentang Pornografi,2
+2026,KEBON JERUK,Kekerasan Dalam Rumah Tangga,2
+2026,KEBON JERUK,Manipulasi data autentik secara elektronik (ITE),24
+2026,KEBON JERUK,Memasuki Pekarangan Tanpa Ijin,7
+2026,KEBON JERUK,Mengakibatkan Orang Luka,1
+2026,KEBON JERUK,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,KEBON JERUK,Narkotika ( Narkoba ),23
+2026,KEBON JERUK,Pemalsuan Surat Otentik,3
+2026,KEBON JERUK,Pemerasan,2
+2026,KEBON JERUK,Pemerasan Dan Pengancaman,1
+2026,KEBON JERUK,Pencemaran Nama Baik,12
+2026,KEBON JERUK,Pencurian Biasa,40
+2026,KEBON JERUK,Pencurian Dengan Kekerasan ( Curas ),1
+2026,KEBON JERUK,Pencurian Dengan Pemberatan ( Curat ),35
+2026,KEBON JERUK,Pencurian Ringan,1
+2026,KEBON JERUK,Pengancaman,6
+2026,KEBON JERUK,Penganiayaan,26
+2026,KEBON JERUK,Penganiayaan Berat ( Anirat ),1
+2026,KEBON JERUK,Pengeroyokan,10
+2026,KEBON JERUK,Pengerusakan,1
+2026,KEBON JERUK,Penggelapan,37
+2026,KEBON JERUK,Penghinaan,1
+2026,KEBON JERUK,Penipuan / Perbuatan Curang,60
+2026,KEBON JERUK,Penistaan Agama,1
+2026,KEBON JERUK,Perbuatan Yang Tidak Menyenangkan,1
+2026,KEBON JERUK,Terhadap ketertiban umum,3
+2026,KEBON JERUK,Tindak Pidana Dalam Perlindungan Anak,4
+2026,KEBON JERUK,UNCLASSIFIED,247
+2026,KELAPA GADING,Curanmor R-2,2
+2026,KELAPA GADING,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2026,KELAPA GADING,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,KELAPA GADING,Kekerasan Dalam Rumah Tangga,1
+2026,KELAPA GADING,Manipulasi data autentik secara elektronik (ITE),16
+2026,KELAPA GADING,Memasuki Pekarangan Tanpa Ijin,3
+2026,KELAPA GADING,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,3
+2026,KELAPA GADING,Narkotika ( Narkoba ),5
+2026,KELAPA GADING,Pemalsuan Surat Otentik,1
+2026,KELAPA GADING,Pemerasan Dan Pengancaman,1
+2026,KELAPA GADING,Pencemaran Nama Baik,7
+2026,KELAPA GADING,Pencurian Biasa,29
+2026,KELAPA GADING,Pencurian Dengan Kekerasan ( Curas ),1
+2026,KELAPA GADING,Pencurian Dengan Pemberatan ( Curat ),8
+2026,KELAPA GADING,Pencurian Ringan,3
+2026,KELAPA GADING,Pengaduan Palsu,2
+2026,KELAPA GADING,Pengancaman,4
+2026,KELAPA GADING,Penganiayaan,11
+2026,KELAPA GADING,Pengeroyokan,7
+2026,KELAPA GADING,Penggelapan,43
+2026,KELAPA GADING,Penghinaan,2
+2026,KELAPA GADING,Penipuan / Perbuatan Curang,36
+2026,KELAPA GADING,Penyekapan,1
+2026,KELAPA GADING,Penyerobotan Tanah,1
+2026,KELAPA GADING,Perbuatan Yang Tidak Menyenangkan,4
+2026,KELAPA GADING,Percobaan Pencurian,1
+2026,KELAPA GADING,Perzinahan,1
+2026,KELAPA GADING,Telekomunikasi,1
+2026,KELAPA GADING,Tindak Pidana Transfer Dana,1
+2026,KELAPA GADING,UNCLASSIFIED,157
+2026,KEMAYORAN,Cabul,1
+2026,KEMAYORAN,Curanmor R-2,48
+2026,KEMAYORAN,Kejahatan Tentang Pornografi,1
+2026,KEMAYORAN,Kejahatan Tentang Tenaga Kerja,2
+2026,KEMAYORAN,Kejahatan Terkait Administrasi Kependudukan,1
+2026,KEMAYORAN,Kejahatan Terkait Merek,1
+2026,KEMAYORAN,Kejahatan Terkait Perlindungan Data Pribadi,4
+2026,KEMAYORAN,Kejahatan terkait Tenaga Kesehatan,4
+2026,KEMAYORAN,Kekerasan Dalam Rumah Tangga,9
+2026,KEMAYORAN,Kekerasan Seksual (KDRT),3
+2026,KEMAYORAN,Manipulasi data autentik secara elektronik (ITE),25
+2026,KEMAYORAN,Melawan Putusan Pengadilan,1
+2026,KEMAYORAN,Memasuki Pekarangan Tanpa Ijin,1
+2026,KEMAYORAN,Narkotika ( Narkoba ),28
+2026,KEMAYORAN,Pemalsuan Surat Otentik,11
+2026,KEMAYORAN,Pemerasan,6
+2026,KEMAYORAN,Pemerasan Dan Pengancaman,1
+2026,KEMAYORAN,Pencemaran Nama Baik,17
+2026,KEMAYORAN,Pencurian Biasa,166
+2026,KEMAYORAN,Pencurian Dengan Kekerasan ( Curas ),3
+2026,KEMAYORAN,Pencurian Dengan Pemberatan ( Curat ),72
+2026,KEMAYORAN,Pencurian Ringan,4
+2026,KEMAYORAN,Pengancaman,6
+2026,KEMAYORAN,Penganiayaan,32
+2026,KEMAYORAN,Penganiayaan Berat ( Anirat ),2
+2026,KEMAYORAN,Pengeroyokan,16
+2026,KEMAYORAN,Pengerusakan,1
+2026,KEMAYORAN,Penggelapan,40
+2026,KEMAYORAN,Penghinaan,4
+2026,KEMAYORAN,Penipuan / Perbuatan Curang,95
+2026,KEMAYORAN,Penyerobotan Tanah,1
+2026,KEMAYORAN,Perbuatan Yang Tidak Menyenangkan,4
+2026,KEMAYORAN,Percobaan Pencurian,4
+2026,KEMAYORAN,Perkelahian Pelajar / Mahasiswa,2
+2026,KEMAYORAN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,KEMAYORAN,Sumpah Palsu Dan Keterangan Palsu,10
+2026,KEMAYORAN,Tindak Pidana Transfer Dana,1
+2026,KEMAYORAN,UNCLASSIFIED,283
+2026,KEMBANGAN,Curanmor R-2,2
+2026,KEMBANGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2026,KEMBANGAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,KEMBANGAN,Kejahatan terkait Tenaga Kesehatan,1
+2026,KEMBANGAN,Kekerasan Dalam Rumah Tangga,10
+2026,KEMBANGAN,Kekerasan Seksual (KDRT),1
+2026,KEMBANGAN,Manipulasi data autentik secara elektronik (ITE),20
+2026,KEMBANGAN,Memasuki Pekarangan Tanpa Ijin,2
+2026,KEMBANGAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2026,KEMBANGAN,Narkotika ( Narkoba ),11
+2026,KEMBANGAN,Pemalsuan Surat Otentik,2
+2026,KEMBANGAN,Pemerasan,5
+2026,KEMBANGAN,Penadahan,1
+2026,KEMBANGAN,Pencemaran Nama Baik,12
+2026,KEMBANGAN,Pencurian Biasa,31
+2026,KEMBANGAN,Pencurian Dengan Kekerasan ( Curas ),1
+2026,KEMBANGAN,Pencurian Dengan Pemberatan ( Curat ),17
+2026,KEMBANGAN,Pengancaman,8
+2026,KEMBANGAN,Penganiayaan,12
+2026,KEMBANGAN,Penganiayaan Berat ( Anirat ),5
+2026,KEMBANGAN,Pengeroyokan,7
+2026,KEMBANGAN,Penggelapan,29
+2026,KEMBANGAN,Penghinaan,3
+2026,KEMBANGAN,Penipuan / Perbuatan Curang,61
+2026,KEMBANGAN,Penyerobotan Tanah,1
+2026,KEMBANGAN,Perbankan,2
+2026,KEMBANGAN,Perbuatan Yang Tidak Menyenangkan,1
+2026,KEMBANGAN,Perkosaan,1
+2026,KEMBANGAN,Perzinahan,1
+2026,KEMBANGAN,Sumpah Palsu Dan Keterangan Palsu,1
+2026,KEMBANGAN,Terhadap ketertiban umum,1
+2026,KEMBANGAN,UNCLASSIFIED,165
+2026,KEPULAUAN SERIBU SELATAN,Illegal Fishing,4
+2026,KEPULAUAN SERIBU SELATAN,Pemerasan,1
+2026,KEPULAUAN SERIBU SELATAN,Penganiayaan,1
+2026,KEPULAUAN SERIBU SELATAN,Pengeroyokan,1
+2026,KEPULAUAN SERIBU SELATAN,Penggelapan,1
+2026,KEPULAUAN SERIBU SELATAN,Penipuan / Perbuatan Curang,3
+2026,KEPULAUAN SERIBU SELATAN,UNCLASSIFIED,3
+2026,KEPULAUAN SERIBU UTARA,Illegal Fishing,3
+2026,KEPULAUAN SERIBU UTARA,Manipulasi data autentik secara elektronik (ITE),1
+2026,KEPULAUAN SERIBU UTARA,Narkotika ( Narkoba ),1
+2026,KEPULAUAN SERIBU UTARA,Pencurian Biasa,2
+2026,KEPULAUAN SERIBU UTARA,Penganiayaan,3
+2026,KEPULAUAN SERIBU UTARA,Pengeroyokan,1
+2026,KEPULAUAN SERIBU UTARA,Penghinaan,1
+2026,KEPULAUAN SERIBU UTARA,Penipuan / Perbuatan Curang,1
+2026,KEPULAUAN SERIBU UTARA,Percobaan Pencurian,2
+2026,KEPULAUAN SERIBU UTARA,UNCLASSIFIED,3
+2026,KOJA,Curanmor R-2,15
+2026,KOJA,Judi,1
+2026,KOJA,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2026,KOJA,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,KOJA,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,KOJA,Manipulasi data autentik secara elektronik (ITE),8
+2026,KOJA,Mengakibatkan Orang Luka,1
+2026,KOJA,Narkotika ( Narkoba ),36
+2026,KOJA,Pemalsuan Surat Otentik,2
+2026,KOJA,Pencemaran Nama Baik,5
+2026,KOJA,Pencurian Biasa,26
+2026,KOJA,Pencurian Dengan Kekerasan ( Curas ),1
+2026,KOJA,Pencurian Dengan Pemberatan ( Curat ),28
+2026,KOJA,Pencurian Ringan,2
+2026,KOJA,Pencurian dalam lingkungan keluarga,1
+2026,KOJA,Pengancaman,3
+2026,KOJA,Penganiayaan,21
+2026,KOJA,Penganiayaan Berat ( Anirat ),3
+2026,KOJA,Pengeroyokan,19
+2026,KOJA,Penggelapan,22
+2026,KOJA,Penipuan / Perbuatan Curang,13
+2026,KOJA,Percobaan Pencurian,4
+2026,KOJA,Perkosaan,1
+2026,KOJA,Sumpah Palsu Dan Keterangan Palsu,2
+2026,KOJA,Telekomunikasi,1
+2026,KOJA,Terhadap ketertiban umum,1
+2026,KOJA,UNCLASSIFIED,145
+2026,KRAMAT JATI,Cabul,1
+2026,KRAMAT JATI,Curanmor R-2,2
+2026,KRAMAT JATI,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,KRAMAT JATI,Kejahatan Tentang Jaminan Fidusia,1
+2026,KRAMAT JATI,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,KRAMAT JATI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),4
+2026,KRAMAT JATI,Kejahatan terkait Tenaga Kesehatan,3
+2026,KRAMAT JATI,Kekerasan Dalam Rumah Tangga,5
+2026,KRAMAT JATI,Manipulasi data autentik secara elektronik (ITE),59
+2026,KRAMAT JATI,Memasuki Pekarangan Tanpa Ijin,2
+2026,KRAMAT JATI,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2026,KRAMAT JATI,Narkotika ( Narkoba ),29
+2026,KRAMAT JATI,Pencemaran Nama Baik,9
+2026,KRAMAT JATI,Pencurian Biasa,40
+2026,KRAMAT JATI,Pencurian Dengan Pemberatan ( Curat ),19
+2026,KRAMAT JATI,Pengancaman,3
+2026,KRAMAT JATI,Penganiayaan,45
+2026,KRAMAT JATI,Penganiayaan Berat ( Anirat ),1
+2026,KRAMAT JATI,Pengeroyokan,10
+2026,KRAMAT JATI,Penggelapan,16
+2026,KRAMAT JATI,Penipuan / Perbuatan Curang,26
+2026,KRAMAT JATI,Penistaan Agama,1
+2026,KRAMAT JATI,Perbuatan Yang Tidak Menyenangkan,4
+2026,KRAMAT JATI,Perkosaan,1
+2026,KRAMAT JATI,Tindak Pidana Dalam Perlindungan Anak,4
+2026,KRAMAT JATI,UNCLASSIFIED,128
+2026,MAKASAR,Cabul,2
+2026,MAKASAR,Curanmor R-2,39
+2026,MAKASAR,Kejahatan Tentang Pornografi,1
+2026,MAKASAR,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,MAKASAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,MAKASAR,Kekerasan Dalam Rumah Tangga,5
+2026,MAKASAR,Manipulasi data autentik secara elektronik (ITE),39
+2026,MAKASAR,Memasuki Pekarangan Tanpa Ijin,1
+2026,MAKASAR,Narkotika ( Narkoba ),14
+2026,MAKASAR,Pemerasan,1
+2026,MAKASAR,Pemerasan Dan Pengancaman,2
+2026,MAKASAR,Penadahan,1
+2026,MAKASAR,Pencemaran Nama Baik,4
+2026,MAKASAR,Pencurian Biasa,23
+2026,MAKASAR,Pencurian Dengan Pemberatan ( Curat ),19
+2026,MAKASAR,Pencurian Ringan,1
+2026,MAKASAR,Pengancaman,4
+2026,MAKASAR,Penganiayaan,15
+2026,MAKASAR,Penganiayaan Berat ( Anirat ),4
+2026,MAKASAR,Pengeroyokan,5
+2026,MAKASAR,Pengerusakan,1
+2026,MAKASAR,Penggelapan,15
+2026,MAKASAR,Penipuan / Perbuatan Curang,27
+2026,MAKASAR,Perzinahan,1
+2026,MAKASAR,Tindak Pidana Dalam Perlindungan Anak,2
+2026,MAKASAR,UNCLASSIFIED,94
+2026,MAMPANG PRAPATAN,Cabul,2
+2026,MAMPANG PRAPATAN,Curanmor R-2,2
+2026,MAMPANG PRAPATAN,Kejahatan Tentang Pornografi,1
+2026,MAMPANG PRAPATAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,MAMPANG PRAPATAN,Kejahatan terkait Tenaga Kesehatan,1
+2026,MAMPANG PRAPATAN,Kekerasan Dalam Rumah Tangga,4
+2026,MAMPANG PRAPATAN,Manipulasi data autentik secara elektronik (ITE),36
+2026,MAMPANG PRAPATAN,Memasuki Pekarangan Tanpa Ijin,3
+2026,MAMPANG PRAPATAN,Mengakibatkan Orang Luka,1
+2026,MAMPANG PRAPATAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,MAMPANG PRAPATAN,Narkotika ( Narkoba ),14
+2026,MAMPANG PRAPATAN,Pemerasan,2
+2026,MAMPANG PRAPATAN,Pencemaran Nama Baik,9
+2026,MAMPANG PRAPATAN,Pencurian Biasa,29
+2026,MAMPANG PRAPATAN,Pencurian Dengan Kekerasan ( Curas ),3
+2026,MAMPANG PRAPATAN,Pencurian Dengan Pemberatan ( Curat ),5
+2026,MAMPANG PRAPATAN,Pengancaman,3
+2026,MAMPANG PRAPATAN,Penganiayaan,28
+2026,MAMPANG PRAPATAN,Pengeroyokan,3
+2026,MAMPANG PRAPATAN,Pengerusakan,1
+2026,MAMPANG PRAPATAN,Penggelapan,28
+2026,MAMPANG PRAPATAN,Penghinaan,2
+2026,MAMPANG PRAPATAN,Penipuan / Perbuatan Curang,34
+2026,MAMPANG PRAPATAN,Penistaan Agama,1
+2026,MAMPANG PRAPATAN,Penyerobotan Tanah,1
+2026,MAMPANG PRAPATAN,Perbankan,2
+2026,MAMPANG PRAPATAN,Perbuatan Yang Tidak Menyenangkan,2
+2026,MAMPANG PRAPATAN,Percobaan Pencurian,1
+2026,MAMPANG PRAPATAN,Perdagangan Manusia / Trafficking In Person / Tppo (dalam Negeri),1
+2026,MAMPANG PRAPATAN,Perkosaan,3
+2026,MAMPANG PRAPATAN,Perlindungan Konsumen,1
+2026,MAMPANG PRAPATAN,Perzinahan,2
+2026,MAMPANG PRAPATAN,Tindak Pidana Dalam Perlindungan Anak,2
+2026,MAMPANG PRAPATAN,UNCLASSIFIED,123
+2026,MATRAMAN,Cabul,2
+2026,MATRAMAN,Curanmor R-2,9
+2026,MATRAMAN,Kejahatan Tentang Jaminan Fidusia,1
+2026,MATRAMAN,Kejahatan Terhadap Penguasa Umum,1
+2026,MATRAMAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,MATRAMAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,MATRAMAN,Kekerasan Dalam Rumah Tangga,1
+2026,MATRAMAN,Manipulasi data autentik secara elektronik (ITE),31
+2026,MATRAMAN,Narkotika ( Narkoba ),28
+2026,MATRAMAN,Pemalsuan Surat Otentik,3
+2026,MATRAMAN,Pemerasan,1
+2026,MATRAMAN,Pemerasan Dan Pengancaman,2
+2026,MATRAMAN,Pencemaran Nama Baik,4
+2026,MATRAMAN,Pencurian Biasa,32
+2026,MATRAMAN,Pencurian Dengan Pemberatan ( Curat ),12
+2026,MATRAMAN,Pengancaman,2
+2026,MATRAMAN,Penganiayaan,17
+2026,MATRAMAN,Pengeroyokan,10
+2026,MATRAMAN,Penggelapan,4
+2026,MATRAMAN,Penghinaan,2
+2026,MATRAMAN,Penipuan / Perbuatan Curang,16
+2026,MATRAMAN,Penyebaran Berita Bohong ( Hoax ),1
+2026,MATRAMAN,Penyekapan,1
+2026,MATRAMAN,Perzinahan,1
+2026,MATRAMAN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,MATRAMAN,Sumpah Palsu Dan Keterangan Palsu,1
+2026,MATRAMAN,Terhadap ketertiban umum,3
+2026,MATRAMAN,Tindak Pidana Dalam Perlindungan Anak,1
+2026,MATRAMAN,UNCLASSIFIED,89
+2026,MENTENG,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2026,MENTENG,Kejahatan Tentang Pornografi,2
+2026,MENTENG,Kejahatan Tentang Tenaga Kerja,1
+2026,MENTENG,Kejahatan Terkait Perlindungan Data Pribadi,4
+2026,MENTENG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,MENTENG,Kekerasan Seksual (KDRT),1
+2026,MENTENG,Manipulasi data autentik secara elektronik (ITE),26
+2026,MENTENG,Melawan Petugas yang Sedang Bertugas,1
+2026,MENTENG,Mengakibatkan Orang Luka,1
+2026,MENTENG,Narkotika ( Narkoba ),9
+2026,MENTENG,Pemalsuan Surat Otentik,1
+2026,MENTENG,Pemerasan,3
+2026,MENTENG,Pencemaran Nama Baik,10
+2026,MENTENG,Pencurian Biasa,87
+2026,MENTENG,Pencurian Dengan Kekerasan ( Curas ),2
+2026,MENTENG,Pencurian Dengan Pemberatan ( Curat ),14
+2026,MENTENG,Pencurian Ringan,4
+2026,MENTENG,Pengaduan Palsu,1
+2026,MENTENG,Pengancaman,7
+2026,MENTENG,Penganiayaan,19
+2026,MENTENG,Pengeroyokan,8
+2026,MENTENG,Pengerusakan,1
+2026,MENTENG,Penggelapan,25
+2026,MENTENG,Penghinaan,1
+2026,MENTENG,Penipuan / Perbuatan Curang,43
+2026,MENTENG,Penistaan Agama,1
+2026,MENTENG,Penyebaran Berita Bohong ( Hoax ),1
+2026,MENTENG,Perbankan,3
+2026,MENTENG,Perbuatan Yang Tidak Menyenangkan,2
+2026,MENTENG,Perzinahan,2
+2026,MENTENG,Terhadap ketertiban umum,1
+2026,MENTENG,UNCLASSIFIED,485
+2026,PADEMANGAN,Curanmor R-2,3
+2026,PADEMANGAN,Kejahatan Tentang Jaminan Fidusia,1
+2026,PADEMANGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),2
+2026,PADEMANGAN,Kejahatan Terkait Merek,1
+2026,PADEMANGAN,Kejahatan terkait Tenaga Kesehatan,1
+2026,PADEMANGAN,Manipulasi data autentik secara elektronik (ITE),18
+2026,PADEMANGAN,Memasuki Pekarangan Tanpa Ijin,1
+2026,PADEMANGAN,Mengakibatkan Orang Mati,1
+2026,PADEMANGAN,Mucikari ( Pelacuran ),1
+2026,PADEMANGAN,Narkotika ( Narkoba ),23
+2026,PADEMANGAN,Pemalsuan Mata Uang Dan Uang Kertas,1
+2026,PADEMANGAN,Pemalsuan Surat Otentik,2
+2026,PADEMANGAN,Pemerasan Dan Pengancaman,1
+2026,PADEMANGAN,Pencemaran Nama Baik,5
+2026,PADEMANGAN,Pencurian Biasa,45
+2026,PADEMANGAN,Pencurian Dengan Kekerasan ( Curas ),4
+2026,PADEMANGAN,Pencurian Dengan Pemberatan ( Curat ),16
+2026,PADEMANGAN,Pencurian Ringan,2
+2026,PADEMANGAN,Pencurian dalam lingkungan keluarga,1
+2026,PADEMANGAN,Pengancaman,1
+2026,PADEMANGAN,Penganiayaan,7
+2026,PADEMANGAN,Penganiayaan Berat ( Anirat ),1
+2026,PADEMANGAN,Pengeroyokan,4
+2026,PADEMANGAN,Pengerusakan,1
+2026,PADEMANGAN,Penggelapan,21
+2026,PADEMANGAN,Penipuan / Perbuatan Curang,11
+2026,PADEMANGAN,Perbankan,1
+2026,PADEMANGAN,Percobaan Pencurian,2
+2026,PADEMANGAN,Telekomunikasi,1
+2026,PADEMANGAN,Terhadap ketertiban umum,1
+2026,PADEMANGAN,Tindak Pidana Transfer Dana,1
+2026,PADEMANGAN,UNCLASSIFIED,138
+2026,PALMERAH,Curanmor R-2,1
+2026,PALMERAH,Kejahatan Tentang Pornografi,1
+2026,PALMERAH,Kejahatan Terkait Merek,1
+2026,PALMERAH,Kejahatan Terkait Perlindungan Data Pribadi,3
+2026,PALMERAH,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),1
+2026,PALMERAH,Kekerasan Dalam Rumah Tangga,4
+2026,PALMERAH,Kekerasan Seksual (KDRT),2
+2026,PALMERAH,Manipulasi data autentik secara elektronik (ITE),19
+2026,PALMERAH,Memasuki Pekarangan Tanpa Ijin,2
+2026,PALMERAH,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,5
+2026,PALMERAH,Narkotika ( Narkoba ),24
+2026,PALMERAH,Pemalsuan Surat Otentik,3
+2026,PALMERAH,Pencemaran Nama Baik,4
+2026,PALMERAH,Penculikan,1
+2026,PALMERAH,Pencurian Biasa,19
+2026,PALMERAH,Pencurian Dengan Kekerasan ( Curas ),5
+2026,PALMERAH,Pencurian Dengan Pemberatan ( Curat ),17
+2026,PALMERAH,Pengancaman,1
+2026,PALMERAH,Penganiayaan,13
+2026,PALMERAH,Penganiayaan Berat ( Anirat ),2
+2026,PALMERAH,Pengeroyokan,11
+2026,PALMERAH,Pengerusakan,1
+2026,PALMERAH,Penggelapan,13
+2026,PALMERAH,Penipuan / Perbuatan Curang,67
+2026,PALMERAH,Perbuatan Yang Tidak Menyenangkan,1
+2026,PALMERAH,Perzinahan,2
+2026,PALMERAH,Sumpah Palsu Dan Keterangan Palsu,2
+2026,PALMERAH,Terhadap ketertiban umum,1
+2026,PALMERAH,Tindak Pidana Transfer Dana,1
+2026,PALMERAH,UNCLASSIFIED,147
+2026,PANCORAN,Cabul,3
+2026,PANCORAN,Curanmor R-2,3
+2026,PANCORAN,Kejahatan Terkait Merek,2
+2026,PANCORAN,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,PANCORAN,Kejahatan terkait Tenaga Kesehatan,1
+2026,PANCORAN,Kekerasan Dalam Rumah Tangga,12
+2026,PANCORAN,Manipulasi data autentik secara elektronik (ITE),25
+2026,PANCORAN,Memasuki Pekarangan Tanpa Ijin,1
+2026,PANCORAN,Narkotika ( Narkoba ),6
+2026,PANCORAN,Pemalsuan Surat Otentik,1
+2026,PANCORAN,Pemerasan Dan Pengancaman,3
+2026,PANCORAN,Penadahan,1
+2026,PANCORAN,Pencemaran Nama Baik,3
+2026,PANCORAN,Pencurian Biasa,19
+2026,PANCORAN,Pencurian Dengan Kekerasan ( Curas ),1
+2026,PANCORAN,Pencurian Dengan Pemberatan ( Curat ),13
+2026,PANCORAN,Pengancaman,1
+2026,PANCORAN,Penganiayaan,10
+2026,PANCORAN,Penganiayaan Berat ( Anirat ),1
+2026,PANCORAN,Pengeroyokan,5
+2026,PANCORAN,Pengerusakan,2
+2026,PANCORAN,Penggelapan,27
+2026,PANCORAN,Penghinaan,1
+2026,PANCORAN,Penipuan / Perbuatan Curang,28
+2026,PANCORAN,Penistaan Agama,1
+2026,PANCORAN,Penyebaran Berita Bohong ( Hoax ),2
+2026,PANCORAN,Penyerobotan Tanah,1
+2026,PANCORAN,Perbuatan Yang Tidak Menyenangkan,2
+2026,PANCORAN,Perkosaan,1
+2026,PANCORAN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,PANCORAN,Perzinahan,2
+2026,PANCORAN,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,PANCORAN,Tindak Pidana Dalam Perlindungan Anak,1
+2026,PANCORAN,UNCLASSIFIED,130
+2026,PASAR MINGGU,Cabul,1
+2026,PASAR MINGGU,Curanmor R-2,1
+2026,PASAR MINGGU,Kejahatan Tentang Pornografi,3
+2026,PASAR MINGGU,Kejahatan Terkait Perlindungan Data Pribadi,8
+2026,PASAR MINGGU,Kejahatan terkait Tenaga Kesehatan,3
+2026,PASAR MINGGU,Kekerasan Dalam Rumah Tangga,11
+2026,PASAR MINGGU,Kekerasan Seksual (KDRT),3
+2026,PASAR MINGGU,Manipulasi data autentik secara elektronik (ITE),45
+2026,PASAR MINGGU,Melawan Putusan Pengadilan,1
+2026,PASAR MINGGU,Memasuki Pekarangan Tanpa Ijin,1
+2026,PASAR MINGGU,Narkotika ( Narkoba ),25
+2026,PASAR MINGGU,Pemalsuan Surat Otentik,4
+2026,PASAR MINGGU,Pemerasan,3
+2026,PASAR MINGGU,Pemerasan Dan Pengancaman,2
+2026,PASAR MINGGU,Penadahan,1
+2026,PASAR MINGGU,Pencemaran Nama Baik,14
+2026,PASAR MINGGU,Pencurian Biasa,23
+2026,PASAR MINGGU,Pencurian Dengan Kekerasan ( Curas ),1
+2026,PASAR MINGGU,Pencurian Dengan Pemberatan ( Curat ),12
+2026,PASAR MINGGU,Pencurian Ringan,3
+2026,PASAR MINGGU,Pengancaman,3
+2026,PASAR MINGGU,Penganiayaan,13
+2026,PASAR MINGGU,Penganiayaan Berat ( Anirat ),1
+2026,PASAR MINGGU,Pengeroyokan,8
+2026,PASAR MINGGU,Pengerusakan,2
+2026,PASAR MINGGU,Penggelapan,26
+2026,PASAR MINGGU,Penghinaan,1
+2026,PASAR MINGGU,Penipuan / Perbuatan Curang,54
+2026,PASAR MINGGU,Penistaan Agama,1
+2026,PASAR MINGGU,Perbuatan Yang Tidak Menyenangkan,1
+2026,PASAR MINGGU,Percobaan Pencurian,1
+2026,PASAR MINGGU,Perkosaan,2
+2026,PASAR MINGGU,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,PASAR MINGGU,Perzinahan,3
+2026,PASAR MINGGU,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),1
+2026,PASAR MINGGU,Sumpah Palsu Dan Keterangan Palsu,1
+2026,PASAR MINGGU,Terhadap ketertiban umum,1
+2026,PASAR MINGGU,Tindak Pidana Dalam Perlindungan Anak,2
+2026,PASAR MINGGU,UNCLASSIFIED,134
+2026,PASAR REBO,Aborsi,1
+2026,PASAR REBO,Cabul,1
+2026,PASAR REBO,Curanmor R-2,2
+2026,PASAR REBO,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,PASAR REBO,Kejahatan Tentang Jaminan Fidusia,1
+2026,PASAR REBO,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,PASAR REBO,Kekerasan Dalam Rumah Tangga,5
+2026,PASAR REBO,Manipulasi data autentik secara elektronik (ITE),34
+2026,PASAR REBO,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2026,PASAR REBO,Narkotika ( Narkoba ),7
+2026,PASAR REBO,Pemalsuan Surat Otentik,1
+2026,PASAR REBO,Pemerasan,2
+2026,PASAR REBO,Pemerasan Dan Pengancaman,1
+2026,PASAR REBO,Pencemaran Nama Baik,3
+2026,PASAR REBO,Pencurian Biasa,21
+2026,PASAR REBO,Pencurian Dengan Pemberatan ( Curat ),35
+2026,PASAR REBO,Pengancaman,1
+2026,PASAR REBO,Penganiayaan,12
+2026,PASAR REBO,Penganiayaan Berat ( Anirat ),2
+2026,PASAR REBO,Pengeroyokan,2
+2026,PASAR REBO,Pengerusakan,1
+2026,PASAR REBO,Penggelapan,5
+2026,PASAR REBO,Penipuan / Perbuatan Curang,19
+2026,PASAR REBO,Perbuatan Yang Tidak Menyenangkan,5
+2026,PASAR REBO,Sumpah Palsu Dan Keterangan Palsu,1
+2026,PASAR REBO,Tindak Pidana Dalam Perlindungan Anak,3
+2026,PASAR REBO,UNCLASSIFIED,132
+2026,PENJARINGAN,Cabul,1
+2026,PENJARINGAN,Curanmor R-2,8
+2026,PENJARINGAN,Judi,2
+2026,PENJARINGAN,Karantina,1
+2026,PENJARINGAN,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),1
+2026,PENJARINGAN,Kejahatan Tentang Perdagangan,1
+2026,PENJARINGAN,Kejahatan Tentang Pornografi,3
+2026,PENJARINGAN,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,PENJARINGAN,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2026,PENJARINGAN,Kejahatan terkait Tenaga Kesehatan,2
+2026,PENJARINGAN,Manipulasi data autentik secara elektronik (ITE),21
+2026,PENJARINGAN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,6
+2026,PENJARINGAN,Mucikari ( Pelacuran ),1
+2026,PENJARINGAN,Narkotika ( Narkoba ),36
+2026,PENJARINGAN,Pemalsuan Surat Otentik,2
+2026,PENJARINGAN,Pemerasan Dan Pengancaman,1
+2026,PENJARINGAN,Pencemaran Nama Baik,8
+2026,PENJARINGAN,Penculikan,1
+2026,PENJARINGAN,Pencurian Biasa,26
+2026,PENJARINGAN,Pencurian Dengan Kekerasan ( Curas ),2
+2026,PENJARINGAN,Pencurian Dengan Pemberatan ( Curat ),8
+2026,PENJARINGAN,Pengancaman,4
+2026,PENJARINGAN,Penganiayaan,20
+2026,PENJARINGAN,Penganiayaan Berat ( Anirat ),2
+2026,PENJARINGAN,Pengeroyokan,10
+2026,PENJARINGAN,Pengerusakan,1
+2026,PENJARINGAN,Penggelapan,72
+2026,PENJARINGAN,Penipuan / Perbuatan Curang,36
+2026,PENJARINGAN,Penyelundupan Senjata api (senpi),1
+2026,PENJARINGAN,Penyerobotan Tanah,3
+2026,PENJARINGAN,Perbuatan Yang Tidak Menyenangkan,3
+2026,PENJARINGAN,Percobaan Pencurian,4
+2026,PENJARINGAN,Perlindungan Konsumen,2
+2026,PENJARINGAN,Sumpah Palsu Dan Keterangan Palsu,2
+2026,PENJARINGAN,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2026,PENJARINGAN,Tindak Pidana Transfer Dana,1
+2026,PENJARINGAN,UNCLASSIFIED,155
+2026,PESANGGRAHAN,Cabul,3
+2026,PESANGGRAHAN,Judi,1
+2026,PESANGGRAHAN,Kejahatan Terkait Perlindungan Data Pribadi,8
+2026,PESANGGRAHAN,Kejahatan terkait Tenaga Kesehatan,1
+2026,PESANGGRAHAN,Kekerasan Dalam Rumah Tangga,7
+2026,PESANGGRAHAN,Manipulasi data autentik secara elektronik (ITE),25
+2026,PESANGGRAHAN,Memasuki Pekarangan Tanpa Ijin,5
+2026,PESANGGRAHAN,Mucikari ( Pelacuran ),1
+2026,PESANGGRAHAN,Narkotika ( Narkoba ),8
+2026,PESANGGRAHAN,Pemalsuan Surat Otentik,1
+2026,PESANGGRAHAN,Pemerasan,1
+2026,PESANGGRAHAN,Pemerasan Dan Pengancaman,1
+2026,PESANGGRAHAN,Pencemaran Nama Baik,9
+2026,PESANGGRAHAN,Pencurian Biasa,22
+2026,PESANGGRAHAN,Pencurian Dengan Pemberatan ( Curat ),10
+2026,PESANGGRAHAN,Pencurian Ringan,3
+2026,PESANGGRAHAN,Pencurian dalam lingkungan keluarga,1
+2026,PESANGGRAHAN,Pengancaman,2
+2026,PESANGGRAHAN,Penganiayaan,22
+2026,PESANGGRAHAN,Pengeroyokan,8
+2026,PESANGGRAHAN,Pengerusakan,1
+2026,PESANGGRAHAN,Penggelapan,13
+2026,PESANGGRAHAN,Penghinaan,1
+2026,PESANGGRAHAN,Penipuan / Perbuatan Curang,23
+2026,PESANGGRAHAN,Penyalahgunaan Wewenang,1
+2026,PESANGGRAHAN,Penyebaran Berita Bohong ( Hoax ),1
+2026,PESANGGRAHAN,Penyerobotan Tanah,1
+2026,PESANGGRAHAN,Tindak Pidana Dalam Perlindungan Anak,1
+2026,PESANGGRAHAN,UNCLASSIFIED,104
+2026,PULO GADUNG,Cabul,3
+2026,PULO GADUNG,Curanmor R-2,1
+2026,PULO GADUNG,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,PULO GADUNG,Kejahatan Tentang Jaminan Fidusia,2
+2026,PULO GADUNG,Kejahatan Terkait Perlindungan Data Pribadi,3
+2026,PULO GADUNG,Kekerasan Dalam Rumah Tangga,5
+2026,PULO GADUNG,Manipulasi data autentik secara elektronik (ITE),74
+2026,PULO GADUNG,Memasuki Pekarangan Tanpa Ijin,2
+2026,PULO GADUNG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,PULO GADUNG,Narkotika ( Narkoba ),18
+2026,PULO GADUNG,Pemalsuan Surat Otentik,2
+2026,PULO GADUNG,Pemerasan,1
+2026,PULO GADUNG,Pemerasan Dan Pengancaman,4
+2026,PULO GADUNG,Pencemaran Nama Baik,10
+2026,PULO GADUNG,Pencurian Biasa,45
+2026,PULO GADUNG,Pencurian Dengan Kekerasan ( Curas ),2
+2026,PULO GADUNG,Pencurian Dengan Pemberatan ( Curat ),19
+2026,PULO GADUNG,Pengancaman,3
+2026,PULO GADUNG,Penganiayaan,32
+2026,PULO GADUNG,Penganiayaan Berat ( Anirat ),5
+2026,PULO GADUNG,Pengeroyokan,19
+2026,PULO GADUNG,Penggelapan,19
+2026,PULO GADUNG,Penipuan / Perbuatan Curang,19
+2026,PULO GADUNG,Penistaan Agama,1
+2026,PULO GADUNG,Percobaan Pencurian,1
+2026,PULO GADUNG,Perlindungan Konsumen,1
+2026,PULO GADUNG,Sumpah Palsu Dan Keterangan Palsu,1
+2026,PULO GADUNG,Terhadap ketertiban umum,1
+2026,PULO GADUNG,Tindak Pidana Dalam Perlindungan Anak,5
+2026,PULO GADUNG,UNCLASSIFIED,148
+2026,SAWAH BESAR,Judi,1
+2026,SAWAH BESAR,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,SAWAH BESAR,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,SAWAH BESAR,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),2
+2026,SAWAH BESAR,Kejahatan terkait Tenaga Kesehatan,1
+2026,SAWAH BESAR,Kekerasan Dalam Rumah Tangga,1
+2026,SAWAH BESAR,Manipulasi data autentik secara elektronik (ITE),13
+2026,SAWAH BESAR,Memasuki Pekarangan Tanpa Ijin,2
+2026,SAWAH BESAR,Narkotika ( Narkoba ),31
+2026,SAWAH BESAR,Pemerasan Dan Pengancaman,1
+2026,SAWAH BESAR,Pencemaran Nama Baik,6
+2026,SAWAH BESAR,Penculikan,2
+2026,SAWAH BESAR,Pencurian Biasa,91
+2026,SAWAH BESAR,Pencurian Dengan Kekerasan ( Curas ),3
+2026,SAWAH BESAR,Pencurian Dengan Pemberatan ( Curat ),29
+2026,SAWAH BESAR,Pencurian Ringan,1
+2026,SAWAH BESAR,Pengancaman,5
+2026,SAWAH BESAR,Penganiayaan,21
+2026,SAWAH BESAR,Penganiayaan Berat ( Anirat ),3
+2026,SAWAH BESAR,Pengeroyokan,6
+2026,SAWAH BESAR,Penggelapan,35
+2026,SAWAH BESAR,Penipuan / Perbuatan Curang,43
+2026,SAWAH BESAR,Penyerobotan Tanah,1
+2026,SAWAH BESAR,Perampasan ( Premanisme ),1
+2026,SAWAH BESAR,Perbuatan Yang Tidak Menyenangkan,5
+2026,SAWAH BESAR,Percobaan Pencurian,2
+2026,SAWAH BESAR,Perkosaan,1
+2026,SAWAH BESAR,Perzinahan,2
+2026,SAWAH BESAR,Sumpah Palsu Dan Keterangan Palsu,1
+2026,SAWAH BESAR,Tindak Pidana Dalam Perlindungan Anak,2
+2026,SAWAH BESAR,UNCLASSIFIED,179
+2026,SENEN,Curanmor R-2,1
+2026,SENEN,Kawin halangan/kawin tanpa ijin,1
+2026,SENEN,Kejahatan Terkait Merek,1
+2026,SENEN,Kejahatan Terkait Perlindungan Data Pribadi,3
+2026,SENEN,Kejahatan terkait Tenaga Kesehatan,1
+2026,SENEN,Kekerasan Dalam Rumah Tangga,1
+2026,SENEN,Kekerasan Seksual (KDRT),1
+2026,SENEN,Manipulasi data autentik secara elektronik (ITE),20
+2026,SENEN,Mengakibatkan Orang Mati,1
+2026,SENEN,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,1
+2026,SENEN,Narkotika ( Narkoba ),31
+2026,SENEN,Pemalsuan Surat Otentik,1
+2026,SENEN,Pemerasan,1
+2026,SENEN,Penadahan,1
+2026,SENEN,Pencemaran Nama Baik,5
+2026,SENEN,Pencurian Biasa,39
+2026,SENEN,Pencurian Dengan Kekerasan ( Curas ),2
+2026,SENEN,Pencurian Dengan Pemberatan ( Curat ),11
+2026,SENEN,Pencurian Ringan,3
+2026,SENEN,Pengancaman,3
+2026,SENEN,Penganiayaan,6
+2026,SENEN,Penganiayaan Berat ( Anirat ),1
+2026,SENEN,Pengeroyokan,4
+2026,SENEN,Pengerusakan,4
+2026,SENEN,Penggelapan,11
+2026,SENEN,Penghinaan,1
+2026,SENEN,Penipuan / Perbuatan Curang,30
+2026,SENEN,Penyerobotan Tanah,1
+2026,SENEN,Perbuatan Yang Tidak Menyenangkan,4
+2026,SENEN,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,SENEN,Tindak Pidana Dalam Perlindungan Anak,2
+2026,SENEN,UNCLASSIFIED,100
+2026,SETIA BUDI,Cabul,2
+2026,SETIA BUDI,Karena Alpa  Menimbulkan  Kebakaran/ Meletus/banjir,1
+2026,SETIA BUDI,Kejahatan Tentang Jaminan Fidusia,2
+2026,SETIA BUDI,Kejahatan Tentang Tenaga Kerja,3
+2026,SETIA BUDI,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,SETIA BUDI,Kejahatan terkait Tenaga Kesehatan,1
+2026,SETIA BUDI,Kekerasan Dalam Rumah Tangga,6
+2026,SETIA BUDI,Kekerasan Seksual (KDRT),2
+2026,SETIA BUDI,Manipulasi data autentik secara elektronik (ITE),58
+2026,SETIA BUDI,Memasuki Pekarangan Tanpa Ijin,2
+2026,SETIA BUDI,Menempatkan anaknya untuk ditemukan atau meninggalkannya dengan maksud untuk melepaskan diri dari padanya,1
+2026,SETIA BUDI,Narkotika ( Narkoba ),29
+2026,SETIA BUDI,Pemalsuan Surat Otentik,5
+2026,SETIA BUDI,Pemerasan,4
+2026,SETIA BUDI,Pemerasan Dan Pengancaman,2
+2026,SETIA BUDI,Pencemaran Nama Baik,27
+2026,SETIA BUDI,Pencurian Biasa,112
+2026,SETIA BUDI,Pencurian Dengan Kekerasan ( Curas ),4
+2026,SETIA BUDI,Pencurian Dengan Pemberatan ( Curat ),27
+2026,SETIA BUDI,Pencurian Ringan,4
+2026,SETIA BUDI,Pengancaman,6
+2026,SETIA BUDI,Penganiayaan,43
+2026,SETIA BUDI,Pengeroyokan,13
+2026,SETIA BUDI,Pengerusakan,1
+2026,SETIA BUDI,Penggelapan,50
+2026,SETIA BUDI,Penghinaan,2
+2026,SETIA BUDI,Penipuan / Perbuatan Curang,64
+2026,SETIA BUDI,Perbankan,4
+2026,SETIA BUDI,Perbuatan Yang Tidak Menyenangkan,1
+2026,SETIA BUDI,Perkosaan,1
+2026,SETIA BUDI,Perzinahan,4
+2026,SETIA BUDI,Tindak Pidana Dalam Perlindungan Anak,1
+2026,SETIA BUDI,Tindak Pidana Transfer Dana,1
+2026,SETIA BUDI,UNCLASSIFIED,232
+2026,TAMAN SARI,Cabul,2
+2026,TAMAN SARI,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2026,TAMAN SARI,Kekerasan Dalam Rumah Tangga,2
+2026,TAMAN SARI,Manipulasi data autentik secara elektronik (ITE),6
+2026,TAMAN SARI,Memasuki Pekarangan Tanpa Ijin,3
+2026,TAMAN SARI,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,4
+2026,TAMAN SARI,Narkotika ( Narkoba ),46
+2026,TAMAN SARI,Pemalsuan Surat Otentik,2
+2026,TAMAN SARI,Pemerasan,2
+2026,TAMAN SARI,Pemerasan Dan Pengancaman,1
+2026,TAMAN SARI,Pencemaran Nama Baik,2
+2026,TAMAN SARI,Pencurian Biasa,37
+2026,TAMAN SARI,Pencurian Dengan Kekerasan ( Curas ),2
+2026,TAMAN SARI,Pencurian Dengan Pemberatan ( Curat ),6
+2026,TAMAN SARI,Pencurian Ringan,2
+2026,TAMAN SARI,Penganiayaan,26
+2026,TAMAN SARI,Pengeroyokan,7
+2026,TAMAN SARI,Penggelapan,25
+2026,TAMAN SARI,Penghinaan,2
+2026,TAMAN SARI,Penipuan / Perbuatan Curang,18
+2026,TAMAN SARI,Penyerobotan Tanah,2
+2026,TAMAN SARI,Perbankan,3
+2026,TAMAN SARI,Percobaan Pencurian,2
+2026,TAMAN SARI,Perzinahan,2
+2026,TAMAN SARI,Sumpah Palsu Dan Keterangan Palsu,1
+2026,TAMAN SARI,Terhadap ketertiban umum,1
+2026,TAMAN SARI,Tindak Pidana Dalam Perlindungan Anak,1
+2026,TAMAN SARI,UNCLASSIFIED,145
+2026,TAMBORA,Cabul,3
+2026,TAMBORA,Kejahatan Tentang Perdagangan,1
+2026,TAMBORA,Kejahatan Tentang Pornografi,2
+2026,TAMBORA,Kejahatan Terkait Merek,1
+2026,TAMBORA,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,TAMBORA,Kekerasan Dalam Rumah Tangga,1
+2026,TAMBORA,Kekerasan Seksual (KDRT),1
+2026,TAMBORA,Manipulasi data autentik secara elektronik (ITE),8
+2026,TAMBORA,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,2
+2026,TAMBORA,Narkotika ( Narkoba ),17
+2026,TAMBORA,Pemalsuan Surat Otentik,3
+2026,TAMBORA,Pemerasan,2
+2026,TAMBORA,Pencemaran Nama Baik,4
+2026,TAMBORA,Pencurian Biasa,18
+2026,TAMBORA,Pencurian Dengan Kekerasan ( Curas ),2
+2026,TAMBORA,Pencurian Dengan Pemberatan ( Curat ),15
+2026,TAMBORA,Pengancaman,3
+2026,TAMBORA,Penganiayaan,22
+2026,TAMBORA,Pengeroyokan,6
+2026,TAMBORA,Pengerusakan,1
+2026,TAMBORA,Penggelapan,19
+2026,TAMBORA,Penipuan / Perbuatan Curang,35
+2026,TAMBORA,Percobaan Pencurian,2
+2026,TAMBORA,Perkosaan,1
+2026,TAMBORA,Perlindungan Konsumen,1
+2026,TAMBORA,Persetubuhan Terhadap Anak / Cabul Terhadap Anak,1
+2026,TAMBORA,Tindak Pidana Dalam Perlindungan Anak,1
+2026,TAMBORA,UNCLASSIFIED,89
+2026,TANAH ABANG,Curanmor R-2,1
+2026,TANAH ABANG,Hak Atas Kekayaan Intelektual ( HAKI ),1
+2026,TANAH ABANG,Kejahatan Tentang Jaminan Fidusia,5
+2026,TANAH ABANG,Kejahatan Tentang Pornografi,1
+2026,TANAH ABANG,Kejahatan Tentang Tenaga Kerja,1
+2026,TANAH ABANG,Kejahatan Terhadap Penguasa Umum,1
+2026,TANAH ABANG,Kejahatan Terkait Perlindungan Data Pribadi,1
+2026,TANAH ABANG,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),3
+2026,TANAH ABANG,Kejahatan terkait Tenaga Kesehatan,8
+2026,TANAH ABANG,Kekerasan Dalam Rumah Tangga,5
+2026,TANAH ABANG,Manipulasi data autentik secara elektronik (ITE),49
+2026,TANAH ABANG,Melawan Petugas yang Sedang Bertugas,1
+2026,TANAH ABANG,Memasuki Pekarangan Tanpa Ijin,1
+2026,TANAH ABANG,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,10
+2026,TANAH ABANG,Narkotika ( Narkoba ),26
+2026,TANAH ABANG,Pemalsuan Mata Uang Dan Uang Kertas,1
+2026,TANAH ABANG,Pemalsuan Surat Otentik,1
+2026,TANAH ABANG,Pemerasan,1
+2026,TANAH ABANG,Pemerasan Dan Pengancaman,4
+2026,TANAH ABANG,Pencemaran Nama Baik,8
+2026,TANAH ABANG,Pencurian Biasa,92
+2026,TANAH ABANG,Pencurian Dengan Kekerasan ( Curas ),3
+2026,TANAH ABANG,Pencurian Dengan Pemberatan ( Curat ),24
+2026,TANAH ABANG,Pencurian Ringan,1
+2026,TANAH ABANG,Pengancaman,5
+2026,TANAH ABANG,Penganiayaan,28
+2026,TANAH ABANG,Penganiayaan Berat ( Anirat ),3
+2026,TANAH ABANG,Pengeroyokan,11
+2026,TANAH ABANG,Pengerusakan,4
+2026,TANAH ABANG,Penggelapan,25
+2026,TANAH ABANG,Penghinaan,3
+2026,TANAH ABANG,Penipuan / Perbuatan Curang,51
+2026,TANAH ABANG,Penyebaran Berita Bohong ( Hoax ),1
+2026,TANAH ABANG,Penyekapan,1
+2026,TANAH ABANG,Perbankan,1
+2026,TANAH ABANG,Perbuatan Yang Tidak Menyenangkan,1
+2026,TANAH ABANG,Percobaan Pencurian,1
+2026,TANAH ABANG,Perzinahan,3
+2026,TANAH ABANG,Sengaja Menimbulkan Kebakaran/banjir (pembakaran),2
+2026,TANAH ABANG,Terhadap ketertiban umum,1
+2026,TANAH ABANG,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2026,TANAH ABANG,UNCLASSIFIED,193
+2026,TANJUNG PRIOK,Cabul,1
+2026,TANJUNG PRIOK,Curanmor R-2,17
+2026,TANJUNG PRIOK,Illegal Fishing,1
+2026,TANJUNG PRIOK,Judi,2
+2026,TANJUNG PRIOK,Kejahatan Tentang Minyak Dan Gas  ( MIGAS ),3
+2026,TANJUNG PRIOK,Kejahatan Tentang Perdagangan,1
+2026,TANJUNG PRIOK,Kejahatan Tentang Pornografi,1
+2026,TANJUNG PRIOK,Kejahatan Terkait Perlindungan Data Pribadi,2
+2026,TANJUNG PRIOK,Kejahatan Terkait Senjata Tajam ( Sajam ) ( Premanisme ),6
+2026,TANJUNG PRIOK,Kejahatan terkait Tenaga Kesehatan,3
+2026,TANJUNG PRIOK,Kekerasan Dalam Rumah Tangga,2
+2026,TANJUNG PRIOK,Manipulasi data autentik secara elektronik (ITE),21
+2026,TANJUNG PRIOK,Melawan Putusan Pengadilan,1
+2026,TANJUNG PRIOK,Memasuki Pekarangan Tanpa Ijin,2
+2026,TANJUNG PRIOK,Mengakibatkan Orang Luka,1
+2026,TANJUNG PRIOK,Mengakibatkan Orang Mati,1
+2026,TANJUNG PRIOK,Menjual atau mengedarkan obat keras / bebas terbatas tanpa ijin,3
+2026,TANJUNG PRIOK,Mucikari ( Pelacuran ),4
+2026,TANJUNG PRIOK,Narkotika ( Narkoba ),53
+2026,TANJUNG PRIOK,Pemalsuan Surat Otentik,2
+2026,TANJUNG PRIOK,Pembunuhan,1
+2026,TANJUNG PRIOK,Pemerasan,1
+2026,TANJUNG PRIOK,Pemerasan Dan Pengancaman,2
+2026,TANJUNG PRIOK,Penadahan,1
+2026,TANJUNG PRIOK,Pencemaran Nama Baik,11
+2026,TANJUNG PRIOK,Pencurian Biasa,39
+2026,TANJUNG PRIOK,Pencurian Dengan Kekerasan ( Curas ),4
+2026,TANJUNG PRIOK,Pencurian Dengan Pemberatan ( Curat ),26
+2026,TANJUNG PRIOK,Pencurian Ringan,3
+2026,TANJUNG PRIOK,Pengaduan Palsu,1
+2026,TANJUNG PRIOK,Pengancaman,2
+2026,TANJUNG PRIOK,Penganiayaan,35
+2026,TANJUNG PRIOK,Penganiayaan Berat ( Anirat ),3
+2026,TANJUNG PRIOK,Pengeroyokan,23
+2026,TANJUNG PRIOK,Pengerusakan,2
+2026,TANJUNG PRIOK,Penggelapan,49
+2026,TANJUNG PRIOK,Penghinaan,1
+2026,TANJUNG PRIOK,Penipuan / Perbuatan Curang,33
+2026,TANJUNG PRIOK,Penyerobotan Tanah,2
+2026,TANJUNG PRIOK,Perbuatan Yang Tidak Menyenangkan,2
+2026,TANJUNG PRIOK,Percobaan Pencurian,2
+2026,TANJUNG PRIOK,Perkosaan,1
+2026,TANJUNG PRIOK,Sumpah Palsu Dan Keterangan Palsu,2
+2026,TANJUNG PRIOK,Tindak Pidana Dalam Perlindungan Anak,3
+2026,TANJUNG PRIOK,UNCLASSIFIED,210
+2026,TEBET,Aborsi,1
+2026,TEBET,Curanmor R-2,1
+2026,TEBET,Kejahatan Tentang Jaminan Fidusia,2
+2026,TEBET,Kejahatan Tentang Tenaga Kerja,1
+2026,TEBET,Kejahatan Terkait Perlindungan Data Pribadi,3
+2026,TEBET,Kekerasan Dalam Rumah Tangga,6
+2026,TEBET,Kekerasan Seksual (KDRT),2
+2026,TEBET,Manipulasi data autentik secara elektronik (ITE),48
+2026,TEBET,Memasuki Pekarangan Tanpa Ijin,1
+2026,TEBET,Narkotika ( Narkoba ),20
+2026,TEBET,Pemalsuan Surat Otentik,2
+2026,TEBET,Pemerasan,1
+2026,TEBET,Pemerasan Dan Pengancaman,1
+2026,TEBET,Penadahan,2
+2026,TEBET,Pencemaran Nama Baik,11
+2026,TEBET,Pencurian Biasa,22
+2026,TEBET,Pencurian Dengan Kekerasan ( Curas ),1
+2026,TEBET,Pencurian Dengan Pemberatan ( Curat ),14
+2026,TEBET,Pencurian dalam lingkungan keluarga,1
+2026,TEBET,Pengancaman,2
+2026,TEBET,Penganiayaan,18
+2026,TEBET,Pengeroyokan,7
+2026,TEBET,Pengerusakan,2
+2026,TEBET,Penggelapan,39
+2026,TEBET,Penghinaan,2
+2026,TEBET,Penipuan / Perbuatan Curang,46
+2026,TEBET,Percobaan Pencurian,2
+2026,TEBET,Perzinahan,4
+2026,TEBET,Tindak Pidana Dalam Perlindungan Anak,4
+2026,TEBET,Tindak Pidana Pencucian Uang ( TPPU / Money Laundering),1
+2026,TEBET,Tindak Pidana Transfer Dana,1
+2026,TEBET,UNCLASSIFIED,168

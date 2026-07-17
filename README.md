@@ -14,6 +14,14 @@ app or model reads.
 (MultiPolygon outlines), each carrying the same columns in its properties. Use this to
 shade districts on a map (choropleth). Use the CSV for everything else.
 
+**`data/crime_kecamatan_types.csv`**: the historical crime fact table at
+`year × kecamatan × jenis_kejahatan` grain. The current refresh contains scoped crime
+records for 2024-2026.
+
+**`data/crime_polsek_kecamatan_types.csv`**: the auditable Power BI leaf extract, retaining
+Polda, Polres, and Polsek provenance for every positive count. Rows that cannot be mapped
+cleanly are listed in **`data/crime_unmatched_locations.csv`**.
+
 | Column | Meaning |
 |---|---|
 | `kecamatan` | District name (uppercase, as published by Polri) |
@@ -22,6 +30,7 @@ shade districts on a map (choropleth). Use the CSV for everything else.
 | `crime_total` | All reported crimes, 2026 year-to-date |
 | `street_crime` | Only the 25 physical-risk crime types (theft, robbery, assault, sexual violence, and similar). This is the number a safety heatmap should use |
 | `street_crime_evening` | Street crimes in the 18:00-21:59 window (the citywide peak) |
+| `crime_year` | Latest discovered year selected for the current risk layer |
 | `evening_share` | `street_crime_evening / street_crime`, how nocturnal the district's crime is |
 | `population` | Residents (sum of the district's kelurahan) |
 | `area_km2` | Computed from boundary polygons (the source's stored area fields are unreliable) |
@@ -33,7 +42,7 @@ shade districts on a map (choropleth). Use the CSV for everything else.
 | `risk_level` | Policy classification: `NONE`, `LOW`, `MEDIUM`, `HIGH`, or `CRITICAL` |
 | `risk_policy_version` | Version of the score formula and thresholds used to produce the row |
 
-Example, Kemayoran: 370 street crimes (the city's highest), 28% of them in the evening
+Example, Kemayoran: 366 street crimes (the city's highest), 27% of them in the evening
 window, 34,289 people/km2, 740 lamps/km2, centroid at (-6.1627, 106.8558).
 
 ## Risk score policy
@@ -69,7 +78,7 @@ status or complete coverage.
 
 | Layer | File | Source | Method | Vintage |
 |---|---|---|---|---|
-| Crime | `crime_kecamatan.csv`, `crime_types.csv`, `crime_time_of_day.csv` | **Pusiknas Bareskrim Polri**: [pusiknas.polri.go.id/data_kejahatan](https://pusiknas.polri.go.id/data_kejahatan) | The public dashboard is a Power BI report; we replay its own query API (public resource key, structured JSON, no scraping). The exact query payloads are committed in `scripts/queries/` | Live, rolling 2026 YTD |
+| Crime | `crime_polsek_kecamatan_types.csv`, `crime_kecamatan_types.csv`, `crime_kecamatan.csv`, `crime_types.csv`, `crime_time_of_day.csv` | **Pusiknas Bareskrim Polri**: [pusiknas.polri.go.id/data_kejahatan](https://pusiknas.polri.go.id/data_kejahatan) | The public dashboard is a Power BI report. The pipeline queries its public semantic API, filters `POLDA METRO JAYA` to incidents located in DKI Jakarta, discovers Polres and Polsek dynamically, and groups positive counts by year, kecamatan, and crime type | Historical scoped rows plus live 2026 YTD |
 | Street lights | `street_lights.csv` (277,198 points: lat/lng, lamp type, wattage) | **Jakarta Satu / Dinas Bina Marga DKI**: [ArcGIS FeatureServer `Data_PJU_DBM_View`](https://jakartasatu.jakarta.go.id/server/rest/services/BINAMARGA/Data_PJU_DBM_View/FeatureServer/0) (flagged `access: public`; backs the city's own PJU dashboard) | Paginated export via the official ArcGIS REST query API | As published |
 | Population | `population.geojson` (267 kelurahan: polygons plus population, households, gender, age buckets) | **Dukcapil Kemendagri GIS**: [layer `AGR_VISUAL_KEL_FIX`](https://gis.dukcapil.kemendagri.go.id/arcgis/rest/services/AGR_VISUAL_KEL_FIX/MapServer/0) | Paginated GeoJSON export, filtered to DKI Jakarta | Approx. DKB 2024 / early 2025 |
 
@@ -100,19 +109,41 @@ What `build` does:
    `kecamatan_boundaries.geojson` with the same values attached to each district shape.
    Fails loudly if the result is not exactly 44 districts.
 
+What `refresh crime` does:
+
+1. Discovers every year with positive scoped crime data.
+2. Selects `POLDA METRO JAYA` and `DKI JAKARTA`, then enumerates Polres and each Polres's
+   Polsek. Null hierarchy members are retained as unassigned branches instead of dropped.
+3. Queries positive `Jumlah_CT` values by year, incident kecamatan, and crime type for each
+   Polsek. Power BI dictionary encoding is decoded and truncated responses are rejected.
+4. Reconciles every leaf total with its Polsek, Polres, and Polda hierarchy totals.
+5. Writes the provenance-preserving leaf file and the kecamatan/type aggregation. Blank or
+   unknown locations are quarantined. Records with a valid kecamatan but no crime-type
+   relationship are retained as `UNCLASSIFIED` so district totals stay complete.
+6. Rebuilds `crime_kecamatan.csv`, `crime_types.csv`, and `crime_time_of_day.csv` from the
+   latest discovered year. The risk map therefore uses the latest year only while historical
+   rows remain available in `crime_kecamatan_types.csv`.
+
 Refresh is fail-safe: every download is validated (row counts, non-zero totals) and
 written to a temp file first. An endpoint outage or bad response can never corrupt the
 existing files; the previous version is kept and the failure is printed.
 
 ## Caveats: read before using the numbers
 
-- **Crime is a live rolling year-to-date count**, not an annual figure. Absolute values
+- **The latest crime year is a live rolling year-to-date count**, not an annual figure. Absolute values
   grow as the year progresses; the relative ordering between districts is the signal.
   Do not compare against annual publications (different timeframe and scope).
 - **`street_crime` is deliberately filtered.** Jakarta's two most-reported crimes are
   fraud and cybercrime, and neither makes a street dangerous to walk through. Only 25
-  physical-risk types are counted (about 42% of all reports). The filter lives in the
+  physical-risk types are counted. The filter lives in the
   committed query payloads.
+- **Police hierarchy and incident geography are different fields.** Polres and Polsek are
+  retained as source provenance, but the map uses the incident's `Nama_Kecamatan`. A Polsek
+  is not assumed to correspond one-to-one with an administrative kecamatan.
+- **Some source records cannot be mapped.** The current refresh has 25,630 crimes with a
+  blank kecamatan and 16,538 crimes with a valid kecamatan but no matching crime-type
+  dimension value. See `crime_unmatched_locations.csv`; the latter are included in district
+  totals as `UNCLASSIFIED` but cannot contribute to the selected street-crime taxonomy.
 - **Police-report data undercounts reality** (not every crime is reported). Treat values
   as a lower bound and a relative signal.
 - **`street_crime_per_100k` divides by resident population.** Business and nightlife
